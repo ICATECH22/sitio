@@ -139,8 +139,8 @@ class DashboardController extends Controller
     }
 
     public function createForm(){
-        setlocale(LC_TIME, 'es_ES', 'Spanish_Spain', 'Spanish');
         $miFecha = '2023/04/16';
+        setlocale(LC_TIME, 'es_MX.UTF-8');
         $fecha = strftime("%d/%B/%Y" ,strtotime($miFecha));
         dd($fecha);
         /**
