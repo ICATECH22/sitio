@@ -63,7 +63,7 @@ class DashboardController extends Controller
          */
         try {
             $varval = (empty($request->estado) ? false : true);
-            
+
             //Código que se ejecuta
             $categoriaModel = new CatCategoria;
             $categoriaModel->nombre = $request->seccion;
@@ -139,6 +139,10 @@ class DashboardController extends Controller
     }
 
     public function createForm(){
+        setlocale(LC_TIME, "spanish");
+        $miFecha = '2023/04/16';
+        $fecha = strftime("%d/%B/%Y" ,strtotime($miFecha));
+        dd($fecha);
         /**
          * CONSULTA
          */
@@ -151,7 +155,7 @@ class DashboardController extends Controller
      * eliminar caracteres especiales
      */
     private function eliminar_acentos($cadena){
-		
+
 		//Reemplazamos la A y a
 		$cadena = str_replace(
 		array('Á', 'À', 'Â', 'Ä', 'á', 'à', 'ä', 'â', 'ª'),
@@ -189,7 +193,7 @@ class DashboardController extends Controller
 		array('N', 'n', 'C', 'c'),
 		$cadena
 		);
-		
+
 		return $cadena;
 	}
 }
