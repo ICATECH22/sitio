@@ -23,7 +23,7 @@
                 <br>
                 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
                 <br>
-                Tuxtla Gutiérrez, Chiapas. 
+                Tuxtla Gutiérrez, Chiapas.
             </strong>
             <br>
             www.icatech.gob.mx
@@ -36,16 +36,16 @@
                 Asesora
             </strong>
             <br>
-            ICATECH, 4° piso, 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
-            Tuxtla Gutiérrez, Chiapas.
-            Unidad Jurídica
+            ICATECH, 4° piso, 14 poniente norte No.239,
+            Colonia Moctezuma, C.P. 29030 Tuxtla Gutiérrez, Chiapas.
+            Dirección Técnica Académica
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
-            Conmutador: (961) 612 1621 Ext. 202
+            Conmutador: (961) 612 1621 Ext. 602
             <br>
             <i class="fas fa-envelope"></i>
             elda.cruzb@hotmail.com
-        </div> 
+        </div>
         <div class="col-sm" style="margin-top:25px;">
             <strong>
                 Lic. Alfredo Ovando Pintado
@@ -62,7 +62,7 @@
             <br>
             <i class="fas fa-envelope"></i>
             fello_1985@hotmail.com
-        </div> 
+        </div>
     </div>
     <br>
 </article>
