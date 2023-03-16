@@ -29,7 +29,10 @@
             www.icatech.gob.mx
         </div>
         <div class="w-100"></div>
-        <div class="col-sm" style="margin-top:25px;">
+        <div class="col-sm-2" style="margin-top:25px; text-align:justify">
+            <img src="{{ asset('assets/img/directorio_asesores/elda_elisea_cruz_burguete.jpeg') }}" alt="Avatar" class="avatar">
+        </div>
+        <div class="col-sm-4" style="margin-top:25px;">
             <strong>
                 Lic. Elda Elisea Cruz Burguete
                 <br>
@@ -46,7 +49,10 @@
             <i class="fas fa-envelope"></i>
             elda.cruzb@hotmail.com
         </div>
-        <div class="col-sm" style="margin-top:25px;">
+        <div class="col-sm-2" style="margin-top:25px; text-align:justify">
+            <img src="{{ asset('assets/img/directorio_asesores/alfredo_ovando_pintado.jpeg') }}" alt="Avatar" class="avatar">
+        </div>
+        <div class="col-sm-4" style="margin-top:25px;">
             <strong>
                 Lic. Alfredo Ovando Pintado
                 <br>
