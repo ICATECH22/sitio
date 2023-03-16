@@ -23,7 +23,7 @@
                 <br>
                 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
                 <br>
-                Tuxtla Gutiérrez, Chiapas. 
+                Tuxtla Gutiérrez, Chiapas.
             </strong>
             <br>
             www.icatech.gob.mx
@@ -50,7 +50,7 @@
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
            <img src="{{ asset('assets/img/directorio_cepci/CP_JOSE_WILLIAM_ARGUELLO_GUILLEN.png') }}" alt="Avatar" class="avatar">
-        </div> 
+        </div>
         <div class="col-sm-10" style="margin-top:25px; text-align:justify">
             <strong>
                 C.P. José William Argüello Guillén
@@ -89,7 +89,7 @@
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
             Teléfono: (961) 100 7018
-        </div> 
+        </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/LIC_ROGER_ANTONIO MAZA_SOLIS.png') }}" alt="Avatar" class="avatar">
         </div>
@@ -130,7 +130,7 @@
             <br>
             <i class="fas fa-envelope"></i>
             dali_loma@hotmail.com
-        </div> 
+        </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_MARTHA_TERSA_MONTEJO_URBINA.png') }}" alt="Avatar" class="avatar">
         </div>
@@ -138,7 +138,7 @@
             <strong>
                 C.P. Martha Teresa Montejo Urbina
                 <br>
-                Suplente de la Secretaria Técnica 
+                Suplente de la Secretaria Técnica
             </strong>
             <br>
             Instructor
@@ -176,7 +176,7 @@
             <br>
             <i class="fas fa-envelope"></i>
             sbetanzos@hotmail.com
-        </div> 
+        </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/LIC_MARIA_DEL_PILAR_NIEVES_PEDRERO_ZARDAIN.png') }}" alt="Avatar" class="avatar">
         </div>
@@ -184,7 +184,7 @@
             <strong>
                 Lcda. María del Pilar Nieves Pedrero Zardaín
                 <br>
-                Suplente nivel Director 
+                Suplente nivel Director
             </strong>
             <br>
             Directora de Vinculación
@@ -201,7 +201,7 @@
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_LUIS_RODOLFO_MOISES_RAMIREZ.jpeg') }}" alt="Avatar" class="avatar">
-        </div> 
+        </div>
         <div class="col-sm" style="margin-top:25px;">
             <strong>
                 C.P. Luis Rodolfo Moisés Ramírez
@@ -219,7 +219,7 @@
             <br>
             <i class="fas fa-envelope"></i>
             j.lopezueicatech@gmail.com
-        </div> 
+        </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_MARIA_DE_LOURDES_OCANIA_GORDILLO.png') }}" alt="Avatar" class="avatar">
         </div>
@@ -227,7 +227,7 @@
             <strong>
                 C.P. María de Lourdes Ocaña Gordillo
                 <br>
-                Suplente nivel Jefe de Departamento 
+                Suplente nivel Jefe de Departamento
             </strong>
             <br>
             Jefa del Departamento de Recursos Humanos
@@ -262,7 +262,7 @@
             <br>
             <i class="fas fa-envelope"></i>
             maclary_salazar@hotmail.com
-        </div> 
+        </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_DANIELA_MAZA_ZUNIGA.png') }}" alt="Avatar" class="avatar">
         </div>
@@ -270,7 +270,7 @@
             <strong>
                 C.P. Daniela Maza Zúñiga
                 <br>
-                Suplente nivel Operativo 
+                Suplente nivel Operativo
             </strong>
             <br>
             Analista Técnico Especializado
@@ -302,10 +302,10 @@
             <br>
             <i class="fas fa-envelope"></i>
             c.i.entidadesproductivas@gmail.com
-        </div> 
+        </div>
         <div class="col-sm" style="margin-top:25px;">
             <strong>
-                Lic. Nadia Lazos García 
+                Lic. Nadia Lazos García
                 <br>
                 Suplente del Órgano Interno de Control
             </strong>
