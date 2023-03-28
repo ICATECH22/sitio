@@ -156,7 +156,7 @@ class IntegridadController extends Controller
     {
         $bprincipal = $this->getBanner('banner_principal');
         $array_plan_anual = [
-            'Plan Anual de Trabajo 2023' => 'codigos_conducta/PLAN_ANUAL_DE_TRABAJO_2023.pdf'
+            'Plan Anual de Trabajo 2023' => 'codigos_conducta/PLAN_ANUAL_DE_TRABAJO_2023.pdf',
         ];
         return view('theme.main.integridad.plan_anual_trabajo', compact('bprincipal', 'array_plan_anual'));
     }
