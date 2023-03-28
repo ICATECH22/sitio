@@ -63,7 +63,7 @@
             <br>
             <i class="fas fa-envelope"></i>
             joel.pereira@shyfpchiapas.gob.mx
-        </div> 
+        </div>
         <div class="w-100"></div>
         <div class="col-sm" style="margin-top:25px;">
             <strong>
@@ -79,7 +79,7 @@
             <br>
             <i class="fas fa-envelope"></i>
             joel.pereira@shyfpchiapas.gob.mx
-        </div> 
+        </div>
         <div class="col-sm" style="margin-top:25px;">
             <strong>
                 Mtro. Joel Pereira Hernández
@@ -94,7 +94,7 @@
             <br>
             <i class="fas fa-envelope"></i>
             joel.pereira@shyfpchiapas.gob.mx
-        </div> 
+        </div>
     </div>
     <br>
     <br>
@@ -111,7 +111,7 @@
             <br>
             Director Jurídico.
             <br>
-            <i class="fas fa-phone" aria-hidden="true"></i> 
+            <i class="fas fa-phone" aria-hidden="true"></i>
             Teléfono: 61 87530 ext. 22231
             <br>
             <i class="fas fa-envelope"></i>
@@ -126,10 +126,10 @@
             <br>
             Jefa del Área de Recursos Humanos.
             <br>
-            <i class="fas fa-phone" aria-hidden="true"></i> 
+            <i class="fas fa-phone" aria-hidden="true"></i>
             Teléfono: 61 87530 ext. 22233
             <br>
-            <i class="fas fa-envelope"></i> 
+            <i class="fas fa-envelope"></i>
             magally.guillen@shyfpchiapas.gob.mx
         </div>
     </div> --}}

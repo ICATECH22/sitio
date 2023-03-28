@@ -78,8 +78,8 @@
             </center>
         </div>
     </div> --}}
-    
-    
+
+
 {{-- MODIFICACIONES AL BLOQUE INTEGRIDAD --}}
     <div class="row">
         <div class="col-lg-4 col-xs-4 g-mb-25">
@@ -132,6 +132,9 @@
                                    </li>
                                    <li>
                                        <a href="{{ route('integridad.informe.anual.actividades') }}"><i class="mr-2 fas fa-angle-right"></i>Informe Anual de Actividades</a>
+                                   </li>
+                                   <li>
+                                       <a href="{{ route('integridad.plan.anual.trabajo') }}"><i class="mr-2 fas fa-angle-right"></i>Plan Anual de Trabajo</a>
                                    </li>
                                </ul>
                            </div>
