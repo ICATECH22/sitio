@@ -12,7 +12,7 @@
         @include('theme.main.media')
         {{-- include social media END --}}
         <div class="container">
-          <img src="{{ asset('Imagenes Pagina/aviso_de_privacidad.jpg') }}" class="img-responsive" width="100%" alig="center">
+          <img src="{{ asset('Imagenes_Pagina/aviso_de_privacidad.jpg') }}" class="img-responsive" width="100%" alig="center">
         </div>
         <br>
         <p><b><h5>AVISOS DE PRIVACIDAD INTEGRALES</h5></b></p>
@@ -42,11 +42,11 @@
                         <div class="d-flex justify-content-between">
                           <ul class="u-list-inline"></ul>
                           <div class="align-self-center">
-                            <a class="" href="{{ $value }}" target="_blank"><img src="Imagenes Pagina/2.png"alt=""></a>
+                            <a class="" href="{{ $value }}" target="_blank"><img src="Imagenes_Pagina/2.png"alt=""></a>
                           </div>
                         </div>
                       </li>
-                   @endforeach 
+                   @endforeach
                   </ul>
               </div>
           </div>
@@ -83,7 +83,7 @@
                           </div>
                         </div>
                       </li>
-                    @endforeach 
+                    @endforeach
                   </ul>
               </div>
           </div>
