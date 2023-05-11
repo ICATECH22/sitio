@@ -8,7 +8,12 @@
             <img src="{{ asset('assets/img/banner/banner_pronunciamiento.jpeg') }}" alt=""  width="100%">
         </div>
     </div>
-    
+
+{{-- agregar enlace de video vía FORM --}}
+    <div class="vid-container">
+        <iframe loading="lazy" id="vid_frame" width="100%" height="315" src="https://www.youtube.com/embed/eoDOcjNC9oE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+{{-- agregar enlace de video vía FORM END --}}
     <hr class="g-brd-gray-light-v4">
     <p style="text-align:justify">
         En el Instituto de Capacitación y Vinculación Tecnológica del Estado de Chiapas, estamos construyendo ambientes laborales respetuosos de la ética, la dignidad, los valores de igualdad y no discriminación, equidad de genero y respeto.
@@ -28,7 +33,7 @@
     <p style="text-align: justify">
         Por un ICATECH libre de violencia.
     <br>
-        Mtra. Fabiola L. Astudillo Reyes        
+        Mtra. Fabiola L. Astudillo Reyes
     </p>
     <table class="table table-hover">
         <tbody>
