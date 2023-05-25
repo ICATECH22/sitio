@@ -283,7 +283,7 @@ class CuentapublicaController extends Controller
     public function licitaciones()
     {
         $icatech_ictp_004_2023 = [
-            'Acta del Evento de Presentación y Apertura de Propuestas Técnicas y Economicas de la Invitación a cuando menos tres personas, Nacional, Presencial, ICATECH-ICTP/004/2023 COMPRANET IA-66-P39-907081961-N-4-2023' => 'licitaciones_/adquisiciones/AAPTE_4_2023.pdf',
+            'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_4_2023.pdf',
         ];
         $programa_anual_adquisiciones = [
             'PROGRAMA ANUAL DE ADQUISICIONES 2023' => 'licitaciones_/adquisiciones/PADA_2023.pdf'
