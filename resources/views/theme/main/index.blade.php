@@ -19,6 +19,15 @@
             gtag('config', 'UA-155200639-1');
         </script>
     {{-- Global site tag (gtag.js) - Google Analytics --}}
+    {{-- Google tag (gtag.js) --}}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSWY4M8XXF"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-BSWY4M8XXF');
+        </script>
     <link rel="stylesheet" href="{{asset("assets/vendor/bootstrap/bootstrap.min.css") }}">
 	<link rel="stylesheet" href="{{asset("assets/vendor/bootstrap/offcanvas.css")}}">
     <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
@@ -53,18 +62,18 @@
     {{-- SECCION MENU --}}
         @include("theme.main.menu")
     {{-- SECCION MENU END --}}
-    
+
     {{-- CONTENIDO --}}
         @yield('contenido')
     {{-- CONTENIDO END --}}
     {{-- FOOTER DEPENDENCIA --}}
     @include("theme.main.footer_dependencia")
     {{-- FOOTER DEPENDENCIA END --}}
-    
+
     {{-- FOOTER --}}
         @include('theme.main.footer')
     {{-- FOOTER END --}}
-    
+
     {{-- CONTENIDO DEL SCRIPT JS --}}
     <script src="{{asset("assets/vendor/jquery/jquery.min.js")}}"></script>
     <script src="{{asset("assets/vendor/jquery-migrate/jquery-migrate.min.js")}}"></script>
