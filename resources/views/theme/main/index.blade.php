@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="google-site-verification" content="6GzoIOYQX3tIIEouSYpWwl3-aS3vCbEkcyZ-Mk4Nf0E" />
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <title>@yield('title', 'Instituto de Capacitación y Vinculación Tecnológica del Estado de Chiapas | Icatech')</title>
     <!-- CSS Global Compulsory -->
