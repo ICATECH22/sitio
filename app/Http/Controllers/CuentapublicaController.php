@@ -284,6 +284,7 @@ class CuentapublicaController extends Controller
     {
         $icatech_ictp_004_2023 = [
             'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_4_2023.pdf',
+            'ACTA DE FALLO' => 'licitaciones_/adquisiciones/ADF_4_2023.pdf',
         ];
         $programa_anual_adquisiciones = [
             'PROGRAMA ANUAL DE ADQUISICIONES 2023' => 'licitaciones_/adquisiciones/PADA_2023.pdf'
