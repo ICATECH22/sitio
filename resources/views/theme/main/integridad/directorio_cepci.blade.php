@@ -204,7 +204,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/CP_LUIS_RODOLFO.jpeg') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/CP_LUIS_RODOLFO.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm" style="margin-top:25px;">
             <strong>
