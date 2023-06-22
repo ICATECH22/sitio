@@ -30,7 +30,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/MTRO_WALTER_DOMINGUEZ_CAMACHO.png') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/MTRO_WALTER.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-10" style="margin-top:25px; text-align:justify">
             <strong>
@@ -49,7 +49,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-           <img src="{{ asset('assets/img/directorio_cepci/CP_JOSE_WILLIAM_ARGUELLO_GUILLEN.png') }}" alt="Avatar" class="avatar">
+           <img src="{{ asset('assets/img/directorio_cepci/CP_JOSE_WILLIAM_ARGUELLO.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-10" style="margin-top:25px; text-align:justify">
             <strong>
@@ -268,7 +268,7 @@
             maclary_salazar@hotmail.com
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/CP_DANIELA_MAZA_ZUNIGA.png') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/CP_DANIELA_MAZA.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
