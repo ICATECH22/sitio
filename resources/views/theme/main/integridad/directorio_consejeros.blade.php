@@ -23,15 +23,15 @@
                 <br>
                 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
                 <br>
-                Tuxtla Gutiérrez, Chiapas. 
+                Tuxtla Gutiérrez, Chiapas.
             </strong>
             <br>
             www.icatech.gob.mx
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/LCDA_SANDRA_GUADALUPE_LOPEZ_GUILLEN.jpeg') }}" alt="Avatar" class="avatar">
-        </div> 
+            <img src="{{ asset('assets/img/directorio_cepci/LCDA_SANDRA_GUADALUPE.png') }}" alt="Avatar" class="avatar">
+        </div>
         <div class="col-sm-10" style="margin-top:25px; text-align:justify">
              <strong>
                 Lic. Sandra Guadalupe López Guillén
@@ -55,7 +55,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/LIC_LEONARDO_ZARAGOZA_ALVAREZ.jpeg') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/LIC_LEONARDO_ZARAGOZA_ALVAREZ.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-10" style="margin-top:25px; text-align:justify">
             <strong>
@@ -79,7 +79,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/LCDA_VERONICA_DE_JESUS_PEREZ_HERNANDEZ.jpeg') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/LCDA_VERONICA_DE_JESUS_PEREZ_HERNANDEZ.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-10" style="margin-top:25px; text-align:justify">
             <strong>
@@ -90,9 +90,9 @@
             <br>
                 Analista Técnico Especializado
             <br>
-                Departamento de Recursos Financieros 
+                Departamento de Recursos Financieros
             <br>
-                ICATECH 2° piso,  Blvd. San Cristóbal Circunvalación Pichucalco, S/N, Colonia Moctezuma, 
+                ICATECH 2° piso,  Blvd. San Cristóbal Circunvalación Pichucalco, S/N, Colonia Moctezuma,
                 C.P. 29030, Tuxtla Gutiérrez, Chiapas.
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
