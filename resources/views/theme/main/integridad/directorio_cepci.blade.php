@@ -12,7 +12,7 @@
     <hr class="g-brd-gray-light-v4">
     <div class="card-header">
         <h3 style="text-align:center">
-            <strong>Directorio</strong>
+            <strong>DIRECTORIO ACTUALIZADO 2023</strong>
         </h3>
     </div>
     <br>
@@ -34,9 +34,9 @@
         </div>
         <div class="col-sm-10" style="margin-top:25px; text-align:justify">
             <strong>
-                Mtro. Walter Domínguez Camacho
-                <br>
                 Presidente del comité
+                <br>
+                Mtro. Walter Domínguez Camacho
             </strong>
             <br>
             Director Administrativo del Instituto
@@ -53,9 +53,9 @@
         </div>
         <div class="col-sm-10" style="margin-top:25px; text-align:justify">
             <strong>
-                C.P. José William Argüello Guillén
-                <br>
                 Suplente de Presidencia
+                <br>
+                C.P. José William Argüello Guillén
             </strong>
             <br>
             Analista Técnico Especializado
@@ -77,9 +77,9 @@
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
-                L.C.P. Juan de Jesús Armengol Fuentes
-                <br>
                 Secretario Ejecutivo
+                <br>
+                L.C.P. Juan de Jesús Armengol Fuentes
             </strong>
             <br>
             Jefe del Departamento de Vinculación Gubernamental
@@ -89,15 +89,18 @@
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
             Teléfono: (961) 100 7018
+            <br>
+            <i class="fas fa-evelope"></i>
+            jarmengolfuentes1020@gmail.com
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/LIC_ROGER_ANTONIO MAZA_SOLIS.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
-                Lic. Roger Antonio Maza Solís
-                <br>
                 Suplente del Secretario Ejecutivo
+                <br>
+                Lic. Roger Antonio Maza Solís
             </strong>
             <br>
             Jefe del Departamento de Vinculación Social y Empresarial
@@ -108,6 +111,8 @@
             <i class="fas fa-phone" aria-hidden="true"></i>
             Teléfono: (961) 130 3080
             <br>
+            <i class="fas fa-evelope"></i>
+            roger.maza@gmail.com
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
@@ -115,12 +120,12 @@
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
-                C.P. Orfa Dalila López Matías
-                <br>
                 Secretaria Técnica
+                <br>
+                C.P. Orfa Dalila López Matías
             </strong>
             <br>
-            Analista Técnico B
+            Analista Técnico
             <br>
             ICATECH 3° piso, 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
             Tuxtla Gutiérrez, Chiapas.
@@ -129,19 +134,19 @@
             Conmutador: (961) 612 1621 Ext. 402
             <br>
             <i class="fas fa-envelope"></i>
-            dali_loma@hotmail.com
+            odalilita89@gmail.com
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_MARTHA_TERSA_MONTEJO_URBINA.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
-                C.P. Martha Teresa Montejo Urbina
-                <br>
                 Suplente de la Secretaria Técnica
+                <br>
+                C.P. Martha Teresa Montejo Urbina
             </strong>
             <br>
-            Instructor
+            Analista Técnico
             <br>
             ICATECH 3° piso, 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
             Tuxtla Gutiérrez, Chiapas.
@@ -159,9 +164,9 @@
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
-                C.P. Salvador Betanzos Solís
-                <br>
                 Miembro propietario temporal nivel Director
+                <br>
+                C.P. Salvador Betanzos Solís
             </strong>
             <br>
             Director de Planeación
@@ -169,7 +174,6 @@
             ICATECH 2º piso, 14 poniente norte No.239B,
             Colonia Moctezuma, C.P. 29030
             Tuxtla Gutiérrez, Chiapas
-
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
             Conmutador: (961) 612 1621 Ext. 301
@@ -182,9 +186,9 @@
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
-                Lcda. María del Pilar Nieves Pedrero Zardaín
-                <br>
                 Suplente nivel Director
+                <br>
+                Lcda. María del Pilar Nieves Pedrero Zardaín
             </strong>
             <br>
             Directora de Vinculación
@@ -204,9 +208,9 @@
         </div>
         <div class="col-sm" style="margin-top:25px;">
             <strong>
-                C.P. Luis Rodolfo Moisés Ramírez
-                <br>
                 Miembro propietario temporal nivel Jefe de Departamento
+                <br>
+                C.P. Luis Rodolfo Moisés Ramírez
             </strong>
             <br>
             Jefe del Departamento de Proyectos y Análisis
@@ -218,16 +222,16 @@
             Conmutador: (961) 612 1621 Ext. 304
             <br>
             <i class="fas fa-envelope"></i>
-            j.lopezueicatech@gmail.com
+            lmoises.proyectos@gmail.com
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_MARIA_DE_LOURDES_OCANIA_GORDILLO.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
-                C.P. María de Lourdes Ocaña Gordillo
-                <br>
                 Suplente nivel Jefe de Departamento
+                <br>
+                C.P. María de Lourdes Ocaña Gordillo
             </strong>
             <br>
             Jefa del Departamento de Recursos Humanos
@@ -247,9 +251,9 @@
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
-                Lic. Dory Maclary Salazar Trujillo
-                <br>
                 Miembro propietario temporal nivel Operativo
+                <br>
+                Lic. Dory Maclary Salazar Trujillo
             </strong>
             <br>
                 Analista Técnico Especializado
@@ -268,9 +272,9 @@
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
-                C.P. Daniela Maza Zúñiga
-                <br>
                 Suplente nivel Operativo
+                <br>
+                C.P. Daniela Maza Zúñiga
             </strong>
             <br>
             Analista Técnico Especializado
@@ -287,27 +291,9 @@
         <div class="w-100"></div>
         <div class="col-sm" style="margin-top:25px;">
             <strong>
-                Dra. María Celia Reyes Cruz
-                <br>
                 Órgano Interno de Control
-            </strong>
-            <br>
-            Contralora de Auditoría Pública
-            <br>
-            ICATECH 3° piso, 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
-            Tuxtla Gutiérrez, Chiapas.
-            <br>
-            <i class="fas fa-phone" aria-hidden="true"></i>
-            Teléfono: (961) 618 7530
-            <br>
-            <i class="fas fa-envelope"></i>
-            c.i.entidadesproductivas@gmail.com
-        </div>
-        <div class="col-sm" style="margin-top:25px;">
-            <strong>
-                Lic. Nadia Lazos García
                 <br>
-                Suplente del Órgano Interno de Control
+                Lic. Nadia Lazos García
             </strong>
             <br>
             Auditora de la Contraloría de Auditorías Públicas a Entidades Productivas
