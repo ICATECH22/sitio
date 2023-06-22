@@ -94,7 +94,7 @@
             jarmengolfuentes1020@gmail.com
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/LIC_ROGER_ANTONIO MAZA_SOLIS.png') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/LIC_ROGER_ANTONIO.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
@@ -116,7 +116,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/CP_ORFA_DALILA_LOPEZ_MATIAS.png') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/CP_ORFA_DALILA.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
@@ -137,7 +137,7 @@
             odalilita89@gmail.com
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/CP_MARTHA_TERSA_MONTEJO_URBINA.png') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/CP_MARTHA_TERSA.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
@@ -160,7 +160,7 @@
        {{-- nuevo --}}
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/CP_SALVADOR_BETANZOS_SOLIS.png') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/CP_SALVADOR_BETANZOS.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
@@ -204,7 +204,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/CP_LUIS_RODOLFO_MOISES_RAMIREZ.jpeg') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/CP_LUIS_RODOLFO.jpeg') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm" style="margin-top:25px;">
             <strong>
@@ -225,7 +225,7 @@
             lmoises.proyectos@gmail.com
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/CP_MARIA_DE_LOURDES_OCANIA_GORDILLO.png') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/CP_MARIA_DE_LOURDES.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
@@ -247,7 +247,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
-            <img src="{{ asset('assets/img/directorio_cepci/LIC_DORY_MACLARY_SALAZAR_TRUJILLO.png') }}" alt="Avatar" class="avatar">
+            <img src="{{ asset('assets/img/directorio_cepci/LIC_DORY_MACLARY.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
             <strong>
