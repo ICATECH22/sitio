@@ -113,7 +113,7 @@ class IntegridadController extends Controller
     }
     protected function getcondigoconducta(){
         $array_codigo_conducta = array(
-            'Codigo de Conducta ICATECH' => 'codigos_conducta/CODIGO_CONDUCTA_APROBADO_2022.pdf',
+            'Código de Conducta ICATECH' => 'codigos_conducta/CODIGO_CONDUCTA_APROBADO_2023.pdf',
         );
         $bprincipal = $this->getBanner('banner_principal');
         return view('theme.main.integridad.codigo_conducta', compact('bprincipal', 'array_codigo_conducta'));
