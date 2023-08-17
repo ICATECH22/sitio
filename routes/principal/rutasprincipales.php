@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\principal\InstructoresExternosController;
 use App\Http\Controllers\Auth\LoginController;
+use Illuminate\Support\Facades\Auth;
 /**
  * RUTAS PRINCIPALES DE LOS CAMBIOS DE LA PÁGINA WEB ADMINISTRABLE
  * estas rutas son cargadas en el RouteServiceProvider
