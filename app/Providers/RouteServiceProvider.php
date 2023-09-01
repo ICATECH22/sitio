@@ -25,7 +25,7 @@ class RouteServiceProvider extends ServiceProvider
     public function boot()
     {
         // forzando el esquema a https
-        resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
+        //resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
 
         parent::boot();
     }
@@ -56,7 +56,7 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware('web')
              ->namespace($this->namespace)
              ->group(function(){
-                    // require base_path('routes/web.php');
+                    require base_path('routes/dashboard/rutascongreso.php');
                     require base_path('routes/principal/rutasprincipales.php');
                     require base_path('routes/dashboard/rutasdashboard.php');
                 });
