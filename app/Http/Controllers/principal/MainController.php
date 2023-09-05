@@ -11,6 +11,7 @@ use App\Traits\bannerTrait;
 use App\Models\CatSubcategoria;
 use App\Models\Apartado;
 use App\Models\Categoria;
+use Illuminate\Support\Facades\DB;
 /**
  * se utilizaran los controladores y modelos
  */
@@ -26,6 +27,7 @@ class MainController extends Controller
      */
     public function index()
     {
+        // dd(DB::connection('pgsql')->table('users')->WHERE('id','1')->FIRST());
         $comunicado_cintilla = Comunidado::latest()->take(5)->get();
         $comunicados = Comunidado::latest()->take(3)->get();
         $bprincipal = $this->getBanner('banner_principal');
@@ -205,7 +207,7 @@ class MainController extends Controller
                                 ->where(['pages.slug_path' => 'cuenta_publica', 'catalogo_categoria.activo' => 1])
                                 ->get();
         /**
-         * 
+         *
          */
         $subQueryCuentaPublica = CatSubcategoria::select('catalogo_subcategoria.titulo_documento', 'catalogo_subcategoria.ruta_archivo', 'catalogo_subcategoria.apartados_id')
                                     ->join('apartados', 'catalogo_subcategoria.apartados_id', '=', 'apartados.id')

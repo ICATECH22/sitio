@@ -31,7 +31,8 @@
         </script>
     <link rel="stylesheet" href="{{asset("assets/vendor/bootstrap/bootstrap.min.css") }}">
 	<link rel="stylesheet" href="{{asset("assets/vendor/bootstrap/offcanvas.css")}}">
-    <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+    {{-- <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script> --}}
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
 					<!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">

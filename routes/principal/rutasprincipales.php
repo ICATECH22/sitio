@@ -31,6 +31,10 @@ Auth::routes(['register' => false]);
  Route::get('/integridad', 'CuentapublicaController@Integridad')->name('integridad');
  // LICITACIONES
 Route::get('/licitaciones', 'CuentapublicaController@licitaciones')->name('licitaciones');
+// CONTRATOS
+Route::get('/contratos', 'CuentapublicaController@contratos')->name('contratos');
+Route::get('/get-contratos', 'CuentapublicaController@getContratos')->name('get-contratos');
+
 /**
  * CONVOCATORIAS
  */

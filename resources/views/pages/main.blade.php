@@ -15,7 +15,7 @@
                         <li><img src="../../Imagenes Pagina/3.jpeg" alt=""></li>
                         <li><img src="../../Imagenes Pagina/4.jpeg" alt=""></li>
                         <li><img src="../../Imagenes Pagina/5.jpeg" alt=""></li>
-                        <li><img src="../../Imagenes Pagina/6.jpeg" alt=""></li>                        
+                        <li><img src="../../Imagenes Pagina/6.jpeg" alt=""></li>
                         <li><img src="../../Imagenes Pagina/8.jpeg" alt=""></li>
                         <li><img src="../../Imagenes Pagina/9.jpeg" alt=""></li>
 						<li><img src="../../Imagenes Pagina/10.png" alt=""></li>
@@ -71,7 +71,7 @@
 					</div>
 				</div>
 				</div>
-		<!--fin revista icatech end-->	
+		<!--fin revista icatech end-->
 
 		<div class="u-heading-v2-5--bottom g-brd-primary g-mb-30 text-left">
 			<h2 class="u-heading-v2__title text-uppercase g-font-weight-300 mb-0">Videoteca</h2>
@@ -134,7 +134,7 @@
 				</p>
 			</div>
 	 </div>
-	 
+
 	 <div class="container g-pt-25">
 		 <div class="u-heading-v2-5--bottom g-brd-primary g-mb-30 text-left">
 			<h2 class="u-heading-v2__title text-uppercase g-font-weight-300 mb-0">Consulta ciudadana / Plataforma Nacional de Transparencia </h2>
@@ -156,10 +156,10 @@
 						<a target="_blank" href="https://www.plataformadetransparencia.org.mx/web/guest/inicio"><img src="Imagenes Pagina/banner_pnt.jpg" alt="About Images" class="img-thumbnail"></a><br><br>
 					</div>
 				</div>
-			</div>			
+			</div>
 		         </div>
 	 </div>
-	 
+
 
 
 	<!--banners-->

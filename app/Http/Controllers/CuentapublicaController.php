@@ -10,6 +10,7 @@ use App\Traits\bannerTrait;
 use App\Models\CatCategoria;
 use App\Models\Apartado;
 use App\Models\CatSubcategoria;
+use Illuminate\Support\Facades\DB;
 
 class CuentapublicaController extends Controller
 {
@@ -300,6 +301,62 @@ class CuentapublicaController extends Controller
                 'icatech_ictp_004_2023' => $icatech_ictp_004_2023,
             ]
         );
+    }
+
+    public function contratos()
+    {
+        $bprincipal = $this->getBanner('banner_principal');
+        $unidades = DB::connection('pgsql')->TABLE('tbl_unidades')->SELECT('ubicacion')->GroupBy('ubicacion')->OrderBy('ubicacion','ASC')->GET();
+        return view('pages.contratos', ['bprincipal' => $bprincipal, 'unidades' => $unidades]);
+    }
+
+    public function getContratos(Request $request) {
+        $filtro = $request->input('filtro');
+        $sexo = $request->input('sexo');
+        $campo = $request->input('campo');
+        $unidad = $request->input('unidad');
+        $fechaInicio = $request->input('fecha_inicio');
+        $fechaFin = $request->input('fecha_fin');
+        $resultados = DB::Connection('pgsql')->Table('contratos')->Select('contratos.numero_contrato', 'contratos.fecha_firma',
+            'contratos.arch_contrato', 'tbl_cursos.nombre', 'tbl_cursos.unidad' , 'tbl_cursos.curso', 'instructores.sexo')
+            ->LeftJoin('tbl_cursos', 'tbl_cursos.id', 'contratos.id_curso')
+            ->LeftJoin('instructores', 'instructores.id', 'tbl_cursos.id_instructor')
+            ->Join('pagos','pagos.id_curso','tbl_cursos.id')
+            ->Where('pagos.status_transferencia','PAGADO')
+            ->OrderBy('contratos.fecha_firma');
+
+        // Aquí realiza la consulta real en la base de datos utilizando las fechas
+        // y obtén los resultados de los contratos
+        switch ($filtro) {
+            case 'tipoperiodo':
+                $resultados = $resultados->WhereBetween('contratos.fecha_firma',[$fechaInicio, $fechaFin]);
+            break;
+            case 'tiposexo':
+                $resultados = $resultados->Where('instructores.sexo', '=', $sexo);
+            break;
+            case 'tiponombre':
+                $resultados = $resultados->Where('tbl_cursos.nombre', 'LIKE', '%' . $campo . '%');
+            break;
+            case 'tipocontrato':
+                $resultados = $resultados->Where('contratos.numero_contrato', $campo);
+            break;
+            case 'tipounidad':
+                $unidad_ubicacion = DB::Connection('pgsql')->Table('tbl_unidades')->Where('ubicacion', $unidad)->Pluck('unidad')->ToArray();
+                $resultados = $resultados->WhereIn('unidad', $unidad_ubicacion);
+            break;
+            case 'tipocurso':
+                $resultados = $resultados->Where('tbl_cursos.curso', 'LIKE', '%' . $campo . '%');
+            break;
+        }
+
+        if($filtro != 'tipoperiodo' && $filtro != 'tipocontrato' && isset($fechaInicio) && isset($fechaFin))
+        {
+            $resultados = $resultados->WhereBetween('contratos.fecha_firma',[$fechaInicio, $fechaFin]);
+        }
+
+        $resultados = $resultados->Get();
+
+        return response()->json($resultados); // Devuelve los resultados como JSON
     }
 
     public function sevac()
