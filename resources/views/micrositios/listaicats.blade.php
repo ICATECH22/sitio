@@ -20,7 +20,7 @@
                     <tr>
                         <td data-label="Folio/Serie">{{ $value }}</td>
                         <td data-label="Proveedor"><a href="{{ route('plantel.icat.entidad.federativa', ['nombre_icat' => $key]) }}" target="_blank">{{ $key }}</a></td>
-                        <td data-label="Total">{!! QrCode::format('svg')->size(50)->style('round')->generate(route('plantel.icat.entidad.federativa', ['nombre_icat' => $key]) ) !!}</td>
+                        <td data-label="Total"></td>
                     </tr>
                 @endforeach
             </tbody>
