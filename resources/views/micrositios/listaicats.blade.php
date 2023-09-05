@@ -18,9 +18,9 @@
             <tbody>
                 @foreach ($Array_EntidadesFederativas as $key => $value)
                     <tr>
-                        <td data-label="Folio/Serie">{{ $value }}</td>
-                        <td data-label="Proveedor"><a href="{{ route('plantel.icat.entidad.federativa', ['nombre_icat' => $key]) }}" target="_blank">{{ $key }}</a></td>
-                        <td data-label="Total"></td>
+                        <td data-label="Nombre del Plantel">{{ $value }}</td>
+                        <td data-label="Lista del Directorio"><a href="{{ route('plantel.icat.entidad.federativa', ['nombre_icat' => $key]) }}" target="_blank">{{ $key }}</a></td>
+                        <td data-label="Código"><a href="{{ route('generar.codigo.icat.entidad_federativa', ['nombre' => $key]) }}" target="_blank" class="btn btn-warning"><i class="fas fa-qrcode"></i> Descargar Código</a></td>
                     </tr>
                 @endforeach
             </tbody>

@@ -157,4 +157,28 @@ class IcatController extends Controller
     {
         //
     }
+
+    public function generate_qr_code($nombre){
+        $writer = new PngWriter();
+
+        $url = route('plantel.icat.entidad.federativa', ['nombre_icat' => $nombre]);
+
+        // Create QR code
+        $qrCode = QrCode::create($url)
+            ->setEncoding(new Encoding('UTF-8'))
+            ->setErrorCorrectionLevel(new ErrorCorrectionLevelLow())
+            ->setSize(300)
+            ->setMargin(10)
+            ->setRoundBlockSizeMode(new RoundBlockSizeModeMargin())
+            ->setForegroundColor(new Color(0, 0, 0))
+            ->setBackgroundColor(new Color(255, 255, 255)) ;
+
+
+        $result = $writer->write($qrCode, null, null);
+
+        return response($result->getString())->header('Content-Type', $result->getMimeType());
+        // return response()->streamDownload(function() use($result){
+        //     echo $result->getString();
+        // }, 'QR.png');
+    }
 }
