@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.4",
         "anhskohbo/no-captcha": "^3.2",
+        "endroid/qr-code": "^4.6",
         "fakerphp/faker": "^1.21",
         "fideloper/proxy": "^4.0",
         "fruitcake/laravel-cors": "^3.0",
@@ -19,7 +20,6 @@
         "laravel/legacy-factories": "^1.1",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
-        "simplesoftwareio/simple-qrcode": "~4",
         "spatie/laravel-permission": "^4.2"
     },
     "require-dev": {
