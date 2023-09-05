@@ -20,10 +20,10 @@
 		{{-- include social media END --}}
         <div class="masonry-grid row g-mb-0 row-eq-height">
             <div class="masonry-grid-sizer col-sm-12"></div><br>
-            <div class="masonry-grid-item col-sm-6 col-md-6 col-lg-12 g-mb-30">					
+            <div class="masonry-grid-item col-sm-6 col-md-6 col-lg-12 g-mb-30">
                 <img src="{{ asset('Imagenes_Pagina/banner icatechtransparencia4.png') }}" class="img-responsive" width="100%">
             </div>
-            <div class="row mb-3">
+            <div class="row mb-3" style="margin-left: -12%; padding-right: 3%;">
                 <div class="col-md-2 g-mb-30">
                     <a href="http://icatech.transparencia.chiapas.gob.mx" target="_new">
                         <img src="{{ asset('Imagenes_Pagina/transparencia-icatech.png') }}" class="imgRedonda">
@@ -49,6 +49,11 @@
                         <img src="{{ asset('Imagenes_Pagina/licitaciones-icatech.png') }}" class="imgRedonda">
                     </a>
                 </div>
+                <div class=" col-md-2  g-mb-30">
+                    <a href="{{ route('contratos') }}">
+                        <img src="{{ asset('Imagenes_Pagina/consultacontratos-icatech.png') }}" class="imgRedonda">
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -66,7 +71,7 @@
                         </a>
                     </h5>
                 </div>
-                
+
                 {{-- acordion --}}
                 <div id="accordion-07-body-01" class="collapse" role="tabpanel" aria-labelledby="accordion-07-heading-01" data-parent="#accordion-07">
                     <div class="u-accordion__body g-bg-gray-light-v5 g-px-50 g-py-30">
@@ -82,7 +87,7 @@
                                       <a class="" href="{{ $v }}" target="_blank"><img src="{{ asset('Imagenes_Pagina/2.png') }}"alt=""></a>
                                     </div>
                                 </div>
-                            </li>  
+                            </li>
                            @endforeach
                         </ul>
                     </div>
