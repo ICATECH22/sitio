@@ -10,6 +10,7 @@ use App\Traits\bannerTrait;
 use App\Models\CatCategoria;
 use App\Models\Apartado;
 use App\Models\CatSubcategoria;
+use Illuminate\Support\Facades\DB;
 
 class CuentapublicaController extends Controller
 {
@@ -64,10 +65,10 @@ class CuentapublicaController extends Controller
             'Formatos de Analisis' => 'cuenta_publica/ct2020/financiera/formatos_complementarios.pdf',
             'Formatos Armonizados Conac' => 'cuenta_publica/ct2020/financiera/formatos_armonizados_conac.pdf',
             'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/ct2020/financiera/formatos_ley_de_disciplina_financiera.pdf'
-            
+
         );
         $inf_presupuestal4t20 = array(
-            'Información Presupuestaria' => 'cuenta_publica/ct2020/presupuestal/informacionppt4t2020.pdf'            
+            'Información Presupuestaria' => 'cuenta_publica/ct2020/presupuestal/informacionppt4t2020.pdf'
         );
         $inf_financiera = array(
             'Bienes Patrimoniales' => 'cuenta_publica/pt2019/financiera/bienespatrimoniales.pdf',
@@ -210,7 +211,7 @@ class CuentapublicaController extends Controller
             'Formatos Complementarios' => 'cuenta_publica/st2021/financiera/FORMATOS_COMPLEMENTARIOS.pdf',
             'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/st2021/financiera/FORMATOS_LEY_DE_DISCIPLINA_FINANCIERA.pdf'
         );
-       
+
         $inf_financiera3t21 =array(
             'Bienes Patrimoniales' => 'cuenta_publica/tt2021/financiera/bienes_patrimoniales.pdf',
             'Formatos Armonizados Conac' => 'cuenta_publica/tt2021/financiera/formatos_armonizados_conac.pdf',
@@ -319,9 +320,9 @@ class CuentapublicaController extends Controller
         // ];
 
         $bprincipal = $this->getBanner('banner_principal');
-        
 
-        return view('pages.licitaciones', 
+
+        return view('pages.licitaciones',
             [
                 'bprincipal' => $bprincipal,
                 'programa_anual_adquisiciones' => $programa_anual_adquisiciones,
@@ -330,6 +331,62 @@ class CuentapublicaController extends Controller
                 'icatech_ictp_005_2022' => $icatech_ictp_005_2022
             ]
         );
+    }
+
+    public function contratos()
+    {
+        $bprincipal = $this->getBanner('banner_principal');
+        $unidades = DB::connection('pgsql')->TABLE('tbl_unidades')->SELECT('ubicacion')->GroupBy('ubicacion')->OrderBy('ubicacion','ASC')->GET();
+        return view('pages.contratos', ['bprincipal' => $bprincipal, 'unidades' => $unidades]);
+    }
+
+    public function getContratos(Request $request) {
+        $filtro = $request->input('filtro');
+        $sexo = $request->input('sexo');
+        $campo = $request->input('campo');
+        $unidad = $request->input('unidad');
+        $fechaInicio = $request->input('fecha_inicio');
+        $fechaFin = $request->input('fecha_fin');
+        $resultados = DB::Connection('pgsql')->Table('contratos')->Select('contratos.numero_contrato', 'contratos.fecha_firma',
+            'contratos.arch_contrato', 'tbl_cursos.nombre', 'tbl_cursos.unidad' , 'tbl_cursos.curso', 'instructores.sexo')
+            ->LeftJoin('tbl_cursos', 'tbl_cursos.id', 'contratos.id_curso')
+            ->LeftJoin('instructores', 'instructores.id', 'tbl_cursos.id_instructor')
+            ->Join('pagos','pagos.id_curso','tbl_cursos.id')
+            ->Where('pagos.status_transferencia','PAGADO')
+            ->OrderBy('contratos.fecha_firma');
+
+        // Aquí realiza la consulta real en la base de datos utilizando las fechas
+        // y obtén los resultados de los contratos
+        switch ($filtro) {
+            case 'tipoperiodo':
+                $resultados = $resultados->WhereBetween('contratos.fecha_firma',[$fechaInicio, $fechaFin]);
+            break;
+            case 'tiposexo':
+                $resultados = $resultados->Where('instructores.sexo', '=', $sexo);
+            break;
+            case 'tiponombre':
+                $resultados = $resultados->Where('tbl_cursos.nombre', 'LIKE', '%' . $campo . '%');
+            break;
+            case 'tipocontrato':
+                $resultados = $resultados->Where('contratos.numero_contrato', $campo);
+            break;
+            case 'tipounidad':
+                $unidad_ubicacion = DB::Connection('pgsql')->Table('tbl_unidades')->Where('ubicacion', $unidad)->Pluck('unidad')->ToArray();
+                $resultados = $resultados->WhereIn('unidad', $unidad_ubicacion);
+            break;
+            case 'tipocurso':
+                $resultados = $resultados->Where('tbl_cursos.curso', 'LIKE', '%' . $campo . '%');
+            break;
+        }
+
+        if($filtro != 'tipoperiodo' && $filtro != 'tipocontrato' && isset($fechaInicio) && isset($fechaFin))
+        {
+            $resultados = $resultados->WhereBetween('contratos.fecha_firma',[$fechaInicio, $fechaFin]);
+        }
+
+        $resultados = $resultados->Get();
+
+        return response()->json($resultados); // Devuelve los resultados como JSON
     }
 
     public function sevac()
@@ -396,9 +453,9 @@ class CuentapublicaController extends Controller
             'Estado de Situación Financiera por Rubros' => 'sevac_/2020/3t/estado_de_situacion_financiera_por_rubros.pdf',
             'Estado de Variación en la Hacienda Pública' => 'sevac_/2020/3t/estado_de_variacion_en_hacienda_publica.pdf',
             'Informe Sobre Pasivos Contingentes' => 'sevac_/2020/3t/informe_sobre_pasivos_contigentes.pdf',
-            'Notas a los Estados Financieros' => 'sevac_/2020/3t/notas_a_estados_financieros_.pdf',            
+            'Notas a los Estados Financieros' => 'sevac_/2020/3t/notas_a_estados_financieros_.pdf',
             'Montos Pagados por Ayudas y Subsidios' => 'sevac_/2020/3t/montos_pagados_por_ayudas_y_subsidios.pdf'
-            
+
 
         );
 
@@ -691,25 +748,25 @@ class CuentapublicaController extends Controller
         ];
 
         $bprincipal = $this->getBanner('banner_principal');
-        return view('pages.sevac', compact('bprincipal', 
-        'tercertrim2021', 
-        'seguntrim2021', 
-        'cuartotrim2020', 
-        'primtrim2021', 
-        'primtrim2020', 
-        'segundtrim2020', 
-        'tercertrim2020', 
-        'primtrim', 
-        'segtrim', 
-        'tertrim', 
-        'cuatrim', 
-        'trim2018', 
-        'segtrim2018', 
-        'tertrim2018', 
-        'cuarto_trimestre2021', 
-        'primtrim2022', 
-        'segtrim2022', 
-        'tertrim2022', 
+        return view('pages.sevac', compact('bprincipal',
+        'tercertrim2021',
+        'seguntrim2021',
+        'cuartotrim2020',
+        'primtrim2021',
+        'primtrim2020',
+        'segundtrim2020',
+        'tercertrim2020',
+        'primtrim',
+        'segtrim',
+        'tertrim',
+        'cuatrim',
+        'trim2018',
+        'segtrim2018',
+        'tertrim2018',
+        'cuarto_trimestre2021',
+        'primtrim2022',
+        'segtrim2022',
+        'tertrim2022',
         'cuartotrim2022'));
         //comentario
     }
@@ -743,8 +800,8 @@ class CuentapublicaController extends Controller
             'Departamento de Certificación y Control' => 'avisos_privacidad/integral/AVISO_INTEGRAL_TEC_ACAD_CONTROL_ESCOLAR.pdf',
             'Comisaria Pública' => 'avisos_privacidad/integral/21_COMISARIA.pdf',
             'Imparticion de Cursos' => 'avisos_privacidad/integral/AVISO_INTEGRAL_ICATECH_CURSOS_NO_PRESENC.pdf'
-        );            
-       
+        );
+
         $avisos_simplificados2021 =array(
             'ICATECH' => 'avisos_privacidad/simplificado/AVISO_SIMPLIFICADO_ICATECH.pdf',
             'Dirección General' => 'avisos_privacidad/simplificado/AVISO_SIMPLIFICADO_DIRECC_GRAL_CTRL_ACCESO.pdf',
@@ -772,7 +829,7 @@ class CuentapublicaController extends Controller
         );
         $bprincipal = $this->getBanner('banner_principal');
 
-        
+
         return view('pages.avisosprivacidad', ['avisos_integrales' => $avisos_integrales2021, 'avisos_simplificados' => $avisos_simplificados2021, 'bprincipal' => $bprincipal]);
     }
 
@@ -894,7 +951,7 @@ class CuentapublicaController extends Controller
                                 ->where(['pages.slug_path' => 'integridad', 'catalogo_categoria.activo' => 1])
                                 ->get();
         /**
-         * 
+         *
          */
         $apartados = CatSubcategoria::select('catalogo_subcategoria.titulo_documento', 'catalogo_subcategoria.ruta_archivo', 'catalogo_subcategoria.apartados_id')
                         ->join('apartados', 'catalogo_subcategoria.apartados_id', '=', 'apartados.id')

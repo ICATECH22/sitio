@@ -44,7 +44,7 @@
                           </div>
                       </div>
                     </li>
-                  @endforeach 
+                  @endforeach
                 </ul>
               </div>
             </div>
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                       </li>
-                    @endforeach 
+                    @endforeach
                   </ul>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                       </li>
-                    @endforeach 
+                    @endforeach
                   </ul>
                 </div>
             </div>
@@ -161,18 +161,18 @@
                             </div>
                         </div>
                       </li>
-                    @endforeach 
+                    @endforeach
                   </ul>
                 </div>
             </div>
-          </div>              
+          </div>
           {{-- ICATECH-ICTP/005/2022 END --}}
           <br>
             <b>
               <h6>ADJUDICACIÓN DIRECTA</h6>
             </b>
           <br>
-        </div>           
-    </div>   
+        </div>
+    </div>
 </div>
 @stop

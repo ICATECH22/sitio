@@ -106,7 +106,7 @@ class ComunicadoController extends Controller
 
                     // limpiamos el arreglo
                     unset($arreglo_comunicado);
-                } 
+                }
 
                 return redirect()->route('comunicado.index')->with('success', 'Comunicado Agregado éxitosamente.');
             }
@@ -128,7 +128,7 @@ class ComunicadoController extends Controller
         $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
         //el comunicado exacto
         $iddecode = base64_decode($id);
-        
+
         $detatelle = Comunidado::SELECT('titulo', 'imagen', 'fecha_publicacion', 'localizacion', 'contenido', 'categorias', 'url', 'resumen', 'id')
                     ->WHERE('id', '=', $iddecode)
                     ->get();

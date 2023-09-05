@@ -21,7 +21,8 @@
     {{-- Global site tag (gtag.js) - Google Analytics --}}
     <link rel="stylesheet" href="{{asset("assets/vendor/bootstrap/bootstrap.min.css") }}">
 	<link rel="stylesheet" href="{{asset("assets/vendor/bootstrap/offcanvas.css")}}">
-    <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+    {{-- <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script> --}}
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
 					<!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
@@ -53,18 +54,18 @@
     {{-- SECCION MENU --}}
         @include("theme.main.menu")
     {{-- SECCION MENU END --}}
-    
+
     {{-- CONTENIDO --}}
         @yield('contenido')
     {{-- CONTENIDO END --}}
     {{-- FOOTER DEPENDENCIA --}}
     @include("theme.main.footer_dependencia")
     {{-- FOOTER DEPENDENCIA END --}}
-    
+
     {{-- FOOTER --}}
         @include('theme.main.footer')
     {{-- FOOTER END --}}
-    
+
     {{-- CONTENIDO DEL SCRIPT JS --}}
     <script src="{{asset("assets/vendor/jquery/jquery.min.js")}}"></script>
     <script src="{{asset("assets/vendor/jquery-migrate/jquery-migrate.min.js")}}"></script>
