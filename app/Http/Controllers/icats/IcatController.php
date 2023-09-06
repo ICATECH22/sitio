@@ -54,6 +54,9 @@ class IcatController extends Controller
             'icatver_veracruz'=>'ICATVER Veracruz',
             'icatey_yucatan'=>'ICATEY Yucatán',
             'icatez_zacatecas'=>'ICATEZ Zacatecas',
+            'ideft_Jalisco' => 'IDEFT Jalisco',
+            'icat_Tamaulipas' => 'ICAT Tamaulipas',
+            'dgcft_direccion_general_de_centros_de_formacion_para_el_trabajo' => 'DGCFT Dirección General de Centros de Formación para el Trabajo'
         ];
         // cargamos la plantilla
         $bprincipal = $this->getBanner('banner_principal');
@@ -117,6 +120,9 @@ class IcatController extends Controller
             'icatver_veracruz' => 'ICATVER Veracruz',
             'icatey_yucatan' => 'ICATEY Yucatán',
             'icatez_zacatecas' => 'ICATEZ Zacatecas',
+            'ideft_Jalisco' => 'IDEFT Jalisco',
+            'icat_Tamaulipas' => 'ICAT Tamaulipas',
+            'dgcft_direccion_general_de_centros_de_formacion_para_el_trabajo' => 'DGCFT Dirección General de Centros de Formación para el Trabajo'
         ];
         $itemBusqueda = $arreglo[$nombreicat];
         // cargamos banner principal
