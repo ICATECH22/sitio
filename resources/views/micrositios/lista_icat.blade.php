@@ -5,6 +5,7 @@
 {{-- contenido --}}
 @section('contenido')
     <div class="container-xl">
+        <br>
         <h1>Institutos de Capacitación para el Trabajo</h1>
         <h3>{{ $itemBusqueda }}</h3>
         <p>Fecha y hora actual: <span id="fechaActual"></span></p>
@@ -12,43 +13,33 @@
         <table id="printTable">
             <thead>
                 <tr>
-                    <th scope="col">Número</th>
+                    <th scope="col">Consecutivo</th>
                     <th scope="col">Nombre Completo</th>
                     <th scope="col">Puesto</th>
                     <th scope="col">Asistencia</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td data-label="Número">1</td>
-                    <td data-label="Nombre Completo">ADRIAN ANTONIO TEJEDA VELAZQUEZ</td>
-                    <td data-label="Puesto">ANALISTA TECNICO ESPECIALIZADO</td>
-                    <td data-label="Asistencia"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td data-label="Número">2</td>
-                    <td data-label="Nombre Completo">María López</td>
-                    <td data-label="Puesto">ANALISTA</td>
-                    <td data-label="Asistencia"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td data-label="Número">3</td>
-                    <td data-label="Nombre Completo">Carlos Ramírez</td>
-                    <td data-label="Puesto">ANALISTA</td>
-                    <td data-label="Asistencia"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td data-label="Número">4</td>
-                    <td data-label="Nombre Completo">Ana Martínez</td>
-                    <td data-label="Puesto">ANALISTA</td>
-                    <td data-label="Asistencia"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td data-label="Número">5</td>
-                    <td data-label="Nombre Completo">Luis García</td>
-                    <td data-label="Puesto">ANALISTA</td>
-                    <td data-label="Asistencia"><input type="checkbox"></td>
-                </tr>
+                @php
+                    $i = 1;
+                @endphp
+                @if (count($getIcat) > 0)
+                    @foreach ($getIcat as $k => $v)
+                        <tr>
+                            <td data-label="Consecutivo">{{ $i }}</td>
+                            <td data-label="Nombre Completo">{{ $v->nombre }}</td>
+                            <td data-label="Puesto">{{ $v->puesto }}</td>
+                            <td data-label="Asistencia"><input type="checkbox"></td>
+                        </tr>
+                        @php
+                            $i += 1;
+                        @endphp
+                    @endforeach
+                @else
+                    <tr>
+                        <td colspan="4"><b>NO HAY REGISTROS</b></td>
+                    </tr>
+                @endif
             </tbody>
         </table>
         <br>
