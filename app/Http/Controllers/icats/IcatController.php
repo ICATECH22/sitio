@@ -30,6 +30,7 @@ class IcatController extends Controller
         $Array_EntidadesFederativas = [
             'icatea_aguascalientes' => 'ICTEA Aguascalientes',
             'icatebcs_baja_california_sur' => 'ICATEBCS Baja California Sur',
+            'icatbc' => 'ICATBC Baja California',
             'icatcam_campeche' => 'ICATCAM Campeche',
             'icat_cdmx' => 'ICAT CDMX',
             'icatec_coahuila' => 'ICATEC Coahuila',
@@ -96,6 +97,7 @@ class IcatController extends Controller
         $arreglo = [
             'icatea_aguascalientes' => 'ICTEA Aguascalientes',
             'icatebcs_baja_california_sur' => 'ICATEBCS Baja California Sur',
+            'icatbc' => 'ICATBC Baja California',
             'icatcam_campeche' => 'ICATCAM Campeche',
             'icat_cdmx' => 'ICAT CDMX',
             'icatec_coahuila' => 'ICATEC Coahuila',
