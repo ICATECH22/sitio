@@ -4,8 +4,10 @@
 <div class="container g-pt-25">
     <br>
     @include('theme.main.media')
-    <img src="Imagenes_Pagina/contratos.png" class="img-responsive" width="100%" align="center"/>
-    <br><br>
+</div>
+<img src="Imagenes_Pagina/contratos.png" class="img-responsive" width="100%" align="center"/>
+<br><br>
+<div class="container g-pt-25">
     <div class="row">
         <div class="col-md-12 offset-md-0">
             <div class="card shadow">
@@ -86,6 +88,7 @@
         const buscarContratosBtn = document.getElementById('buscarContratos');
         const tablaContratosBody = document.getElementById('tablaContratosBody');
 
+
         buscarContratosBtn.addEventListener('click', function () {
             const fechaInicio = document.getElementById('fecha_inicio').value;
             const fechaFin = document.getElementById('fecha_fin').value;
@@ -105,6 +108,9 @@
                     // Agrega filas a la tabla con los resultados
                     resultados.forEach(resultado => {
                         // console.log(resultado);
+                        const deshabilitar = resultado.arch_contrato ? '' : 'pointer-events: none;';
+                        const estilo = resultado.arch_contrato ? 'color: red;' : 'color: gray;';
+
                         const fila = `
                             <tr>
                                 <td>${resultado.unidad}</td>
@@ -114,8 +120,8 @@
                                 <td>${resultado.sexo}</td>
                                 <td>${resultado.curso}</td>
                                 <td>
-                                    <a href="${resultado.arch_contrato}" target="_blank" title="Contrato">
-                                        <iconify-icon icon="teenyicons:pdf-solid" style="color: red;" width="30"></iconify-icon>
+                                    <a href="${resultado.arch_contrato}" target="_blank" title="Contrato" style="${deshabilitar}">
+                                        <iconify-icon icon="teenyicons:pdf-solid" style="${estilo}" width="30"></iconify-icon>
                                     </a>
                                 </td>
                                 <!-- Agrega más celdas según tus necesidades -->
@@ -123,6 +129,7 @@
                         `;
                         tablaContratosBody.innerHTML += fila;
                     });
+                    paginacionContainer.innerHTML = resultados.links;
                 })
                 .catch(error => {
                     console.error('Error al obtener resultados:', error);
