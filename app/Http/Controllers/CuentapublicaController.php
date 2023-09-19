@@ -303,11 +303,53 @@ class CuentapublicaController extends Controller
         );
     }
 
-    public function contratos()
+    public function contratos(Request $request)
     {
+        // dd($request);
+        // seccion consulta
+        $resultados = DB::Connection('pgsql')->Table('contratos')->Select('contratos.numero_contrato', 'contratos.fecha_firma',
+            'contratos.arch_contrato', 'tbl_cursos.nombre', 'tbl_cursos.unidad' , 'tbl_cursos.curso', 'instructores.sexo')
+            ->LeftJoin('tbl_cursos', 'tbl_cursos.id', 'contratos.id_curso')
+            ->LeftJoin('instructores', 'instructores.id', 'tbl_cursos.id_instructor')
+            ->Join('pagos','pagos.id_curso','tbl_cursos.id')
+            ->Where('pagos.status_transferencia','PAGADO')
+            ->OrderBy('contratos.fecha_firma');
+
+        // Aquí realiza la consulta real en la base de datos utilizando las fechas
+        // y obtén los resultados de los contratos
+        switch ($request->filtro) {
+            case 'tipoperiodo':
+                $resultados = $resultados->WhereBetween('contratos.fecha_firma',[$request->fecha_inicio, $request->fecha_fin]);
+            break;
+            case 'tiposexo':
+                $resultados = $resultados->Where('instructores.sexo', '=', $request->sexo);
+            break;
+            case 'tiponombre':
+                $resultados = $resultados->Where('tbl_cursos.nombre', 'LIKE', '%' . $request->campo . '%');
+            break;
+            case 'tipocontrato':
+                $resultados = $resultados->Where('contratos.numero_contrato', $request->campo);
+            break;
+            case 'tipounidad':
+                $unidad_ubicacion = DB::Connection('pgsql')->Table('tbl_unidades')->Where('ubicacion', $request->unidad)->Pluck('unidad')->ToArray();
+                $resultados = $resultados->WhereIn('unidad', $unidad_ubicacion);
+            break;
+            case 'tipocurso':
+                $resultados = $resultados->Where('tbl_cursos.curso', 'LIKE', '%' . $request->campo . '%');
+            break;
+        }
+
+        if($request->filtro != 'tipoperiodo' && $request->filtro != 'tipocontrato' && isset($request->fecha_inicio) && isset($request->fecha_fin))
+        {
+            $resultados = $resultados->WhereBetween('contratos.fecha_firma',[$request->fecha_inicio, $request->fecha_fin]);
+        }
+
+        $resultados = $resultados->Paginate(25);
+        // Fin de seccion
+
         $bprincipal = $this->getBanner('banner_principal');
         $unidades = DB::connection('pgsql')->TABLE('tbl_unidades')->SELECT('ubicacion')->GroupBy('ubicacion')->OrderBy('ubicacion','ASC')->GET();
-        return view('pages.contratos', ['bprincipal' => $bprincipal, 'unidades' => $unidades]);
+        return view('pages.contratos', ['bprincipal' => $bprincipal, 'unidades' => $unidades, 'resultados' => $resultados]);
     }
 
     public function getContratos(Request $request) {

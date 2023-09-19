@@ -13,7 +13,9 @@
             <div class="card shadow">
                 <div class="card-body">
                     <h2 class="card-title text-center mb-4">Consulta de Contratos</h2>
-                    <form id="consultaContratosForm">
+                    {{-- <form id="consultaContratosForm"> --}}
+                    <form method="GET" action="{{ route('contratos') }}">
+                    {{-- {!! Form::open(['route' => 'contratos', 'method' => 'GET', 'class' => 'form-inline' ]) !!} --}}
                         <div class="form-row">
                             <div class="form-group col-md-3">
                                 <label for="filtro">Categoria de Filtro</label>
@@ -36,6 +38,7 @@
                             <Div id="divcampo" name="divcampo" class="d-none d-print-none">
                                 <label id="labelcampo" name="labelcampo" for="campo">Nombre</label>
                                 <input type="text" id="campo" name="campo" class="form-control">
+                                {{-- {!! Form::text('campo', null, ['class' => 'form-control mr-sm-2', 'placeholder' => 'BUSCAR', 'aria-label' => 'BUSCAR', 'value' => 1]) !!} --}}
                             </Div>
                             <Div id="divunidad" name="divunidad" class="d-none d-print-none">
                                 <label for="unidad">Unidad</label>
@@ -55,8 +58,9 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="button" id="buscarContratos" class="btn btn-primary btn-lg">Buscar Contratos</button>
+                            <button type="submit" {{-- id="buscarContratos" --}} class="btn btn-primary btn-lg">Buscar Contratos</button>
                         </div>
+                    {{-- {!! Form::close() !!} --}}
                     </form>
                 </div>
             </div>
@@ -76,8 +80,39 @@
                         </tr>
                     </thead>
                     <tbody id="tablaContratosBody">
+                        @if (count($resultados) > 0)
+                            @foreach ($resultados as $itemdata)
+                                @php
+                                    $deshabilitar = $itemdata->arch_contrato ? '' : 'pointer-events: none;';
+                                    $estilo = $itemdata->arch_contrato ? 'color: red;' : 'color: gray;';
+                                @endphp
+
+                                <tr>
+                                    <td>{{$itemdata->unidad}}</td>
+                                    <td>{{$itemdata->numero_contrato}}</td>
+                                    <td>{{$itemdata->fecha_firma}}</td>
+                                    <td>{{$itemdata->nombre}}</td>
+                                    <td>{{$itemdata->sexo}}</td>
+                                    <td>{{$itemdata->curso}}</td>
+                                    <td>
+                                        <a href="{{$itemdata->arch_contrato}}" target="_blank" title="Contrato" style="{{$deshabilitar}}">
+                                            <iconify-icon icon="teenyicons:pdf-solid" style="{{$estilo}}" width="30"></iconify-icon>
+                                        </a>
+                                    </td>
+                                </tr>
+                            @endforeach
+                        @endif
                         <!-- Aquí se cargarán los resultados de la consulta -->
                     </tbody>
+                    @if (count($resultados) > 0)
+                        <tfoot>
+                            <tr>
+                                <td colspan="8">
+                                    {{ $resultados->appends(request()->query())->links() }}
+                                </td>
+                            </tr>
+                        </tfoot>
+                    @endif
                 </table>
             </div>
         </div>
@@ -85,56 +120,56 @@
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        const buscarContratosBtn = document.getElementById('buscarContratos');
-        const tablaContratosBody = document.getElementById('tablaContratosBody');
+        // const buscarContratosBtn = document.getElementById('buscarContratos');
+        // const tablaContratosBody = document.getElementById('tablaContratosBody');
 
 
-        buscarContratosBtn.addEventListener('click', function () {
-            const fechaInicio = document.getElementById('fecha_inicio').value;
-            const fechaFin = document.getElementById('fecha_fin').value;
-            const filtro = document.getElementById('filtro').value;
-            const sexo = document.getElementById('sexo').value;
-            const campo = document.getElementById('campo').value;
-            const unidad = document.getElementById('unidad').value;
-            // console.log(fechaFin);
-            // Realiza la solicitud AJAX al servidor
-            fetch(`/get-contratos?fecha_inicio=${fechaInicio}&fecha_fin=${fechaFin}&filtro=${filtro}&sexo=${sexo}&campo=${campo}&unidad=${unidad}`)
-                .then(response => response.json())
-                .then(resultados => {
-                    // console.log(resultados);
-                    // Limpia la tabla antes de agregar nuevos datosa
-                    tablaContratosBody.innerHTML = '';
+        // buscarContratosBtn.addEventListener('click', function () {
+        //     const fechaInicio = document.getElementById('fecha_inicio').value;
+        //     const fechaFin = document.getElementById('fecha_fin').value;
+        //     const filtro = document.getElementById('filtro').value;
+        //     const sexo = document.getElementById('sexo').value;
+        //     const campo = document.getElementById('campo').value;
+        //     const unidad = document.getElementById('unidad').value;
+        //     // console.log(fechaFin);
+        //     // Realiza la solicitud AJAX al servidor
+        //     fetch(`/get-contratos?fecha_inicio=${fechaInicio}&fecha_fin=${fechaFin}&filtro=${filtro}&sexo=${sexo}&campo=${campo}&unidad=${unidad}`)
+        //         .then(response => response.json())
+        //         .then(resultados => {
+        //             // console.log(resultados);
+        //             // Limpia la tabla antes de agregar nuevos datos
+        //             tablaContratosBody.innerHTML = '';
 
-                    // Agrega filas a la tabla con los resultados
-                    resultados.forEach(resultado => {
-                        // console.log(resultado);
-                        const deshabilitar = resultado.arch_contrato ? '' : 'pointer-events: none;';
-                        const estilo = resultado.arch_contrato ? 'color: red;' : 'color: gray;';
+        //             // Agrega filas a la tabla con los resultados
+        //             resultados.forEach(resultado => {
+        //                 // console.log(resultado);
+        //                 const deshabilitar = resultado.arch_contrato ? '' : 'pointer-events: none;';
+        //                 const estilo = resultado.arch_contrato ? 'color: red;' : 'color: gray;';
 
-                        const fila = `
-                            <tr>
-                                <td>${resultado.unidad}</td>
-                                <td>${resultado.numero_contrato}</td>
-                                <td>${resultado.fecha_firma}</td>
-                                <td>${resultado.nombre}</td>
-                                <td>${resultado.sexo}</td>
-                                <td>${resultado.curso}</td>
-                                <td>
-                                    <a href="${resultado.arch_contrato}" target="_blank" title="Contrato" style="${deshabilitar}">
-                                        <iconify-icon icon="teenyicons:pdf-solid" style="${estilo}" width="30"></iconify-icon>
-                                    </a>
-                                </td>
-                                <!-- Agrega más celdas según tus necesidades -->
-                            </tr>
-                        `;
-                        tablaContratosBody.innerHTML += fila;
-                    });
-                    paginacionContainer.innerHTML = resultados.links;
-                })
-                .catch(error => {
-                    console.error('Error al obtener resultados:', error);
-                });
-        });
+        //                 const fila = `
+        //                     <tr>
+        //                         <td>${resultado.unidad}</td>
+        //                         <td>${resultado.numero_contrato}</td>
+        //                         <td>${resultado.fecha_firma}</td>
+        //                         <td>${resultado.nombre}</td>
+        //                         <td>${resultado.sexo}</td>
+        //                         <td>${resultado.curso}</td>
+        //                         <td>
+        //                             <a href="${resultado.arch_contrato}" target="_blank" title="Contrato" style="${deshabilitar}">
+        //                                 <iconify-icon icon="teenyicons:pdf-solid" style="${estilo}" width="30"></iconify-icon>
+        //                             </a>
+        //                         </td>
+        //                         <!-- Agrega más celdas según tus necesidades -->
+        //                     </tr>
+        //                 `;
+        //                 tablaContratosBody.innerHTML += fila;
+        //             });
+        //             paginacionContainer.innerHTML = resultados.links;
+        //         })
+        //         .catch(error => {
+        //             console.error('Error al obtener resultados:', error);
+        //         });
+        // });
 
         document.getElementById('filtro').onchange = function() {
             var index = this.selectedIndex;

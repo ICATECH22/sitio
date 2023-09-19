@@ -23,33 +23,33 @@
             <div class="masonry-grid-item col-sm-6 col-md-6 col-lg-12 g-mb-30">
                 <img src="{{ asset('Imagenes_Pagina/banner icatechtransparencia4.png') }}" class="img-responsive" width="100%">
             </div>
-            <div class="row mb-3" style="margin-left: -12%; padding-right: 3%;">
-                <div class="col-md-2 g-mb-30">
+            <div class="row mb-3" style="margin-left: -12%; padding-right: 3%;" >
+                <div class="col-lg-2 col-md-4 col-sm-6 col-7 mb-4">
                     <a href="http://icatech.transparencia.chiapas.gob.mx" target="_new">
                         <img src="{{ asset('Imagenes_Pagina/transparencia-icatech.png') }}" class="imgRedonda">
                     </a>
                 </div>
-                <div class=" col-md-2 g-mb-30">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-7 mb-4">
                     <a href="{{ route('cuenta-publica') }}">
                         <img src="{{ asset('Imagenes_Pagina/cuentapublica-icatech.png') }}" class="imgRedonda">
                     </a>
                 </div>
-                <div class=" col-md-2  g-mb-30">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-7 mb-4">
                     <a href="{{ route('sevac') }}">
                         <img src="{{ asset('Imagenes_Pagina/sevac-icatech.png') }}" class="imgRedonda">
                     </a>
                 </div>
-                <div class=" col-md-2 g-mb-30">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-7 mb-4">
                     <a href="{{ route('integridad') }}">
                         <img src="{{ asset('Imagenes_Pagina/codigodecondcuta-icatech.png') }}" class="imgRedonda">
                     </a>
                 </div>
-                <div class=" col-md-2  g-mb-30">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-7 mb-4">
                     <a href="{{ route('licitaciones') }}">
                         <img src="{{ asset('Imagenes_Pagina/licitaciones-icatech.png') }}" class="imgRedonda">
                     </a>
                 </div>
-                <div class=" col-md-2  g-mb-30">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-7 mb-4">
                     <a href="{{ route('contratos') }}">
                         <img src="{{ asset('Imagenes_Pagina/consultacontratos-icatech.png') }}" class="imgRedonda">
                     </a>
