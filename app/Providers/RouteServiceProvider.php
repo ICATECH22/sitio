@@ -59,6 +59,7 @@ class RouteServiceProvider extends ServiceProvider
                     require base_path('routes/dashboard/rutascongreso.php');
                     require base_path('routes/principal/rutasprincipales.php');
                     require base_path('routes/dashboard/rutasdashboard.php');
+                    require base_path('routes/principal/buzondigital.php');
                 });
     }
 

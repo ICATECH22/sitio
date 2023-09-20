@@ -166,22 +166,22 @@ class BannerSectionController extends Controller
                                  }
                             }
                         }
-         
+
                         $remplazartitulodocumento = strtolower($tituloimagen);
-         
+
                         $archivo_revista = $request->file('archivo_revista'); # obtenemos el archivo
                         $url_archivo = $this->uploadFile($archivo_revista, $lastId, $remplazartitulodocumento , 'documento_revista'); #invocamos el método
                         // creamos un arreglo
                         $array_documento = [
                             'documento' => $url_archivo
                         ];
-         
+
                         // vamos a actualizar el registro con el arreglo que trae diferentes variables y carga de archivos
                         Banner::WHERE('id', $lastId)->update($array_documento);
-         
+
                         // limpiamos el arreglo
                         unset($array_documento);
-                        
+
                     }
                 }
 
@@ -316,7 +316,7 @@ class BannerSectionController extends Controller
                             return redirect()->route('select_category',  ['id' => base64_encode($categoria)])->with('success', 'Elemento Eliminado!');
                         }
                     break;
-                
+
                 default:
                         //intentos para cargar los datos (borrar registros y archivos)
                         //obtener path
@@ -330,7 +330,7 @@ class BannerSectionController extends Controller
                         }
                     break;
             }
-            
+
         } catch (QueryException $th) {
             //excepcion enviar mensaje
             return back()->with('error', $th->getMessage());
@@ -340,7 +340,7 @@ class BannerSectionController extends Controller
      * eliminar caracteres especiales
      */
     private function eliminar_acentos($cadena){
-		
+
 		//Reemplazamos la A y a
 		$cadena = str_replace(
 		array('Á', 'À', 'Â', 'Ä', 'á', 'à', 'ä', 'â', 'ª'),
@@ -378,7 +378,7 @@ class BannerSectionController extends Controller
 		array('N', 'n', 'C', 'c'),
 		$cadena
 		);
-		
+
 		return $cadena;
 	}
 
@@ -432,7 +432,7 @@ class BannerSectionController extends Controller
                 } else {
                     $url_archivo = $this->uploadImage($archivo_banner_enlazado, $idLinkedBanner, $bannerById->slug.'_'.'secondary_banner', $extension, 'banner_secundario_vinculado'); #invocamos el método
                 }
-                
+
                 // creamos un arreglo
                 $array_documento = [
                     'linked_file' => $url_archivo

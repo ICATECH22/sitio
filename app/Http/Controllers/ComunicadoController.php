@@ -110,7 +110,7 @@ class ComunicadoController extends Controller
 
                 return redirect()->route('comunicado.index')->with('success', 'Comunicado Agregado éxitosamente.');
             }
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             //throw $th;
         }
 
