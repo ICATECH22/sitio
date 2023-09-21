@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="submit" {{-- id="buscarContratos" --}} class="btn btn-primary btn-lg">Buscar Contratos</button>
+                            <button type="submit" {{-- id="buscarContratos" --}} class="btn btn-lg" style="color: white; background-color: #AF9A5A;">Buscar Contratos</button>
                         </div>
                     {{-- {!! Form::close() !!} --}}
                     </form>
