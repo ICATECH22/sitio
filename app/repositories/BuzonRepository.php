@@ -8,6 +8,7 @@ use App\Models\Buzon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 
 class BuzonRepository implements BuzonRepositoryInterface
 {
@@ -46,16 +47,15 @@ class BuzonRepository implements BuzonRepositoryInterface
 
             $mailInfo = new \stdClass();
             $mailInfo->recieverName = trim($req->nombre);
-            $mailInfo->sender = "ICATECH";
+            $mailInfo->sender = "ICATECH área de transparencia";
             $mailInfo->senderCompany = "Instituto de Capacitación y Vinculación Tecnolófica del Estado de Chiapas";
             $mailInfo->to = trim($req->correo_electronico);
-            $mailInfo->subject = "Buzón Digital - Mensaje de Información";
-            $mailInfo->name = "ICATECH";
-            $mailInfo->cc = "daniboymendez@gmail.com";
+            $mailInfo->subject = "Mensaje de Información acerca del buzón de transparencia";
+            $mailInfo->name = "ICATECH Buzón digital";
+            $mailInfo->cc = "utransparencia@icatech.chiapas.gob.mx";
 
             // send email
-            Mail::to(trim($req->correo_electronico))
-            ->send(new NotifyMail($mailInfo));
+            Mail::to($req->correo_electronico)->send(new NotifyMail($mailInfo));
 
             return true;
 

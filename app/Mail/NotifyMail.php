@@ -11,7 +11,7 @@ class NotifyMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    protected $mailData;
+    public $mailData;
 
     /**
      * Create a new message instance.
@@ -31,20 +31,16 @@ class NotifyMail extends Mailable
      */
     public function build()
     {
-        $address = $this->mailData->to;
+        // $address = $this->mailData->to;
         $subject = $this->mailData->subject;
         $name = $this->mailData->name;
         $cc = $this->mailData->cc;
         // $bcc = $this->mailData->bcc;
-        $from = $this->mailData->from;
+        $from = $this->mailData->cc;
 
-        return $this->view('email.mailsend')
-            ->text('email.mailsend_plain')
-            ->from($from, $name)
-            ->cc($address, $name)
-            ->bcc($cc, $name)
-            ->replyTo($from, $name)
+        return $this->from($from, $name)
+            ->cc($cc)
             ->subject($subject)
-            ->with(['mailMessage' => $this->mailData]);
+           ->view('email.mailsend');
     }
 }

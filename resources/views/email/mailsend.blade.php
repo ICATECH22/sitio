@@ -411,7 +411,7 @@
                         <table align="justify">
                             <tr>
                                 <td>
-                                    <h6><strong>Estimado(a) {{ $mailMessage->recieverName }}</strong></h6>
+                                    <h6><strong>Estimado(a) {{ $mailData->recieverName }}</strong></h6>
 
                                     <p>
                                         ¡Gracias por tomarte el tiempo para dejarnos tu comentario en nuestro buzón

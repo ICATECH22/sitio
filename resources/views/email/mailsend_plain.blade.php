@@ -1,6 +1,6 @@
 Bienvenido(a) tu opinión es importante para nosotros
 
-Estimado(a) {{ $mailMessage->recieverName }},
+Estimado(a) {{ $mailData['recieverName'] }},
 
 ¡Gracias por tomarte el tiempo para dejarnos tu comentario en nuestro buzón digital! Valoramos tus opiniones y estamos emocionados de conocer tus ideas.
 
@@ -11,6 +11,8 @@ Si tienes más sugerencias o comentarios en el futuro, no dudes en ponerte en co
 Gracias nuevamente por ser parte de nuestra comunidad y por contribuir a hacer de nuestro servicio algo aún mejor.
 
 Saludos cordiales,
+
+{{ $mailData['body'] }}
 
 ICATECH Chiapas
 

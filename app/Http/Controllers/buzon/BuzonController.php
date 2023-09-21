@@ -5,9 +5,12 @@ namespace App\Http\Controllers\buzon;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\BuzonPostRequest;
 use App\Interfaces\BuzonRepositoryInterface;
+use App\Mail\NotifyMail;
 use Illuminate\Http\Request;
 use App\Traits\bannerTrait;
 use Illuminate\Database\QueryException;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Str;
 
 class BuzonController extends Controller
 {
