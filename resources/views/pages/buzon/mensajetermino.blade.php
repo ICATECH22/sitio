@@ -17,7 +17,7 @@
                 <img class="banner" src="{{ asset('assets/img/buzon/buzon_digital.jpeg') }}">
                 <div class="p-3 border bg-light">
                     <p align="justify" class="stilo_texto">
-                        {{-- Estimado: {{ base64_decode($remitente) }} <br><br> --}}
+                        Estimado: {{ base64_decode($remitente) }} <br><br>
                         Su solicitud ha sido enviada satisfactoriamente. Gracias por tomarte el tiempo para dejarnos tu comentario en nuestro buzón digital.
                     </p>
 
