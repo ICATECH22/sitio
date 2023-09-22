@@ -6,11 +6,15 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\BuzonPostRequest;
 use App\Interfaces\BuzonRepositoryInterface;
 use App\Mail\NotifyMail;
+use App\Mail\responseReceived;
+use App\Models\Buzon;
 use Illuminate\Http\Request;
 use App\Traits\bannerTrait;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use stdClass;
 
 class BuzonController extends Controller
 {

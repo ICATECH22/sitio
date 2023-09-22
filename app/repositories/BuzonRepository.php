@@ -4,11 +4,13 @@ namespace App\Repositories;
 
 use App\Interfaces\BuzonRepositoryInterface;
 use App\Mail\NotifyMail;
+use App\Mail\responseReceived;
 use App\Models\Buzon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use stdClass;
 
 class BuzonRepository implements BuzonRepositoryInterface
 {
@@ -45,7 +47,7 @@ class BuzonRepository implements BuzonRepositoryInterface
                 ]);
             }
 
-            $mailInfo = new \stdClass();
+            $mailInfo = new stdClass();
             $mailInfo->recieverName = trim($req->nombre);
             $mailInfo->sender = "ICATECH área de transparencia";
             $mailInfo->senderCompany = "Instituto de Capacitación y Vinculación Tecnolófica del Estado de Chiapas";
@@ -57,8 +59,21 @@ class BuzonRepository implements BuzonRepositoryInterface
             // send email
             Mail::to($req->correo_electronico)->send(new NotifyMail($mailInfo));
 
-            return true;
+            // send second email
+            //mail info
+            $info = new stdClass();
+            $info->sender = "ICATECH área de transparencia";
+            $info->comentario = trim(strip_tags($req->comentarios));
+            $info->nombre = trim($req->nombre);
+            $info->telefono = trim($req->phone);
+            $info->actividad = $req->actividad;
+            $info->email = $req->correo_electronico;
+            $info->file = $req->file('formFileMultiple');
 
+            // send email to transparencia
+            Mail::to("utransparencia@icatech.chiapas.gob.mx")->send(new responseReceived($info));
+
+            return true;
         } catch (\Throwable $th) {
             return $th;
         }

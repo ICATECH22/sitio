@@ -34,12 +34,10 @@ class NotifyMail extends Mailable
         // $address = $this->mailData->to;
         $subject = $this->mailData->subject;
         $name = $this->mailData->name;
-        $cc = $this->mailData->cc;
         // $bcc = $this->mailData->bcc;
         $from = $this->mailData->cc;
 
         return $this->from($from, $name)
-            ->cc($cc)
             ->subject($subject)
            ->view('email.mailsend');
     }
