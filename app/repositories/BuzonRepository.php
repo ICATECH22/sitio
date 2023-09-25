@@ -54,7 +54,7 @@ class BuzonRepository implements BuzonRepositoryInterface
             $mailInfo->to = trim($req->correo_electronico);
             $mailInfo->subject = "Mensaje de Información acerca del buzón de transparencia";
             $mailInfo->name = "ICATECH Buzón digital";
-            $mailInfo->cc = "utransparencia@icatech.chiapas.gob.mx";
+            $mailInfo->cc = "noreply@icatech.chiapas.gob.mx";
 
             // send email
             Mail::to($req->correo_electronico)->send(new NotifyMail($mailInfo));

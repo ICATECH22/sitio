@@ -33,8 +33,8 @@ class responseReceived extends Mailable
     {
         $from = $this->sendMail->email;
         $name = $this->sendMail->nombre;
-        $subject = "Correo de Recepción de Dastos Buzón Digital de: " . $from;
-        $cc = "icatech@icatech.chiapas.gob.mx";
+        $subject = "Correo de Recepción de Datos Buzón Digital de: " . $from;
+        $cc = "noreply@icatech.chiapas.gob.mx";
 
         $view = $this->from($from, $name)
             ->cc($cc)
