@@ -41,7 +41,7 @@ class responseReceived extends Mailable
             ->subject($subject)
             ->view('email.adminsend');
 
-            return File::exists($this->sendMail->file->getRealPath()) ? $view->attach($this->sendMail->file->getRealPath(), [
+            return File::exists($this->sendMail->file) ? $view->attach($this->sendMail->file->getRealPath(), [
                 'as' => $this->sendMail->file->getClientOriginalName(),
                 'mime' => $this->sendMail->file->getMimeType(),
             ]) : $view;
