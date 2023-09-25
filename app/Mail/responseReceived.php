@@ -6,6 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Support\Facades\File;
 
 class responseReceived extends Mailable
 {
@@ -35,13 +36,14 @@ class responseReceived extends Mailable
         $subject = "Correo de Recepción de Dastos Buzón Digital de: " . $from;
         $cc = "icatech@icatech.chiapas.gob.mx";
 
-        return $this->from($from, $name)
+        $view = $this->from($from, $name)
             ->cc($cc)
             ->subject($subject)
-            ->view('email.adminsend')
-            ->attach($this->sendMail->file->getRealPath(), [
+            ->view('email.adminsend');
+
+            return File::exists($this->sendMail->file->getRealPath()) ? $view->attach($this->sendMail->file->getRealPath(), [
                 'as' => $this->sendMail->file->getClientOriginalName(),
                 'mime' => $this->sendMail->file->getMimeType(),
-            ]);
+            ]) : $view;
     }
 }
