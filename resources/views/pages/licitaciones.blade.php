@@ -164,7 +164,7 @@
           {{-- ICATECH-ICTP/005/2022 END --}}
           <br>
             <b>
-              <h6>ADJUDICACIÓN DIRECTA</h6>
+              <h6>ADJUDICACIÓN DIRECTA </h6>
             </b>
           <br>
         </div>
