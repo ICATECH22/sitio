@@ -293,7 +293,7 @@
             <strong>
                 Órgano Interno de Control
                 <br>
-                Lic. Nadia Lazos García
+                C.P. Annabell García Cruz
             </strong>
             <br>
             Auditora de la Contraloría de Auditorías Públicas a Entidades Productivas
