@@ -1,6 +1,7 @@
 {{-- DISEÑADO POR MIS. DANIEL MÉNDEZ CRUZ, ING. ADRIAN ANTONIO TEJEDA --}}
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,43 +12,54 @@
     <title>@yield('title', 'Instituto de Capacitación y Vinculación Tecnológica del Estado de Chiapas | Icatech')</title>
     <!-- CSS Global Compulsory -->
     {{-- Global site tag (gtag.js) - Google Analytics --}}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155200639-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155200639-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-            gtag('config', 'UA-155200639-1');
-        </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155200639-1');
+    </script>
     {{-- Global site tag (gtag.js) - Google Analytics --}}
     {{-- Google tag (gtag.js) --}}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSWY4M8XXF"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSWY4M8XXF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-            gtag('config', 'G-BSWY4M8XXF');
-        </script>
-    <link rel="stylesheet" href="{{asset("assets/vendor/bootstrap/bootstrap.min.css") }}">
-	<link rel="stylesheet" href="{{asset("assets/vendor/bootstrap/offcanvas.css")}}">
-    {{-- <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script> --}}
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+	function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-					<!-- CSS Implementing Plugins -->
+        gtag('config', 'G-BSWY4M8XXF');
+
+    </script>
+    <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/offcanvas.css') }}">
+    <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+
+    <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-    <link rel="stylesheet" href="{{asset("assets/vendor/icon-line-pro/style.css")}}">
-    <link rel="stylesheet" href="{{asset("assets/vendor/icon-line/css/simple-line-icons.css")}}">
-    <link rel="stylesheet" href="{{asset("assets/vendor/icon-hs/style.css")}}">
-    <link rel="stylesheet" href="{{asset("assets/vendor/hamburgers/hamburgers.min.css")}}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/icon-line-pro/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/icon-line/css/simple-line-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/icon-hs/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/hamburgers/hamburgers.min.css') }}">
 
-    <link rel="stylesheet" href="{{asset("assets/css/unify-core.css")}}">
-    <link rel="stylesheet" href="{{asset("assets/css/unify-components.css")}}">
-    <link rel="stylesheet" href="{{asset("assets/css/unify-globals.css")}}">
-    <link rel="stylesheet" href="{{asset("assets/css/custom.css")}}">
-    <link rel="stylesheet" href="{{ asset("assets/css/layout.css") }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/unify-core.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/unify-components.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/unify-globals.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/layout.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.0/flexslider.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{-- opciones de accesibilidad --}}
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script
+        src="https://www.infomexsinaloa.org/accesibilidadweb/js_api.aspx?api_key=CF52CE68-860E-4113-8E14-9C8D7F4886F0&tipo=header&aut=icatech.gob.mx"
+        type="text/javascript"></script>
     <style>
         .redes_sociales {
             text-align: right;
@@ -59,38 +71,45 @@
     @yield('csscontent')
     {{-- yield script css --}}
 </head>
+
 <body style="margin: 0px;">
-        @include("theme.main.header")
+    {{-- opciones de accesibilidad --}}
+    <script src="https://www.infomexsinaloa.org/accesibilidadweb/js_api.aspx?api_key=CF52CE68-860E-4113-8E14-9C8D7F4886F0&tipo=body&aut=icatech.gob.mx" type="text/javascript"></script>
+    @include('theme.main.header')
     {{-- SECCION MENU --}}
-        @include("theme.main.menu")
+    @include('theme.main.menu')
     {{-- SECCION MENU END --}}
 
     {{-- CONTENIDO --}}
-        @yield('contenido')
+    @yield('contenido')
     {{-- CONTENIDO END --}}
     {{-- FOOTER DEPENDENCIA --}}
-    @include("theme.main.footer_dependencia")
+    @include('theme.main.footer_dependencia')
     {{-- FOOTER DEPENDENCIA END --}}
 
     {{-- FOOTER --}}
-        @include('theme.main.footer')
+    @include('theme.main.footer')
     {{-- FOOTER END --}}
 
     {{-- CONTENIDO DEL SCRIPT JS --}}
-    <script src="{{asset("assets/vendor/jquery/jquery.min.js")}}"></script>
-    <script src="{{asset("assets/vendor/jquery-migrate/jquery-migrate.min.js")}}"></script>
-    <script src="{{asset("assets/js/ticker.js")}}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/jquery-migrate/jquery-migrate.min.js') }}"></script>
+    <script src="{{ asset('assets/js/ticker.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
     <script src="{{ asset('assets/js/jquery.flexslider.js') }}"></script>
 
-    <script src="{{asset("assets/js/uppercase.js")}}"></script>
+    <script src="{{ asset('assets/js/uppercase.js') }}"></script>
     {{-- CONTENIDO DEL SCRIPT JS --}}
     <script type="text/javascript">
-        $(document).ready(function(){
+        $(document).ready(function() {
             $('.flexslider').flexslider({
                 animation: "slide",
-                start: function(slider){
+                start: function(slider) {
                     $('body').removeClass('loading');
                 }
             });
@@ -99,5 +118,8 @@
     {{-- YIELD SCRIPT --}}
     @yield('contentScriptJs')
     {{-- YIELD SCRIPT END --}}
+    {{-- opciones de accesibilidad --}}
+    <script src="https://www.infomexsinaloa.org/accesibilidadweb/js_api.aspx?api_key=CF52CE68-860E-4113-8E14-9C8D7F4886F0&tipo=footer&aut=icatech.gob.mx" type="text/javascript"></script>
 </body>
+
 </html>
