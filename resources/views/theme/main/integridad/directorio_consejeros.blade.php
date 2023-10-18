@@ -75,7 +75,7 @@
              9611923275
             <br>
             <i class="fas fa-envelope"></i>
-            leozarlv0@mail.com
+            leozarlv0@gmail.com
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
