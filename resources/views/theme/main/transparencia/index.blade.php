@@ -105,7 +105,7 @@
                     <a href="http://www.iaipchiapas.org.mx/" title="Iaip" target="_blank"><img src="{{ asset('Imagenes_Pagina/iaip.png') }}" alt="Pnt" width="100%" height="60"><span></span></a>
                 </div>
                 <div class="col-md-2 g-mb-30">
-                    <a href="http://consultapublicamx.inai.org.mx:8080/vut-web/?idSujetoObigadoParametro=1184&amp;idEntidadParametro=07&amp;idSectorParametro=21" title="Consulta Ciudadana" target="_blank"><img src="{{ asset('Imagenes_Pagina/banner_consulta.jpg') }}" alt="Pnt" width="100%" height="60"><span></span></a>
+                    <a href="http://consultapublicamx.plataformadetransparencia.org.mx/vut-web/?idSujetoObigadoParametro=1184&idEntidadParametro=07&idSectorParametro=21" title="Consulta Ciudadana" target="_blank"><img src="{{ asset('Imagenes_Pagina/banner_consulta.jpg') }}" alt="Pnt" width="100%" height="60"><span></span></a>
                 </div>
                 <div class="col-md-2 g-mb-30">
                     <a href="https://www.plataformadetransparencia.org.mx/" title="PNT" target="_blank"><img src="{{ asset('Imagenes_Pagina/banner_pnt.jpg') }}" alt="Pnt" width="100%" height="60"><span></span></a>

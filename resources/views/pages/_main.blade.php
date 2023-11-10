@@ -372,7 +372,7 @@
                 <div class="masonry-grid-item col-sm-6 col-md-6 col-lg-6 g-mb-30">
                   <div class="about-image">
                     <div class="image">
-                      <a target="_blank" href="http://consultapublicamx.inai.org.mx:8080/vut-web/?idSujetoObigadoParametro=1184&amp;idEntidadParametro=07&amp;idSectorParametro=21">
+                      <a target="_blank" href="https://consultapublicamx.plataformadetransparencia.org.mx/vut-web/?idSujetoObigadoParametro=1184&idEntidadParametro=07&idSectorParametro=21">
                         <img src="{{ asset('Imagenes_Pagina/banner_consulta.jpg') }}" alt="About Images" class="img-thumbnail">
                       </a>
                       <br>
