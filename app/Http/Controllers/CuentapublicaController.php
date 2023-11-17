@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
 /**
  * uso tercero imports
  */
+
 use App\Traits\bannerTrait;
 use App\Models\CatCategoria;
 use App\Models\Apartado;
@@ -82,11 +84,11 @@ class CuentapublicaController extends Controller
             'Formatos Armonizados Conac' => 'cuenta_publica/pt2019/presupuestal/conac.pdf',
             'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/pt2019/presupuestal/ldf.pdf'
         );
-        $inf_financiera2= array(
+        $inf_financiera2 = array(
             'Bienes Patrimoniales' => 'cuenta_publica/st2019/financiera/bienespatrimoniales.pdf',
             'Formatos de Analisis' => 'cuenta_publica/st2019/financiera/formatosdeanalisis.pdf',
-            'Formatos Armonizados Conac' =>'cuenta_publica/st2019/financiera/armonizadosconac.pdf',
-            'Formatos Ley de Disciplina Financiera' =>'cuenta_publica/st2019/financiera/leydisciplinafinanciera.pdf'
+            'Formatos Armonizados Conac' => 'cuenta_publica/st2019/financiera/armonizadosconac.pdf',
+            'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/st2019/financiera/leydisciplinafinanciera.pdf'
         );
         $inf_presupuestal2 = array(
             'Información Presupuestaria' => 'cuenta_publica/st2019/presupuestal/informacionpresupuestaria.pdf',
@@ -97,8 +99,8 @@ class CuentapublicaController extends Controller
         $inf_financiera3 = array(
             'Bienes Patrimoniales' => 'cuenta_publica/tt2019/financiera/bienes_patrimoniales.pdf',
             'Formatos de Analisis' => 'cuenta_publica/tt2019/financiera/formatos_de_analisis.pdf',
-            'Formatos Armonizados Conac' =>'cuenta_publica/tt2019/financiera/formatos_armonizadosconac.pdf',
-            'Formatos Ley de Disciplina Financiera' =>'cuenta_publica/tt2019/financiera/formatos_ley_de_disciplina_financiera.pdf'
+            'Formatos Armonizados Conac' => 'cuenta_publica/tt2019/financiera/formatos_armonizadosconac.pdf',
+            'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/tt2019/financiera/formatos_ley_de_disciplina_financiera.pdf'
         );
         $inf_presupuestal3 = array(
             'Información Presupuestaria' => 'cuenta_publica/tt2019/presupuestal/pptal.pdf',
@@ -110,8 +112,8 @@ class CuentapublicaController extends Controller
         $inf_financiera4 = array(
             'Bienes Patrimoniales' => 'cuenta_publica/ct2019/financiera/bienes_patrimoniales.pdf',
             'Formatos de Analisis' => 'cuenta_publica/ct2019/financiera/formatos_de_analisis.pdf',
-            'Formatos Armonizados Conac' =>'cuenta_publica/ct2019/financiera/armonizados_conac.pdf',
-            'Formatos Ley de Disciplina Financiera' =>'cuenta_publica/ct2019/financiera/ley_disciplina_financiera.pdf'
+            'Formatos Armonizados Conac' => 'cuenta_publica/ct2019/financiera/armonizados_conac.pdf',
+            'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/ct2019/financiera/ley_disciplina_financiera.pdf'
         );
         $inf_presupuestal4 = array(
             'Información Presupuestaria' => 'cuenta_publica/ct2019/presupuestal/informacion_presupuestaria.pdf',
@@ -123,11 +125,11 @@ class CuentapublicaController extends Controller
         $inf_financiera18 = array(
             'Bienes Patrimoniales' => 'cuenta_publica/2018/st2018/financiera/bienes.pdf',
             'Formatos de Analisis' => 'cuenta_publica/2018/st2018/financiera/fmtosanalisis.pdf',
-            'Formatos Armonizados Conac' =>'cuenta_publica/2018/st2018/financiera/fmtosconac.pdf',
+            'Formatos Armonizados Conac' => 'cuenta_publica/2018/st2018/financiera/fmtosconac.pdf',
             'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/2018/st2018/financiera/fmtosldf.pdf'
         );
 
-        $inf_presupuestal18 =array(
+        $inf_presupuestal18 = array(
             'Información Presupuestaria' => 'cuenta_publica/2018/st2018/presupuestal/pptal.pdf',
             'Formato Analisis Funcional' => 'cuenta_publica/2018/st2018/presupuestal/analisisfuncional.pdf',
             'Formatos Armonizados Conac' => 'cuenta_publica/2018/st2018/presupuestal/conac.pdf',
@@ -137,11 +139,11 @@ class CuentapublicaController extends Controller
         $inf_financiera182t = array(
             'Bienes Patrimoniales' => 'cuenta_publica/2018/st2018/financiera/bienes.pdf',
             'Formatos de Analisis' => 'cuenta_publica/2018/st2018/financiera/fmtosanalisis.pdf',
-            'Formatos Armonizados Conac' =>'cuenta_publica/2018/st2018/financiera/fmtosconac.pdf',
+            'Formatos Armonizados Conac' => 'cuenta_publica/2018/st2018/financiera/fmtosconac.pdf',
             'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/2018/st2018/financiera/fmtosldf.pdf'
         );
 
-        $inf_presupuestal182t =array(
+        $inf_presupuestal182t = array(
             'Información Presupuestaria' => 'cuenta_publica/2018/st2018/presupuestal/pptal.pdf',
             'Formato Analisis Funcional' => 'cuenta_publica/2018/st2018/presupuestal/analisisfuncional.pdf',
             'Formatos Armonizados Conac' => 'cuenta_publica/2018/st2018/presupuestal/conac.pdf',
@@ -151,11 +153,11 @@ class CuentapublicaController extends Controller
         $inf_financiera183t = array(
             'Bienes Patrimoniales' => 'cuenta_publica/2018/tt2018/financiera/bienes.pdf',
             'Formatos de Analisis' => 'cuenta_publica/2018/tt2018/financiera/fmtosanalisis.pdf',
-            'Formatos Armonizados Conac' =>'cuenta_publica/2018/tt2018/financiera/fmtosconac.pdf',
+            'Formatos Armonizados Conac' => 'cuenta_publica/2018/tt2018/financiera/fmtosconac.pdf',
             'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/2018/tt2018/financiera/fmtosldf.pdf'
         );
 
-        $inf_presupuestal183t =array(
+        $inf_presupuestal183t = array(
             'Información Presupuestaria' => 'cuenta_publica/2018/tt2018/presupuestal/pptal.pdf',
             'Formato Analisis Funcional' => 'cuenta_publica/2018/tt2018/presupuestal/analisisfuncional.pdf',
             'Formatos Armonizados Conac' => 'cuenta_publica/2018/tt2018/presupuestal/conac.pdf',
@@ -165,65 +167,65 @@ class CuentapublicaController extends Controller
         $inf_financiera184t = array(
             'Bienes Patrimoniales' => 'cuenta_publica/2018/ct2018/financiera/bienes.pdf',
             'Formatos de Analisis' => 'cuenta_publica/2018/ct2018/financiera/fmtosanalisis.pdf',
-            'Formatos Armonizados Conac' =>'cuenta_publica/2018/ct2018/financiera/fmtosconac.pdf',
+            'Formatos Armonizados Conac' => 'cuenta_publica/2018/ct2018/financiera/fmtosconac.pdf',
             'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/2018/ct2018/financiera/fmtosldf.pdf'
         );
 
-        $inf_presupuestal184t =array(
+        $inf_presupuestal184t = array(
             'Información Presupuestaria' => 'cuenta_publica/2018/ct2018/presupuestal/pptal.pdf',
             'Formato Analisis Funcional' => 'cuenta_publica/2018/ct2018/presupuestal/analisisfuncional.pdf',
             'Formatos Armonizados Conac' => 'cuenta_publica/2018/ct2018/presupuestal/conac.pdf',
             'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/2018/ct2018/presupuestal/ldf.pdf'
         );
 
-        $inf_disciplina1t21 =array(
+        $inf_disciplina1t21 = array(
             'Clasificación por objeto del gasto, Capitulo y Concepto ESC' => 'cuenta_publica/ley_disciplinafinanciera2021/1t2021/LDF6aClasificaciOnporObjetodelGastoCapituloyConceptoEsc.pdf',
             'Clasificación Administrativa ESC' => 'cuenta_publica/ley_disciplinafinanciera2021/1t2021/LDF6bClasificaciOnAdministrativaEsc.pdf',
             'Clasificación Funcional, Finalidad y Función ESC' => 'cuenta_publica/ley_disciplinafinanciera2021/1t2021/LDF6cClasificaciOnFuncionalFinalidadyFunciónEsc.pdf',
             'Clasificación de Servicios Personales por Categorias ESC' => 'cuenta_publica/ley_disciplinafinanciera2021/1t2021/LDF6dClasificaciOndeServiciosPersonalesporCategorIaEsc.pdf',
             'Formatos LDF' => 'cuenta_publica/ley_disciplinafinanciera2021/1t2021/FormatosLDF6a-6b-6c-6d1erTrimestre.pdf'
         );
-        $inf_disciplina2t21 =array(
+        $inf_disciplina2t21 = array(
             'Formatos LDF' => 'cuenta_publica/ley_disciplinafinanciera2021/2t2021/formatosLDF6a-6b-6c-6d2otrimestre.pdf'
         );
-        $inf_disciplina3t21 =array(
+        $inf_disciplina3t21 = array(
             'Formatos LDF' => 'cuenta_publica/ley_disciplinafinanciera2021/3t2021/FormatosLDF6a-6b-6c-6d3erTrimestre.pdf'
         );
-        $inf_financiera1t21 =array(
+        $inf_financiera1t21 = array(
             'Bienes Patrimoniales' => 'cuenta_publica/pt2021/financiera/bienes_patrimoniales1.pdf',
             'Formatos Complementarios' => 'cuenta_publica/pt2021/financiera/formatos_complementarios1.pdf',
             'Clasificación Funcional, Finalidad y Función ESC' => 'cuenta_publica/pt2021/financiera/formatos_armonizados_CONAC.pdf',
             'Clasificación de Servicios Personales por Categorias ESC' => 'cuenta_publica/pt2021/financiera/formatos_ley_de_disciplina_financiera1.pdf'
         );
-        $inf_presupuestal1t21 =array(
+        $inf_presupuestal1t21 = array(
             'Analisis Funcional' => 'cuenta_publica/pt2021/presupuestal/analisis_funciona1ertrimestre2021.pdf',
             'Formatos Armonizados Conac' => 'cuenta_publica/pt2021/presupuestal/formatosarmonizadosconac1ertrimestre2021.pdf',
             'Información Presupuestal' => 'cuenta_publica/pt2021/presupuestal/Informacion_pptal1ertrimestre2021.pdf'
         );
-        $inf_presupuestal2t21 =array(
+        $inf_presupuestal2t21 = array(
             'Formatos Armonizados Conac ' => 'cuenta_publica/st2021/presupuestal/formatosCONAC7y132o.trimestre2021.pdf',
             'Información Funcional' => 'cuenta_publica/st2021/presupuestal/InformacionFuncional2oTrimestre2021.pdf',
             'Información Presupuestal' => 'cuenta_publica/st2021/presupuestal/InformacionPresupuestal2oTrimestre2021.pdf'
         );
-        $inf_financiera2t21 =array(
+        $inf_financiera2t21 = array(
             'Bienes Patrimoniales' => 'cuenta_publica/st2021/financiera/BIENES_PATRIMONIALES.pdf',
             'Formatos Armonizados Conac' => 'cuenta_publica/st2021/financiera/FORMATOS_ARMONIZADOS_CONAC.pdf',
             'Formatos Complementarios' => 'cuenta_publica/st2021/financiera/FORMATOS_COMPLEMENTARIOS.pdf',
             'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/st2021/financiera/FORMATOS_LEY_DE_DISCIPLINA_FINANCIERA.pdf'
         );
 
-        $inf_financiera3t21 =array(
+        $inf_financiera3t21 = array(
             'Bienes Patrimoniales' => 'cuenta_publica/tt2021/financiera/bienes_patrimoniales.pdf',
             'Formatos Armonizados Conac' => 'cuenta_publica/tt2021/financiera/formatos_armonizados_conac.pdf',
             'Formatos Complementarios' => 'cuenta_publica/tt2021/financiera/formatos_complementarios.pdf',
             'Formatos Ley de Disciplina Financiera' => 'cuenta_publica/tt2021/financiera/formatos_ley_disciplina_financiera.pdf'
         );
 
-        return view('pages.cuentapublica', ['financ3t21'=> $inf_financiera3t21, 'financ2t21'=> $inf_financiera2t21, 'presu2t21'=> $inf_presupuestal2t21,'finan1t21'=> $inf_financiera1t21, 'presu1t21'=> $inf_presupuestal1t21, 'disci3t21' => $inf_disciplina3t21,'disci1t21'=> $inf_disciplina1t21, 'disci2t21'=> $inf_disciplina2t21, 'infin1t20'=> $inf_financiera20, 'infpre1t20'=> $inf_presupuestal20, 'infin2t20'=> $inf_financiera2t20, 'infpre2t20'=> $inf_presupuestal2t20, 'infin3t20'=> $inf_financiera3t20, 'infpre3t20'=> $inf_presupuestal3t20, 'infFin'=> $inf_financiera, 'infPre'=>$inf_presupuestal,'infFin2'=>$inf_financiera2, 'infPre2'=> $inf_presupuestal2, 'infFin3'=> $inf_financiera3, 'infPre3'=> $inf_presupuestal3,
-        'infFin4'=>$inf_financiera4,'infPre4'=>$inf_presupuestal4,'inffin18'=> $inf_financiera18, 'infpres18'=> $inf_presupuestal18, 'inffin182t'=> $inf_financiera182t, 'infpres182t'=> $inf_presupuestal182t, 'inffint183t'=> $inf_financiera183t, 'infpres183t'=> $inf_presupuestal183t,
-        'inffin184t'=> $inf_financiera184t, 'infpres184t'=> $inf_presupuestal184t, 'inffinan4t'=> $inf_financiera4t20, 'infpresu4t'=> $inf_presupuestal4t20]);
-
-
+        return view('pages.cuentapublica', [
+            'financ3t21' => $inf_financiera3t21, 'financ2t21' => $inf_financiera2t21, 'presu2t21' => $inf_presupuestal2t21, 'finan1t21' => $inf_financiera1t21, 'presu1t21' => $inf_presupuestal1t21, 'disci3t21' => $inf_disciplina3t21, 'disci1t21' => $inf_disciplina1t21, 'disci2t21' => $inf_disciplina2t21, 'infin1t20' => $inf_financiera20, 'infpre1t20' => $inf_presupuestal20, 'infin2t20' => $inf_financiera2t20, 'infpre2t20' => $inf_presupuestal2t20, 'infin3t20' => $inf_financiera3t20, 'infpre3t20' => $inf_presupuestal3t20, 'infFin' => $inf_financiera, 'infPre' => $inf_presupuestal, 'infFin2' => $inf_financiera2, 'infPre2' => $inf_presupuestal2, 'infFin3' => $inf_financiera3, 'infPre3' => $inf_presupuestal3,
+            'infFin4' => $inf_financiera4, 'infPre4' => $inf_presupuestal4, 'inffin18' => $inf_financiera18, 'infpres18' => $inf_presupuestal18, 'inffin182t' => $inf_financiera182t, 'infpres182t' => $inf_presupuestal182t, 'inffint183t' => $inf_financiera183t, 'infpres183t' => $inf_presupuestal183t,
+            'inffin184t' => $inf_financiera184t, 'infpres184t' => $inf_presupuestal184t, 'inffinan4t' => $inf_financiera4t20, 'infpresu4t' => $inf_presupuestal4t20
+        ]);
     }
 
     public function normatividad()
@@ -239,11 +241,11 @@ class CuentapublicaController extends Controller
             'Reglamento Interior 2022' => 'normatividad_/reglamentos/reglamento_interno2022.pdf'
         );
 
-        $man_induccion =array(
+        $man_induccion = array(
             'Manual de Inducción 2022' => 'normatividad_/manuales/induccion/manual_induccion_2022.pdf'
         );
 
-        $manu_procedimientos =array(
+        $manu_procedimientos = array(
             'Manual de Procedimientos' => 'normatividad_/manuales/procedimientos/procedimientos.pdf',
             '-Comisaria' => 'normatividad_/manuales/procedimientos/1comisaria.pdf',
             '-Unidad Jurídica' => 'normatividad_/manuales/procedimientos/2unidad_juridica.pdf',
@@ -260,8 +262,8 @@ class CuentapublicaController extends Controller
         $manu_organizacion = array(
             'Manual de Organizacion' => 'normatividad_/manuales/organizacion/organizacion.pdf',
         );
-        $diario_oficialicatech =array(
-            'Lineamientos'=> 'normatividad_/reglamentos/decreto_lineamientos_icatech.pdf'
+        $diario_oficialicatech = array(
+            'Lineamientos' => 'normatividad_/reglamentos/decreto_lineamientos_icatech.pdf'
         );
 
         $mejora_regulatoria = [
@@ -276,9 +278,10 @@ class CuentapublicaController extends Controller
 
         $bprincipal = $this->getBanner('banner_principal');
 
-        return view('pages.normatividad', ['deccrea'=> $dec_decretos, 'manual_lineamientos'=> $diario_oficialicatech, 'reglam'=> $reg_reglamentos, 'manual'=> $man_induccion,
-        'manualproc'=> $manu_procedimientos, 'manualorga'=> $manu_organizacion, 'bprincipal' => $bprincipal, 'mejora_regulatoria' => $mejora_regulatoria, 'ctic' => $acta_instalacion_comite_tecnoligia_informacion_comunicaciones]);
-
+        return view('pages.normatividad', [
+            'deccrea' => $dec_decretos, 'manual_lineamientos' => $diario_oficialicatech, 'reglam' => $reg_reglamentos, 'manual' => $man_induccion,
+            'manualproc' => $manu_procedimientos, 'manualorga' => $manu_organizacion, 'bprincipal' => $bprincipal, 'mejora_regulatoria' => $mejora_regulatoria, 'ctic' => $acta_instalacion_comite_tecnoligia_informacion_comunicaciones
+        ]);
     }
 
     public function licitaciones()
@@ -294,7 +297,8 @@ class CuentapublicaController extends Controller
         $bprincipal = $this->getBanner('banner_principal');
 
 
-        return view('pages.licitaciones',
+        return view(
+            'pages.licitaciones',
             [
                 'bprincipal' => $bprincipal,
                 'programa_anual_adquisiciones' => $programa_anual_adquisiciones,
@@ -403,7 +407,7 @@ class CuentapublicaController extends Controller
 
     public function sevac()
     {
-        $primtrim2020 =array(
+        $primtrim2020 = array(
             'Estado Analitico de Deuda y de Otros Pasivos' => 'sevac_/2020/1t/estado_analitico_de_deuda_otros_pasivos.pdf',
             'Estado Analitico del Activo' => 'sevac_/2020/1t/estado_analitico_del_activo.pdf',
             'Estado de Actividades' => 'sevac_/2020/1t/estado_de_actividades.pdf',
@@ -430,7 +434,7 @@ class CuentapublicaController extends Controller
 
         );
 
-        $segundtrim2020 =array(
+        $segundtrim2020 = array(
             'Estado Analitico de Deuda y de Otros Pasivos' => 'sevac_/2020/2t/estado_analitico_de_la_deuda_y_otros_pasivos.pdf',
             'Estado Analitico del Activo por Rubros' => 'sevac_/2020/2t/estado_analitico_del_activo_por_rubros.pdf',
             'Estado de Actividades por Rubros' => 'sevac_/2020/2t/estado_de_actividades_por_rubros.pdf',
@@ -456,7 +460,7 @@ class CuentapublicaController extends Controller
 
         );
 
-        $tercertrim2020 =array(
+        $tercertrim2020 = array(
             'Estado Analitico de Deuda y de Otros Pasivos' => 'sevac_/2020/3t/estado_analitico_de_deuda_otros_pasivos.pdf',
             'Estado Analitico del Activo por Rubros' => 'sevac_/2020/3t/estado_analitico_del_activo_por_rubros.pdf',
             'Estado de Actividades por Rubros' => 'sevac_/2020/3t/estado_de_actividades_por_rubros.pdf',
@@ -471,7 +475,7 @@ class CuentapublicaController extends Controller
 
         );
 
-        $primtrim =array(
+        $primtrim = array(
             'Montos pagados por concepto de ayudas y subsidios' => 'sevac_/2019/t1/D.1.11 Montos pagados por concepto de ayudas y subsidios.pdf',
             'Estado de Actividades' => 'sevac_/2019/t1/D.2.1 Estado de Actividades.pdf',
             'Estado de Situacion Financiera' => 'sevac_/2019/t1/D.2.2 Estado de Situacion Financiera.pdf',
@@ -495,7 +499,7 @@ class CuentapublicaController extends Controller
 
         );
 
-        $segtrim =array(
+        $segtrim = array(
             'Estado Analitico de Ingresos' => 'sevac_/2019/t2/estadoanaliticodeingresos.pdf',
             'Estado Analitico del Activo Rubros' => 'sevac_/2019/t2/estadoanaliticodelactivorubros.pdf',
             'Estado Analitico de la Deuda y otros Pasos' => 'sevac_/2019/t2/estadoanaliticodeladeudayotrospasivos.pdf',
@@ -509,7 +513,7 @@ class CuentapublicaController extends Controller
 
         );
 
-        $tertrim =array(
+        $tertrim = array(
             'Estado Analitico de la deuda y otros pasivos' => 'sevac_/2019/t3/Estado_Analitico_de_la_Deuda_y_Otros_Pasivos.PDF',
             'Estado Analitico del Activo' => 'sevac_/2019/t3/Estado_Analitico_del_Activo.PDF',
             'Estado de Actividades'  => 'sevac_/2019/t3/Estado_de_Actividades.PDF',
@@ -522,7 +526,7 @@ class CuentapublicaController extends Controller
             'Relación de Cuentas Bancarias Productivos Espesificas' => 'sevac_/2019/t3/Relacion_de_Cuentas_Bancarias_Productivas_Especificas.pdf'
         );
 
-        $ter_trimestre =array(
+        $ter_trimestre = array(
             'Estado Analitico de la deuda y otros pasivos' => 'sevac_/2019/t3/Estado_Analitico_de_la_Deuda_y_Otros_Pasivos.PDF',
             'Estado Analitico del Activo' => 'sevac_/2019/t3/Estado_Analitico_del_Activo.PDF',
             'Estado de Actividades'  => 'sevac_/2019/t3/Estado_de_Actividades.PDF',
@@ -535,7 +539,7 @@ class CuentapublicaController extends Controller
             'Relación de Cuentas Bancarias Productivos Espesificas' => 'sevac_/2019/t3/Relacion_de_Cuentas_Bancarias_Productivas_Especificas.pdf'
         );
 
-        $cuatrim =array(
+        $cuatrim = array(
             'Estado Analitico de la deuda y otros pasivos' => 'sevac_/2019/tt4/estado_analatico_deuda_y_pasivos.PDF',
             'Estado Analitico del Activo' => 'sevac_/2019/tt4/edo_analitico_del_activo.PDF',
             'Estado de Actividades'  => 'sevac_/2019/tt4/estado_de_actividades.PDF',
@@ -582,7 +586,7 @@ class CuentapublicaController extends Controller
         );*/
 
 
-        $trim2018 =array(
+        $trim2018 = array(
             'Montos Pagados por Concepto de Ayudas y Subsidios' => 'sevac_/2018/t1/D.1.11_Montos_pagados_por_concepto_de_ayudas_y_subidios.pdf',
             'Estado de Actividades' => 'sevac_/2018/t1/D.2.1_Estado_de_Actividades.pdf',
             'Estado de Situacion Financiera' => 'sevac_/2018/t1/D.2.2_Estado_de_Situacion_Financiera.pdf',
@@ -606,7 +610,7 @@ class CuentapublicaController extends Controller
 
         );
 
-        $segtrim2018 =array(
+        $segtrim2018 = array(
             'Montos Pagados por Concepto de Ayudas y Subsidios' => 'sevac_/2018/t2/D.1.11 Montos pagados por concepto de ayudas y subidios.pdf',
             'Estado de Actividades' => 'sevac_/2018/t2/D.2.1 Estado de Actividades.pdf',
             'Estado de Situacion Financiera' => 'sevac_/2018/t2/D.2.2 Estado de Situacion Financiera.pdf',
@@ -630,7 +634,7 @@ class CuentapublicaController extends Controller
 
         );
 
-        $tertrim2018 =array(
+        $tertrim2018 = array(
             'Montos Pagados por Concepto de Ayudas y Subsidios' => 'sevac_/2018_/t3/D.1.11 Montos pagados por concepto de ayudas y subsidios.pdf',
             'Estado de Actividades' => 'sevac_/2018_/t3/D.2.1 Estado de Actividades.pdf',
             'Estado de Situacion Financiera' => 'sevac_/2018_/t3/D.2.2 Estado de Situacion Financiera.pdf',
@@ -652,7 +656,7 @@ class CuentapublicaController extends Controller
             'Indicadores de Resultados' => 'sevac_/2018_/t3/D.4.2 Indicadores de Resultados.pdf',
             'Programación y Proyectos de Inversion' => 'sevac_/2018_/t3/D.4.3 Prog y Proyectos de Inversion.pdf'
         );
-        $cuartotrim2020 =array(
+        $cuartotrim2020 = array(
             'Estado de Situación Financiera' => 'sevac_/2020/4t/1estado_de_situacion_financiera_por_rubros.pdf',
             'Estado de Actividades' => 'sevac_/2020/4t/2estado_de_actividades_por_rubros.pdf',
             'Estado de Variacion en la Hacienda Pública' => 'sevac_/2020/4t/3estado_de_variacion_en_la_hacienda_publica_por_rubros.pdf',
@@ -664,7 +668,7 @@ class CuentapublicaController extends Controller
             'Notas a los Estados Financieros' => 'sevac_/2020/4t/9notas_a_los_estados_financieros.pdf',
             'Montos Pagados por Ayudas y Subsidios' => 'sevac_/2020/4t/10montos_pagados_por_ayudas_y_subsidios.pdf'
         );
-        $primtrim2021 =array(
+        $primtrim2021 = array(
             'Estado de Situación Financiera' => 'sevac_/2021/1t/1_estado_de_situacion_flnanciera_por_rubros.pdf',
             'Estado de Actividades' => 'sevac_/2021/1t/2_estado_de_actividades_por_rubros.pdf',
             'Estado de Variacion en la Hacienda Pública' => 'sevac_/2021/1t/3_estado_de_variacion_en_la_hacienda_publica_por_rubros.pdf',
@@ -676,7 +680,7 @@ class CuentapublicaController extends Controller
             'Notas a los Estados Financieros' => 'sevac_/2021/1t/9_notas_a_los_estados_financieros.pdf',
             'Montos Pagados por Ayudas y Subsidios' => 'sevac_/2021/1t/10_montos_pagados_por_ayudas_y_subsidios.pdf'
         );
-        $seguntrim2021 =array(
+        $seguntrim2021 = array(
             'Estado de Situación Financiera' => 'sevac_/2021/2t/1_estado_de_situacion_financiera.pdf',
             'Estado de Actividades' => 'sevac_/2021/2t/2_estado_de_actividades.pdf',
             'Estado de Variacion en la Hacienda Pública' => 'sevac_/2021/2t/3_estado_de_variacion_de_la_hacienda_publica.pdf',
@@ -688,7 +692,7 @@ class CuentapublicaController extends Controller
             'Notas a los Estados Financieros' => 'sevac_/2021/2t/9_notas_a_los_estados_financieros.pdf',
             'Montos Pagados por Ayudas y Subsidios' => 'sevac_/2021/2t/10_montos_pagados_por_ayudas_y_subsidios.pdf'
         );
-        $tercertrim2021 =array(
+        $tercertrim2021 = array(
             'Estado de Situación Financiera' => 'sevac_/2021/3t/1_estado_de_situacion_financiera.pdf',
             'Estado de Actividades' => 'sevac_/2021/3t/2_estado_de_actividades.pdf',
             'Estado de Variacion en la Hacienda Pública' => 'sevac_/2021/3t/3_estado_de_variacion_de_hacienda_publica.pdf',
@@ -756,7 +760,7 @@ class CuentapublicaController extends Controller
         ];
 
         $cuartotrim2022 = [
-            'Montos Pagados por Ayudas y Subsidios' =>'sevac_/2022/4t/montos_pagados_por_ayudas_subsidios.pdf',
+            'Montos Pagados por Ayudas y Subsidios' => 'sevac_/2022/4t/montos_pagados_por_ayudas_subsidios.pdf',
             'Estado Analítico del Activo' => 'sevac_/2022/4t/Estado_Analitico_Activo.pdf',
             'Estado Analítico de la Deuda y Otros Pasivos' => 'sevac_/2022/4t/Estado_Analitico_de_la_Deuda_y_Otros_Pasivos.pdf',
             'Estado de Actividades' => 'sevac_/2022/4t/Estado_de_Actividades.pdf',
@@ -801,29 +805,48 @@ class CuentapublicaController extends Controller
             'Nota a los Estados Financieros' => 'sevac_/2023/2t/notas_a_los_estados_financieros.pdf',
         ];
 
+        // tercer trimestre 2023
+        $tertrim2023 = [
+            'Estado Analítico de la Deuda y Otros Pasivos' => 'sevac_/2023/3t/estado_analitico_de_la_deuda_y_otros_pasivos.pdf',
+            'Estado Analítico del Activo' => 'sevac_/2023/3t/estado_analitico_del_activo.pdf',
+            'Estado de Actividades' => 'sevac_/2023/3t/estado_de_actividades.pdf',
+            'Estado de Cambios en la Situación Financiera' => 'sevac_/2023/3t/estado_de_cambios_en_la_situacion_financiera.pdf',
+            'Estado de Flujos de Efectivo' => 'sevac_/2023/3t/estado_de_flujo_de_efectivo.pdf',
+            'Estado de Situación Financiera' => 'sevac_/2023/3t/estado_de_situacion_financiera.pdf',
+            'Estado de Variación en la Hacienda Pública' => 'sevac_/2023/3t/estado_de_variacion_en_la_hacienda_publica.pdf',
+            'Informe sobre Pasivos Contingentes' => 'sevac_/2023/3t/informe_sobre_pasivos_contingentes.pdf',
+            'Inventario de Bienes Inmuebles' => 'sevac_/2023/3t/inventario_de_bienes_inmuebles.pdf',
+            'Inventario de Bienes Muebles' => 'sevac_/2023/3t/inventario_de_bienes_muebles.pdf',
+            'Montos Pagados por Ayudas y Subsidios' => 'sevac_/2023/3t/montos_pagados_por_ayudas_subsidios.pdf',
+            'Nota a los Estados Financieros' => 'sevac_/2023/3t/notas_a_los_estados_financieros.pdf',
+        ];
+
         $bprincipal = $this->getBanner('banner_principal');
-        return view('pages.sevac', compact('bprincipal',
-        'tercertrim2021',
-        'seguntrim2021',
-        'cuartotrim2020',
-        'primtrim2021',
-        'primtrim2020',
-        'segundtrim2020',
-        'tercertrim2020',
-        'primtrim',
-        'segtrim',
-        'tertrim',
-        'cuatrim',
-        'trim2018',
-        'segtrim2018',
-        'tertrim2018',
-        'cuarto_trimestre2021',
-        'primtrim2022',
-        'segtrim2022',
-        'tertrim2022',
-        'cuartotrim2022',
-        'primtrim2023',
-        'segtrim2023'));
+        return view('pages.sevac', compact(
+            'bprincipal',
+            'tercertrim2021',
+            'seguntrim2021',
+            'cuartotrim2020',
+            'primtrim2021',
+            'primtrim2020',
+            'segundtrim2020',
+            'tercertrim2020',
+            'primtrim',
+            'segtrim',
+            'tertrim',
+            'cuatrim',
+            'trim2018',
+            'segtrim2018',
+            'tertrim2018',
+            'cuarto_trimestre2021',
+            'primtrim2022',
+            'segtrim2022',
+            'tertrim2022',
+            'cuartotrim2022',
+            'primtrim2023',
+            'segtrim2023',
+            'tertrim2023'
+        ));
         //comentario
     }
 
@@ -832,7 +855,7 @@ class CuentapublicaController extends Controller
     public function avisosprivacidad()
     {
 
-        $avisos_integrales2021 =array(
+        $avisos_integrales2021 = array(
             'Dirección General Control de Accesos' => 'avisos_privacidad/integral/1_AVISO_INTEGRAL_DIRECC_GRAL_CONTROL_DE_ACCESO.pdf',
             'Coordinación de Archivos' => 'avisos_privacidad/integral/2_AVISO_INTEGRAL_COORDINACION_DE_ARCHIVOS.pdf',
             'ICATECH Cursos no Presenciales' => 'avisos_privacidad/integral/3_AVISO_INTEGRAL_ICATECH_CURSOS_NO_PRESENCIALES.pdf',
@@ -862,7 +885,7 @@ class CuentapublicaController extends Controller
             'Comisaria Pública' => 'avisos_privacidad/integral/26_AVISO_INTEGRAL_COMISARIA.pdf',
         );
 
-        $avisos_simplificados2021 =array(
+        $avisos_simplificados2021 = array(
             'Dirección General Control de Accesos' => 'avisos_privacidad/simplificado/1_AVISO_SIMPLIFICADO_DIRECC_GRAL_CONTROL_DE_ACCESO.pdf',
             'Coordinación de Archivos' => 'avisos_privacidad/simplificado/2_AVISO_SIMPLIFICADO_COORDINACION_DE_ARCHIVOS.pdf',
             'ICATECH Cursos no Presenciales' => 'avisos_privacidad/simplificado/3_AVISO_SIMPLIFICADO_ICATECH_CURSOS_NO_PRESENCIALES.pdf',
@@ -901,9 +924,9 @@ class CuentapublicaController extends Controller
     {
         $array_normatividad = array(
             'Codigo de Honestidad y Etica de los Servidores Públicos de la Administración Pública del Estado de Chiapas ' => 'codigos_conducta/codigo_de_honestidad_etica_2021.pdf',
-            'Protocolo para la Prevención, Atención y Sanción del Hostigamiento Sexual y Acoso sexual.'=> 'codigos_conducta/protocolo.pdf',
+            'Protocolo para la Prevención, Atención y Sanción del Hostigamiento Sexual y Acoso sexual.' => 'codigos_conducta/protocolo.pdf',
             'LINEAMIENTOS PARA LA INTEGRACIÓN Y FUNCIONAMIENTO DE lOS COMITÉS DE ÉTICA' => 'codigos_conducta/lineamientos_para_integracion_funcionamiento_delos_comitesyetica.pdf',
-            'Protocolo de Actuación de los Comités de Ética y de Prevención de Conflictos de Interés en la Atención de Presuntos Actos de Discriminación'=> 'codigos_conducta/protocolo_actuacion.pdf',
+            'Protocolo de Actuación de los Comités de Ética y de Prevención de Conflictos de Interés en la Atención de Presuntos Actos de Discriminación' => 'codigos_conducta/protocolo_actuacion.pdf',
         );
         /**
          * normatividad
@@ -917,23 +940,21 @@ class CuentapublicaController extends Controller
     }
     public function planarchivo()
     {
-        $plananual_codigo =array(
-            'Plan Anual de Desarrollo Archivistico'=> 'plan_desarrollo/PADA2020_VERSION_PUB.pdf',
+        $plananual_codigo = array(
+            'Plan Anual de Desarrollo Archivistico' => 'plan_desarrollo/PADA2020_VERSION_PUB.pdf',
         );
 
-        return view('pages.planarchivo', ['desarrollo' =>$plananual_codigo]);
-
+        return view('pages.planarchivo', ['desarrollo' => $plananual_codigo]);
     }
 
     public function transparencia()
     {
         $programactividades_codigo = array(
-            'Informe del Plan Anual de Desarrollo Archivístico “PADA” 2020'=> 'archivtransparencia/INFORME_PADA_2020.pdf',
-            'Plan Anual de Desarrollo Archivístico “PADA” 2021'=> 'archivtransparencia/INFORME_PADA_2021.pdf'
+            'Informe del Plan Anual de Desarrollo Archivístico “PADA” 2020' => 'archivtransparencia/INFORME_PADA_2020.pdf',
+            'Plan Anual de Desarrollo Archivístico “PADA” 2021' => 'archivtransparencia/INFORME_PADA_2021.pdf'
         );
 
-        return view('pages.transparencia', ['informepada' =>$programactividades_codigo]);
-
+        return view('pages.transparencia', ['informepada' => $programactividades_codigo]);
     }
 
 
@@ -1009,21 +1030,21 @@ class CuentapublicaController extends Controller
          * generamos una consulta que traiga toda la información
          */
         $queryIntegridad = Apartado::select('apartados.id', 'apartados.titulo', 'apartados.descripcion', 'sub_apartado.nombre')
-                                ->join('sub_apartado', 'sub_apartado.id', '=', 'apartados.sub_apartado_id')
-                                ->join('catalogo_categoria', 'sub_apartado.cat_id', '=', 'catalogo_categoria.id')
-                                ->join('pages', 'catalogo_categoria.id', '=', 'pages.categoria_id')
-                                ->where(['pages.slug_path' => 'integridad', 'catalogo_categoria.activo' => 1])
-                                ->get();
+            ->join('sub_apartado', 'sub_apartado.id', '=', 'apartados.sub_apartado_id')
+            ->join('catalogo_categoria', 'sub_apartado.cat_id', '=', 'catalogo_categoria.id')
+            ->join('pages', 'catalogo_categoria.id', '=', 'pages.categoria_id')
+            ->where(['pages.slug_path' => 'integridad', 'catalogo_categoria.activo' => 1])
+            ->get();
         /**
          *
          */
         $apartados = CatSubcategoria::select('catalogo_subcategoria.titulo_documento', 'catalogo_subcategoria.ruta_archivo', 'catalogo_subcategoria.apartados_id')
-                        ->join('apartados', 'catalogo_subcategoria.apartados_id', '=', 'apartados.id')
-                        ->join('sub_apartado', 'apartados.sub_apartado_id', '=', 'sub_apartado.id')
-                        ->join('catalogo_categoria', 'sub_apartado.cat_id', '=', 'catalogo_categoria.id')
-                        ->join('pages', 'catalogo_categoria.id', '=', 'pages.categoria_id')
-                        ->where(['pages.slug_path' => 'cuenta_publica', 'catalogo_subcategoria.activo' => 1])
-                        ->get();
+            ->join('apartados', 'catalogo_subcategoria.apartados_id', '=', 'apartados.id')
+            ->join('sub_apartado', 'apartados.sub_apartado_id', '=', 'sub_apartado.id')
+            ->join('catalogo_categoria', 'sub_apartado.cat_id', '=', 'catalogo_categoria.id')
+            ->join('pages', 'catalogo_categoria.id', '=', 'pages.categoria_id')
+            ->where(['pages.slug_path' => 'cuenta_publica', 'catalogo_subcategoria.activo' => 1])
+            ->get();
 
         // $apartados = CatCategoria::select('apartados.titulo', 'apartados.id', 'apartados.activo', 'apartados.descripcion', 'catalogo_categoria.id AS catId', 'pages.slug_path', 'pages.page_content', 'catalogo_subcategoria.titulo_documento', 'catalogo_subcategoria.ruta_archivo', 'sub_apartado.nombre')
         //             ->join('sub_apartado', 'sub_apartado.cat_id', '=', 'catalogo_categoria.id')
@@ -1033,9 +1054,9 @@ class CuentapublicaController extends Controller
         //             ->where(['apartados.activo' => 1, 'pages.slug_path' => 'integridad'])
         //             ->get();
         $bprincipal = $this->getBanner('banner_principal');
-        $conduc_codigos =array(
+        $conduc_codigos = array(
             'Codigo de Conducta ICATECH' => 'codigos_conducta/códigodeconductaicatech.pdf',
         );
-        return view('pages.seccion_integridad', compact('bprincipal', 'apartados', 'queryIntegridad'), ['codigos1' =>$conduc_codigos,]);
+        return view('pages.seccion_integridad', compact('bprincipal', 'apartados', 'queryIntegridad'), ['codigos1' => $conduc_codigos,]);
     }
 }
