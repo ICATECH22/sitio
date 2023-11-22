@@ -1,10 +1,10 @@
 {{-- SECCIÓN CABECERA --}}
-<header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section" data-header-fix-moment="300">	
+<header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section" data-header-fix-moment="300">
     <div class="u-header__section u-header__section--light  g-transition-0_3 g-bg-color-header" data-header-fix-moment-exclude="" data-header-fix-moment-classes="u-shadow-v18 g-py-0">
         <nav class="navbar navbar-expand-lg g-pa-0 g-pt-4 g-pb-4">
             <div class="container">
                 <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
-                    <span class="hamburger hamburger--slider">								
+                    <span class="hamburger hamburger--slider">
                         <span class="hamburger-box">
                             <span class="hamburger-inner"></span>
                         </span>
@@ -20,7 +20,7 @@
                         <li class="nav-item g-mx-10--lg pl-3"><a href="https://www.chiapas.gob.mx/tramites" class="nav-link g-color-white-opacity-0_9 g-text-underline--hover ">Trámites</a></li>
                         <li class="nav-item g-mx-10--lg pl-3"><a href="https://www.chiapas.gob.mx/gobierno" class="nav-link g-color-white-opacity-0_9 g-text-underline--hover ">Gobierno</a></li>
                         <li class="nav-item g-mx-10--lg pl-3"><a href="https://www.chiapas.gob.mx/transparencia" class="nav-link g-color-white-opacity-0_9 g-text-underline--hover ">Transparencia</a></li>
-                        <li class="nav-item g-mx-10--lg pl-3"><a href="https://www.chiapas.gob.mx/busquedas" class="nav-link g-color-white-opacity-0_9 g-text-underline--hover"><i class="fa fa-search"></i></a></li>
+                        <li class="nav-item g-mx-10--lg pl-3"><a href="{{ route('busquedas') }}" class="nav-link g-color-white-opacity-0_9 g-text-underline--hover"><i class="fa fa-search"></i></a></li>
                     </ul>
                 </div>
             </div>

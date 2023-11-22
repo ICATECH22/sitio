@@ -116,11 +116,11 @@ class ComunicadoController extends Controller
 
                     // limpiamos el arreglo
                     unset($arreglo_comunicado);
-                } 
+                }
 
                 return redirect()->route('comunicado_indice')->with('success', 'Comunicado Agregado éxitosamente.');
             }
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             //manda una excepcion sql
             return back()->with('error', $e->getMessage());
         }
@@ -138,7 +138,7 @@ class ComunicadoController extends Controller
         //
         $allcategories = $this->allCategories();
         /**
-         * 
+         *
          */
         $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
         $detatelle = Comunidado::SELECT('titulo', 'imagen', 'fecha_publicacion', 'localizacion', 'contenido', 'categorias', 'url', 'resumen', 'id')
