@@ -289,22 +289,39 @@
             dn_mazza@hotmail.com
         </div>
         <div class="w-100"></div>
-        <div class="col-sm" style="margin-top:25px;">
+        <div class="col-sm-6" style="margin-top:25px;">
             <strong>
                 Órgano Interno de Control
                 <br>
                 C.P. Annabell García Cruz
             </strong>
             <br>
-            Auditora de la Contraloría de Auditorías Públicas a Entidades Productivas
+            Contralora de Auditoría Pública a Entidades Productivas de la Secretarpia de Honestidad y Función Públlica.
+            <br>
+            Avenida barrio San Jacinto, Número 154, entre calle pájaros y calle conejos, Fraccionamiento el Diamante, Tuxtla Gutiérrez, Chiapas
+            <br>
+            <i class="fas fa-phone" aria-hidden="true"></i>
+            Conmutador: (961) 618 7530 Ext. 22286
+            <br>
+            <i class="fas fa-envelope"></i>
+            c.i.entidadesproductivas@gmail.com
+        </div>
+        <div class="col-sm-6" style="margin-top:25px;">
+            <strong>
+                Suplente Órgano Interno de Control
+                <br>
+                Lic. Nadia Lazos García
+            </strong>
+            <br>
+            Auditora de la Contraloría de Auditoría Pública a Entidades Productivas
             <br>
             Avenida barrio San Jacinto, Número 154, entre calle pájaros y calle conejos, Fraccionamiento el Diamante, Tuxtla Gutiérrez, Chiapas.
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
-            Conmutador: (961) 618 7530
+            Conmutador: (961) 618 7530 Ext. 22286
             <br>
             <i class="fas fa-envelope"></i>
-            c.i.entidadesproductivas@gmail.com
+            cc.i.entidadesproductivas@gmail.com
         </div>
     </div>
     <br>

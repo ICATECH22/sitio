@@ -35,7 +35,7 @@
                          <li class="g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-primary-left g-rounded-3 g-pa-20 g-mb-7">
                              <div class="d-flex justify-content-start">
                                  <h6 class="g-font-weight-600 g-color-black">{{ $key }}</h6>
-                                     
+
                              </div>
                               <div class="d-flex justify-content-between">
                                 <ul class="u-list-inline"></ul>
@@ -44,7 +44,7 @@
                                 </div>
                               </div>
                          </li>
-                     @endforeach 
+                     @endforeach
                  </ul>
              </div>
          </div>
@@ -73,7 +73,7 @@
                                     <li class="g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-primary-left g-rounded-3 g-pa-20 g-mb-7">
                                       <div class="d-flex justify-content-start">
                                         <h6 class="g-font-weight-600 g-color-black">{{ $key }}</h6>
-                                        
+
                                       </div>
                                         <div class="d-flex justify-content-between">
                                           <ul class="u-list-inline"></ul>
@@ -82,7 +82,7 @@
                                           </div>
                                         </div>
                                     </li>
-                                   @endforeach 
+                                   @endforeach
                                 </ul>
                                 </div>
                               </div>
@@ -111,7 +111,7 @@
                                             <li class="g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-primary-left g-rounded-3 g-pa-20 g-mb-7">
                                               <div class="d-flex justify-content-start">
                                                 <h6 class="g-font-weight-600 g-color-black">{{ $key }}</h6>
-                                                
+
                                               </div>
                                                 <div class="d-flex justify-content-between">
                                                   <ul class="u-list-inline"></ul>
@@ -120,12 +120,12 @@
                                                   </div>
                                                 </div>
                                             </li>
-                                           @endforeach 
+                                           @endforeach
                                         </ul>
                                         </div>
                                       </div>
                                 </div>
-                       <!--fin manual!--> 
+                       <!--fin manual!-->
                   <!--manual de organizacion!-->
                       <div class="card rounded-0 g-brd-none">
                         <div id="accordion-07-heading-05" class="u-accordion__header g-pa-0" role="tab">
@@ -148,7 +148,7 @@
                               <li class="g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-primary-left g-rounded-3 g-pa-20 g-mb-7">
                                 <div class="d-flex justify-content-start">
                                   <h6 class="g-font-weight-600 g-color-black">{{ $key }}</h6>
-                                  
+
                                 </div>
                                   <div class="d-flex justify-content-between">
                                     <ul class="u-list-inline"></ul>
@@ -157,7 +157,7 @@
                                     </div>
                                   </div>
                               </li>
-                              @endforeach 
+                              @endforeach
                           </ul>
                           </div>
                         </div>
@@ -187,7 +187,7 @@
                                   <li class="g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-primary-left g-rounded-3 g-pa-20 g-mb-7">
                                     <div class="d-flex justify-content-start">
                                       <h6 class="g-font-weight-600 g-color-black">{{ $key }}</h6>
-                                      
+
                                     </div>
                                       <div class="d-flex justify-content-between">
                                         <ul class="u-list-inline"></ul>
@@ -196,7 +196,7 @@
                                         </div>
                                       </div>
                                   </li>
-                                  @endforeach 
+                                  @endforeach
                               </ul>
                             </div>
                           </div>
@@ -225,7 +225,7 @@
                       <li class="g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-primary-left g-rounded-3 g-pa-20 g-mb-7">
                         <div class="d-flex justify-content-start">
                           <h6 class="g-font-weight-600 g-color-black">{{ $key }}</h6>
-                          
+
                         </div>
                           <div class="d-flex justify-content-between">
                             <ul class="u-list-inline"></ul>
@@ -234,7 +234,7 @@
                             </div>
                           </div>
                       </li>
-                      @endforeach 
+                      @endforeach
                   </ul>
                   </div>
                 </div>
@@ -262,7 +262,7 @@
                       <li class="g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-primary-left g-rounded-3 g-pa-20 g-mb-7">
                         <div class="d-flex justify-content-start">
                           <h6 class="g-font-weight-600 g-color-black">{{ $key }}</h6>
-                          
+
                         </div>
                           <div class="d-flex justify-content-between">
                             <ul class="u-list-inline"></ul>
@@ -271,7 +271,7 @@
                             </div>
                           </div>
                       </li>
-                      @endforeach 
+                      @endforeach
                   </ul>
                   </div>
                 </div>
@@ -287,7 +287,7 @@
                       <i class="fa fa-minus"></i>
                       </span>
                       <span class="g-pa-20">
-                        Acta de Instalación de Comité de Tecnologías de Información y Comunicaciones (CTIC)
+                        Comité de Tecnologías de Información y Comunicaciones (CTIC)
                       </span>
                   </a>
                   </h5>
@@ -299,7 +299,7 @@
                       <li class="g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-primary-left g-rounded-3 g-pa-20 g-mb-7">
                         <div class="d-flex justify-content-start">
                           <h6 class="g-font-weight-600 g-color-black">{{ $key }}</h6>
-                          
+
                         </div>
                           <div class="d-flex justify-content-between">
                             <ul class="u-list-inline"></ul>
@@ -308,14 +308,14 @@
                             </div>
                           </div>
                       </li>
-                      @endforeach 
+                      @endforeach
                   </ul>
                   </div>
                 </div>
               </div>
-{{-- Acta de Instalación de Comité de Tecnologías de Información y Comunicaciones END --}}           
+{{-- Acta de Instalación de Comité de Tecnologías de Información y Comunicaciones END --}}
             </div>
         </div>
     </div>
- 
+
 @stop
