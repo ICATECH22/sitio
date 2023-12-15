@@ -1188,7 +1188,7 @@ img {
     .single-accordion h6 a.collapsed {
       background: #621132;
       background: -webkit-linear-gradient(to right, #621132, #611b37);
-      background: linear-gradient(to right, #621132, #83c331);
+      background: linear-gradient(to right, #621132, #611b37);
       color: #ffffff; }
       .single-accordion h6 a.collapsed span.accor-close {
         opacity: 0;

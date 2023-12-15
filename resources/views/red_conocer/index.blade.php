@@ -35,10 +35,12 @@
                     <div class="col-12 h-100">
                         <div class="academy-logo">
                             <a href="index.html">
-                                <img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png')}}" alt="" style="float: left;">
+                                <img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt=""
+                                    style="float: left;">
                             </a>
                             <a href="index.html">
-                                <img src="{{ asset('assets/ece/img/core-img/conocer-logo.png') }}" alt="" style="float: right;">
+                                <img src="{{ asset('assets/ece/img/core-img/conocer-logo.png') }}" alt=""
+                                    style="float: right;">
                             </a>
                         </div>
                     </div>
@@ -128,7 +130,8 @@
         <div class="hero-slides owl-carousel">
 
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/bg-1.jpg);">
+            <div class="single-hero-slide bg-img"
+                style="background-image: url('{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}');">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -145,7 +148,8 @@
             </div>
 
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
+            <div class="single-hero-slide bg-img"
+                style="background-image: url('{{ asset('assets/ece/img/bg-img/bg-2.jpg') }}');">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -320,7 +324,8 @@
                 <div class="col-12 col-md-6">
                     <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="500ms">
                         <div class="testimonial-thumb">
-                            <img src="img/bg-img/elda_clemente_trujillo.jpg" alt="">
+                            <img src="{{ asset('assets/ece/img/bg-img/elda_clemente_trujillo.jpg') }}"
+                                alt="" />
                         </div>
                         <div class="testimonial-content">
                             <h5>Cursos fáciles y amigables</h5>
@@ -336,7 +341,7 @@
                 <div class="col-12 col-md-6">
                     <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="600ms">
                         <div class="testimonial-thumb">
-                            <img src="img/bg-img/hector_diaz_yañez.jpg" alt="">
+                            <img src="{{ asset('assets/ece/img/bg-img/hector_diaz_yañez.jpg') }}" alt="" />
                         </div>
                         <div class="testimonial-content">
                             <h5>Me encantan los cursos aquí.</h5>
@@ -350,7 +355,7 @@
                 <div class="col-12 col-md-6">
                     <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="700ms">
                         <div class="testimonial-thumb">
-                            <img src="img/bg-img/Claudia_Lopez.jpg" alt="">
+                            <img src="{{ asset('assets/ece/img/bg-img/Claudia_Lopez.jpg') }}" alt="">
                         </div>
                         <div class="testimonial-content">
                             <h5>Un buen Instituto</h5>
@@ -408,7 +413,7 @@
                                 class="btn academy-btn btn-sm">Leer Mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
-                            style="background-image: url(img/bg-img/ec0076.jpeg);"></div>
+                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0076.jpeg') }}');"></div>
                     </div>
                 </div>
 
@@ -433,7 +438,7 @@
                                 class="btn academy-btn btn-sm">Leer Mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
-                            style="background-image: url(img/bg-img/ec0127.jpeg);"></div>
+                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0127.jpeg') }}');"></div>
                     </div>
                 </div>
 
@@ -458,7 +463,7 @@
                                 class="btn academy-btn btn-sm">Leer Mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
-                            style="background-image: url(img/bg-img/EC0305.jpeg);"></div>
+                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0305.jpeg') }}');"></div>
                     </div>
                 </div>
 
@@ -497,8 +502,10 @@
             <div class="row">
                 <div class="col-12">
                     <div class="partners-logo d-flex align-items-center justify-content-between flex-wrap">
-                        <a href="#"><img src="img/clients-img/partner-1.png" alt=""></a>
-                        <a href="#"><img src="img/clients-img/partner-2.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/ece/img/clients-img/partner-1.png') }}"
+                                alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/ece/img/clients-img/partner-2.png') }}"
+                                alt=""></a>
                     </div>
                 </div>
             </div>
@@ -531,7 +538,8 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <a href="#"><img src="img/core-img/LOGO_ECE4.png" alt=""></a>
+                                <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
+                                        alt=""></a>
                             </div>
                             <p>Entidad de Certificación y Evaluación del ICATECH.</p>
                             <div class="footer-social-info">
@@ -565,18 +573,24 @@
                                 <h6>Galeria</h6>
                             </div>
                             <div class="gallery-list d-flex justify-content-between flex-wrap">
-                                <a href="img/bg-img/gallery1.jpg" class="gallery-img" title="Gallery Image 1"><img
-                                        src="img/bg-img/gallery1.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img
-                                        src="img/bg-img/gallery2.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img
-                                        src="img/bg-img/gallery3.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img
-                                        src="img/bg-img/gallery4.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img
-                                        src="img/bg-img/gallery5.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img
-                                        src="img/bg-img/gallery6.jpg" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" class="gallery-img"
+                                    title="Gallery Image 1"><img
+                                        src="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" class="gallery-img"
+                                    title="Gallery Image 2"><img
+                                        src="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" class="gallery-img"
+                                    title="Gallery Image 3"><img
+                                        src="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" class="gallery-img"
+                                    title="Gallery Image 4"><img
+                                        src="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" class="gallery-img"
+                                    title="Gallery Image 5"><img
+                                        src="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" class="gallery-img"
+                                    title="Gallery Image 6"><img
+                                        src="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -611,9 +625,9 @@
                             Copyright &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i
-                                class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                target="_blank">Colorlib</a>
+                            </script> All rights reserved | This template is made with
+                            <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                            <a href="https://colorlib.com" target="_blank">Colorlib</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
