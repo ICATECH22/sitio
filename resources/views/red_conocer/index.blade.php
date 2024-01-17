@@ -70,16 +70,16 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
                                     <li><a href="#">Registros</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="#">EC02017.01</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec02017_1') }}">EC02017.01</a></li>
                                                 <li><a
-                                                        href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0076.html">EC0076</a>
+                                                        href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a>
                                                 </li>
                                                 <li><a
-                                                        href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0127.html">EC0127</a>
+                                                        href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a>
                                                 </li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
@@ -92,7 +92,7 @@
                                             </ul>
                                             <ul class="single-mega cn-col-4">
                                                 <li><a
-                                                        href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0305.html">EC0305</a>
+                                                        href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a>
                                                 </li>
                                                 <li><a
                                                         href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec1415.html">EC1415</a>
@@ -103,9 +103,9 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="about-us.html">Acerca de Nosotros</a></li>
+                                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
                                     <li><a href="course.html">Certificaciones</a></li>
-                                    <li><a href="contact.html">Contactanos</a></li>
+                                    <li><a href="{{ route('ece_icatech.contactanos') }}">Contactanos</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->

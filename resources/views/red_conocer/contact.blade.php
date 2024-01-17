@@ -14,10 +14,10 @@
     <title>Entidad de Certificación y Evaluación ICATECH</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/logo_ece_icatech1.png" />
+    <link rel="icon" href="{{ asset('assets/ece/img/core-img/logo_ece_icatech1.png') }}">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{{ asset('assets/ece/style.css') }}">
   </head>
 
   <body>
@@ -35,12 +35,12 @@
                 <div class="col-12 h-100">
                     <div class="academy-logo">
                         <a href="index.html">
-                            <img src="img/core-img/LOGO_ECE4.png" alt="" style="float: left;">
+                            <img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt="" style="float: left;">
                         </a>
                         <a href="index.html">
-                            <img src="img/core-img/conocer-logo.png" alt="" style="float: right;">
+                            <img src="{{ asset('assets/ece/img/core-img/conocer-logo.png') }}" alt="" style="float: right;">
                         </a>
-                    </div>                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -70,29 +70,29 @@
                 <!-- Nav Start -->
                 <div class="classynav">
                   <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
                     <li><a href="#">Registros</a>
                       <div class="megamenu">
                           <ul class="single-mega cn-col-4">
-                              <li><a href="#">EC02017.01</a></li>
-                              <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0076.html">EC0076</a></li>
-                              <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0127.html">EC0127</a></li>
+                              <li><a href="{{ route('ece_icatech.certificacion.ec02017_1') }}">EC02017.01</a></li>
+                              <li><a href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a></li>
+                              <li><a href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a></li>
                           </ul>
                           <ul class="single-mega cn-col-4">
                               <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0366.html">EC0366</a></li>
                               <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0401.html">EC0401</a></li>
                           </ul>
                           <ul class="single-mega cn-col-4">
-                              <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0305.html">EC0305</a></li>
+                              <li><a href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a></li>
                               <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec1415.html">EC1415</a></li>
                           </ul>
                           <div class="single-mega cn-col-4">
-                              <img src="img/bg-img/bg-1.jpg" alt="">
+                              <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}" alt="">
                           </div>
                       </div>
                   </li>
-                    <li><a href="about-us.html">Acerca de Nosotros</a></li>
-                    <li><a href="course.html">Cursos</a></li>
+                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
+                    <li><a href="course.html">Certificaciones</a></li>
                   </ul>
                 </div>
                 <!-- Nav End -->
@@ -103,7 +103,8 @@
                 <div class="call-center">
                   <a href="tel:+529611502359"
                     ><i class="icon-telephone-2"></i>
-                    <span>(+52)961 150 2359</span></a
+                    <span>(+52) 961 150 2359
+                        0</span></a
                   >
                 </div>
               </div>
@@ -117,7 +118,7 @@
     <!-- ##### Breadcumb Area Start ##### -->
     <div
       class="breadcumb-area bg-img"
-      style="background-image: url(img/bg-img/breadcumb.jpg)"
+      style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}')"
     >
       <div class="bradcumbContent">
         <h2>Contáctanos</h2>
@@ -130,7 +131,7 @@
     <div class="map-area wow fadeInUp" data-wow-delay="300ms">
       <div id="googleMap"></div>
     </div>
-    
+
     <!-- ##### Contact Area Start ##### -->
     <section class="contact-area">
       <div class="container">
@@ -153,13 +154,13 @@
                     </div>
 
                     <!-- Contact Social Info -->
-                    <div class="contact-social-info d-flex mb-30">                      
+                    <div class="contact-social-info d-flex mb-30">
                       <a href="https://www.facebook.com/ICATchiapas"
                         ><i class="fa fa-facebook" aria-hidden="true"></i
                       ></a>
                       <a href="https://twitter.com/IcatechOficial?s=09"
                         ><i class="fa fa-twitter" aria-hidden="true"></i
-                      ></a>                      
+                      ></a>
                     </div>
 
                     <!-- Single Contact Info -->
@@ -191,7 +192,7 @@
                   </div>
                 </div>
                 <!-- Contact Form Area -->
-                
+
                 <div class="col-12 col-lg-7">
                   <div class="contact-form-area wow fadeInUp" data-wow-delay="500ms">
                     <div class="academy-tabs-content">
@@ -223,7 +224,7 @@
                         </li>
                       </ul>
                     </div>
-        
+
                       <div class="tab-content mb-100" id="myTabContent">
                         <div
                           class="tab-pane fade"
@@ -231,27 +232,27 @@
                           role="tabpanel"
                           aria-labelledby="tab--1">
                           <div class="academy-tab-content">
-                            <!-- Tab Text -->                           
+                            <!-- Tab Text -->
     <div class="container">
-      <div class="row">          
+      <div class="row">
           <div class="col-12">
-              <form>                   
-                  <div class="form-group"> <!-- Boton de estado --> 
-                      <label for="state_id" class="control-label"><br>Comentarios sobre nuestras certificaciones</label> 
+              <form>
+                  <div class="form-group"> <!-- Boton de estado -->
+                      <label for="state_id" class="control-label"><br>Comentarios sobre nuestras certificaciones</label>
                       <select class="form-control" id="state_id">
-                          <option value=""></option>  
-                          <option value="TC">Trámites acerca de los cursos.</option> 
+                          <option value=""></option>
+                          <option value="TC">Trámites acerca de los cursos.</option>
                           <option value="AD">Trámites Administrativos diversos.</option>
-                          <option value="CC">Calidad de los cursos.</option> 
-                          <option value="OT">Otro</option> 
-                      </select>                     
-                  </div>                   
+                          <option value="CC">Calidad de los cursos.</option>
+                          <option value="OT">Otro</option>
+                      </select>
+                  </div>
 
                   <div class="mb-3">
                       <label for="exampleFormControlTextarea1" class="form-label">Escribe tus Comentarios </label>
                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>                                       
-                  
+                  </div>
+
                   <div class="row g-3">
                       <div class="col-md-15">
                           <label for="validationDefault01" class="form-label">Nombre</label>
@@ -264,29 +265,29 @@
                           <label for="validationDefault01" class="form-label">E-mail</label>
                           <input type="email" class="form-control" id="validationDefault01" value="" required placeholder="Correo Electrónico">
                       </div>
-                      
-                      <div class="form-group"> <!-- Calle 2 --> 
+
+                      <div class="form-group"> <!-- Calle 2 -->
                           <label for="street2_id" class="control-label">Teléfono</label>
-                          <input type="text" class="form-control" id="street2_id" name="street2" placeholder="Celular"> 
-                      </div> 
+                          <input type="text" class="form-control" id="street2_id" name="street2" placeholder="Celular">
+                      </div>
                   </div>
 
                   <div class="col-12">
                       <div class="form-check">
                           <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
                           <label class="form-check-label" for="invalidCheck3">
-                              Al hacer clic, confirmo que he leído y acepto los términos y <a href="https://icatech.gob.mx/avisos_privacidad/simplificado/AVISO_SIMPLIFICADO_TRANSPARENCIA_BUZON_DIGITAL.pdf" target="_blank" rel="noopener noreferrer"> Avisos de Privacidad</a> 
+                              Al hacer clic, confirmo que he leído y acepto los términos y <a href="https://icatech.gob.mx/avisos_privacidad/simplificado/AVISO_SIMPLIFICADO_TRANSPARENCIA_BUZON_DIGITAL.pdf" target="_blank" rel="noopener noreferrer"> Avisos de Privacidad</a>
                           </label>
                           <div id="invalidCheck3Feedback" class="invalid-feedback">
                               Debe estar de acuerdo antes de enviar.
                           </div>
                       </div>
                   </div>
-                  
+
                   <div class="col-12">
                       <button class="btn btn-primary" type="submit">Enviar formulario</button>
-                  </div>    
-              </form> 
+                  </div>
+              </form>
           </div>
           <div class="col-2"></div>
       </div>
@@ -350,7 +351,7 @@
                           </div>
                         </div>
                       </div>
-                    </div>                  
+                    </div>
                   </div>
                 </div>
               </div>
@@ -406,42 +407,12 @@
                 <div
                   class="gallery-list d-flex justify-content-between flex-wrap"
                 >
-                  <a
-                    href="img/bg-img/gallery1.jpg"
-                    class="gallery-img"
-                    title="Gallery Image 1"
-                    ><img src="img/bg-img/gallery1.jpg" alt=""
-                  /></a>
-                  <a
-                    href="img/bg-img/gallery2.jpg"
-                    class="gallery-img"
-                    title="Gallery Image 2"
-                    ><img src="img/bg-img/gallery2.jpg" alt=""
-                  /></a>
-                  <a
-                    href="img/bg-img/gallery3.jpg"
-                    class="gallery-img"
-                    title="Gallery Image 3"
-                    ><img src="img/bg-img/gallery3.jpg" alt=""
-                  /></a>
-                  <a
-                    href="img/bg-img/gallery4.jpg"
-                    class="gallery-img"
-                    title="Gallery Image 4"
-                    ><img src="img/bg-img/gallery4.jpg" alt=""
-                  /></a>
-                  <a
-                    href="img/bg-img/gallery5.jpg"
-                    class="gallery-img"
-                    title="Gallery Image 5"
-                    ><img src="img/bg-img/gallery5.jpg" alt=""
-                  /></a>
-                  <a
-                    href="img/bg-img/gallery6.jpg"
-                    class="gallery-img"
-                    title="Gallery Image 6"
-                    ><img src="img/bg-img/gallery6.jpg" alt=""
-                  /></a>
+                <a href="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" class="gallery-img" title="Gallery Image 1"><img src="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" alt=""></a>
+                <a href="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" class="gallery-img" title="Gallery Image 2"><img src="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" alt=""></a>
+                <a href="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" class="gallery-img" title="Gallery Image 3"><img src="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" alt=""></a>
+                <a href="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" class="gallery-img" title="Gallery Image 4"><img src="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" alt=""></a>
+                <a href="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" class="gallery-img" title="Gallery Image 5"><img src="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" alt=""></a>
+                <a href="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" class="gallery-img" title="Gallery Image 6"><img src="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" alt=""></a>
                 </div>
               </div>
             </div>
@@ -491,18 +462,19 @@
     <!-- ##### Footer Area Start ##### -->
 
     <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+     <!-- jQuery-2.2.4 js -->
+    <script src="{{ asset('assets/ece/js/jquery/jquery-2.2.4.min.js') }}"></script>
     <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="{{ asset('assets/ece/js/bootstrap/popper.min.js') }}"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/ece/js/bootstrap/bootstrap.min.js') }}"></script>
     <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
+    <script src="{{ asset('assets/ece/js/plugins/plugins.js') }}"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="{{ asset('assets/ece/js/active.js') }}"></script>
     <!-- Google Maps -->
     <script src="https://maps.app.goo.gl/mQa8aTLrfz4UmAM7A"></script>
-    <script src="js/google-map/map-active.js"></script>
+    <script src="{{ asset('assets/ece/js/google-map/map-active.js') }}"></script>
   </body>
 </html>
+

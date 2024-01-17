@@ -9,18 +9,18 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>CONOCER-EC0076</title>
+    <title>CONOCER-EC02017.01</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/logo_ece_icatech1.png">
+    <link rel="icon" href="{{ asset('assets/ece/img/core-img/logo_ece_icatech1.png') }}">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ asset('assets/ece/style.css') }}">
 
 </head>
 
 <body>
-    
+
     <!-- ##### Preloader ##### -->
     <div id="preloader">
         <i class="circle-preloader"></i>
@@ -36,16 +36,17 @@
                     <div class="col-12 h-100">
                         <div class="academy-logo">
                             <a href="index.html">
-                                <img src="img/core-img/LOGO_ECE4.png" alt="" style="float: left;">
+                                <img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt="" style="float: left;">
                             </a>
                             <a href="index.html">
-                                <img src="img/core-img/conocer-logo.png" alt="" style="float: right;">
+                                <img src="{{ asset('assets/ece/img/core-img/conocer-logo.png') }}" alt="" style="float: right;">
                             </a>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- Navbar Area -->
         <div class="academy-main-menu">
             <div class="classy-nav-container breakpoint-off">
@@ -69,30 +70,30 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Inicio</a></li>
-                                    <li><a href="#">Registros</a>
+                                    <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
+                                    <li><a href="">Registros</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="#">EC02017.01</a></li>
-                                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0076.html">EC0076</a></li>
-                                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0127.html">EC0127</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec02017_1') }}">EC02017.01</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0366.html">EC0366</a></li>
                                                 <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0401.html">EC0401</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0305.html">EC0305</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a></li>
                                                 <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec1415.html">EC1415</a></li>
                                             </ul>
                                             <div class="single-mega cn-col-4">
-                                                <img src="img/bg-img/bg-1.jpg" alt="">
+                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}" alt="">
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="about-us.html">Acerca de Nosotros</a></li>
+                                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
                                     <li><a href="course.html">Certificaciones</a></li>
-                                    <li><a href="contact.html">Contacto</a></li>
+                                    <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -101,7 +102,8 @@
                         <!-- Calling Info -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+65) 456 332 5568 889</span></a>
+                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359
+                                    0</span></a>
                             </div>
                         </div>
                     </nav>
@@ -112,21 +114,20 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
+    <div class="breadcumb-area bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}');">
         <div class="bradcumbContent">
             <h2>Certificación</h2>
         </div>
     </div>
     <!-- ##### Breadcumb Area End ##### -->
 <br><br><br>
- 
+
     <!-- ***** Información de curso ***** -->
     <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
         <div class="single-top-popular-course d-flex align-items-center flex-wrap">
             <div class="popular-course-content">
-                <h5 style="text-align: justify;">Evaluación de la competencia de candidatos con base en Estándares de
-                    Competencia</h5>
-                <span>EC0076</span>
+                <h5 style="text-align: justify;">Certificación en el Estándar de Competencia</h5>
+                <span>EC02017.01</span>
                 <div class="course-ratings">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -134,25 +135,24 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p style="text-align: justify;">El estándar de competencia EC0076 está dirigido a personas que quieren o necesitan adquirir y
-                    desarrollar conocimientos, habilidades, actitudes y destrezas para evaluar la competencia de otros con
-                    base en los Estándares de Competencia.<br>
-                    • Capacitadores<br>
-                    • Evaluadores<br>
-                    • Facilitadores<br>
-                    • Instructores</p>
+                <p style="text-align: justify;">Impartición de cursos de formación del capital humano de manera presencial grupal.
+                    Adquiere conocimientos, habilidades y destrezas evaluadas y reconocidas por un organismo oficial que
+                    te avala como instructor de capacitación.
+                    Dirigido a:<br>
+                    • Equipos de Instructores Internos de una empresa.<br>
+                    • Instructores independientes, sea que trabajen o no dentro de una organización..</p>
             </div>
-            <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/eco0076.jpeg);"></div>
+            <div class="popular-course-thumb bg-img" style="background-image:url('{{ asset('assets/ece/img/bg-img/ec0217.01.jpeg') }}');"></div>
         </div>
     </div>
        <!-- ##### Elements Area Start ##### -->
-       <section class="elements-area mt-50 section-padding-100-0">                
+       <section class="elements-area mt-50 section-padding-100-0">
                 <!-- ##### Tabs ##### -->
                 <div class="col-12 col-lg-12">
                     <div class="academy-tabs-content">
                         <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false">CERTIFICACION EC0076 ante Conocer</a>
+                                <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false">Certificación EC0217.01 ante Conocer</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" id="tab--2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Beneficios y valor de la Certificación</a>
@@ -167,21 +167,20 @@
                                 <div class="academy-tab-content">
                                     <!-- Tab Text -->
                                     <div class="academy-tab-text">
-                                        <p style="text-align: justify;">Evaluación de la competencia de candidatos con base en Estándares de
-                                            Competencia<br>
-                                            Refiere a las funciones que una persona realiza para evaluar la competencia de candidatos con base en
-                                            Estándares de Competencia cumpliendo los principios de transparencia, imparcialidad y objetividad.<br>
-                                            Para obtener la Certificación en el Estándar de Competencia EC0076 de CONOCER se toman en cuenta
-                                            las capacidades y los conocimientos previos del participante. A continuación, los pasos a seguir en
-                                            escenarios de menor a mayor experiencia.<br>
-                                            Capacitación en el Estándar de Competencia EC076 + Evaluación + Certificación
+                                        <p style="text-align: justify;">¿Qué es el estándar de competencia EC0217.01?
+                                            El EC0217.01 certifica a los candidatos como instructores de cursos presenciales grupales. Evalúa su
+                                            capacidad en la impartición efectiva de capacitaciones, uso de técnicas instruccionales adecuadas y
+                                            evaluación del aprendizaje mediante un examen práctico y teórico.
+                                            Para obtener la Certificación en el Estándar de Competencia EC0217.01 de CONOCER se toman en
+                                            cuenta las capacidades y los conocimientos previos del participante. A continuación, los pasos a seguir
+                                            en escenarios de menor a mayor experiencia.<br>
+                                            Capacitación en el Estándar de Competencia EC0217.01 + Evaluación + Certificación<br>
                                             • Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con retroalimentación y
-                                            definición de pasos siguientes.
-                                            
-                                            • Capacitación en el Estándar de Competencia EC0076 de CONOCER como preparación a la
-                                            Evaluación.
-                                            • Revisión del Plan de Evaluación y aplicación de la Evaluación.
-                                            • Presentación de resultados y puntaje de la Evaluación*.
+                                            definición de pasos siguientes.<br>
+                                            • Capacitación en el Estándar de Competencia EC0217.01 de CONOCER como preparación a la
+                                            Evaluación.<br>
+                                            • Revisión del Plan de Evaluación y aplicación de la Evaluación.<br>
+                                            • Presentación de resultados y puntaje de la Evaluación*.<br>
                                             • Gestión y entrega del Certificado por parte de la Entidad de Certificación.</p>
                                     </div>
                                 </div>
@@ -190,18 +189,16 @@
                                 <div class="academy-tab-content">
                                     <!-- Tab Text -->
                                     <div class="academy-tab-text">
-                                        <p style="text-align: justify;">A través del estándar de competencia EC0076, las personas pueden:<br>
-                                            • Adquirir y fortalecer sus habilidades para evaluar la competencia de otros candidatos con base en
-                                            Estándares de Competencia<br>
-                                            • Tener una mejor preparación para las evaluaciones y su creación.<br>
-                                            • Orientar la práctica del evaluador durante la evaluación de la competencia de candidatos que
-                                            buscan certificar.<br>
-                                            • Fortalecer el capital humano del país.<br>
-                                            • Cumplir con los principios de transparencia, objetividad e imparcialidad.<br>
-                                            • Posibilidad de fungir, posteriormente, como Centro Evaluador.<br>
-                                            • Acceso a mejores empleos y salarios.<br>
-                                            • Obtener una ventaja competitiva.<br>
-                                            • Comprobar experiencia y conocimientos con la obtención del certificado EC0076</p>
+                                        <p style="text-align: justify;">Equipos de Instructores Internos de la organización:<br>
+                                            • Reconocimiento oficial a nivel nacional: certificación de instructores CONOCER.<br>
+                                            • Garantía de alta calidad en la impartición de cursos.<br>
+                                            • Capacidad para implementar proyectos especiales de capacitación en la empresa.<br>
+                                            • Perfil de Egreso<br>
+                                            Instructores independientes:<br>
+                                            • Credibilidad y diferenciación.<br>
+                                            • Acceso a oportunidades laborales por la demanda de instructores con la certificación CONOCER
+                                            de competencias laborales.<br>
+                                            • Mantenerse actualizados en las mejores prácticas de capacitación.</p>
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +209,7 @@
                                         <p style="text-align: justify;">Estándar de competencia: $2,500.00<br>
                                             Certificado $500.00<br>
                                             Inversión total: $3,000.00<br>
-                                            
+
                                             Requisitos:<br>
                                             • Identificación oficial<br>
                                             • Curp<br>
@@ -263,15 +260,15 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <h6>Galeria</h6>
+                                <h6>Gallery</h6>
                             </div>
                             <div class="gallery-list d-flex justify-content-between flex-wrap">
-                                <a href="img/bg-img/gallery1.jpg" class="gallery-img" title="Gallery Image 1"><img src="img/bg-img/gallery1.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="img/bg-img/gallery2.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="img/bg-img/gallery3.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="img/bg-img/gallery4.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="img/bg-img/gallery5.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="img/bg-img/gallery6.jpg" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" class="gallery-img" title="Gallery Image 1"><img src="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" class="gallery-img" title="Gallery Image 2"><img src="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" class="gallery-img" title="Gallery Image 3"><img src="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" class="gallery-img" title="Gallery Image 4"><img src="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" class="gallery-img" title="Gallery Image 5"><img src="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" class="gallery-img" title="Gallery Image 6"><img src="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -314,15 +311,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="{{ asset('assets/ece/js/jquery/jquery-2.2.4.min.js') }}"></script>
     <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="{{ asset('assets/ece/js/bootstrap/popper.min.js') }}"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/ece/js/bootstrap/bootstrap.min.js') }}"></script>
     <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
+    <script src="{{ asset('assets/ece/js/plugins/plugins.js') }}"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="{{ asset('assets/ece/js/active.js') }}"></script>
 </body>
 
 </html>

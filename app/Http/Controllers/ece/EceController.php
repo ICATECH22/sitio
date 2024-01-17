@@ -83,4 +83,31 @@ class EceController extends Controller
     {
         //
     }
+
+    public function certificacion_0076(Request $request){
+        return view('red_conocer.ec0076');
+    }
+
+    public function certificacion_02017_1(Request $request){
+        return view('red_conocer.ecec02017_1');
+    }
+
+    public function about(Request $request){
+        return view('red_conocer.about-us');
+    }
+
+    public function contact(Request $request)
+    {
+        return view('red_conocer.contact');
+    }
+
+    public function certificacion_0127(Request $request)
+    {
+        return view('red_conocer.ece0127');
+    }
+
+    public function certificacion_0305(Request $request)
+    {
+        return view('red_conocer.ec0305');
+    }
 }
