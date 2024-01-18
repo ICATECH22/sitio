@@ -9,18 +9,18 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>CONOCER-EC1415</title>
+    <title>CONOCER-EC0401</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/logo_ece_icatech1.png">
+    <link rel="icon" href="{{ asset('assets/ece/img/core-img/logo_ece_icatech1.png') }}">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ asset('assets/ece/style.css') }}">
 
 </head>
 
 <body>
-    
+
     <!-- ##### Preloader ##### -->
     <div id="preloader">
         <i class="circle-preloader"></i>
@@ -36,12 +36,12 @@
                     <div class="col-12 h-100">
                         <div class="academy-logo">
                             <a href="index.html">
-                                <img src="img/core-img/LOGO_ECE4.png" alt="" style="float: left;">
+                                <img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt="" style="float: left;">
                             </a>
                             <a href="index.html">
-                                <img src="img/core-img/conocer-logo.png" alt="" style="float: right;">
+                                <img src="{{ asset('assets/ece/img/core-img/conocer-logo.png') }}" alt="" style="float: right;">
                             </a>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </div>
@@ -69,30 +69,30 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
                                     <li><a href="#">Registros</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="#">EC02017.01</a></li>
-                                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0076.html">EC0076</a></li>
-                                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0127.html">EC0127</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec02017_1') }}">EC02017.01</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0366.html">EC0366</a></li>
-                                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0401.html">EC0401</a></li>
+                                                <li><a href="{{ route('ce_icatech.certificacion.ec0366') }}">EC0366</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0305.html">EC0305</a></li>
-                                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec1415.html">EC1415</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec1415') }}">EC1415</a></li>
                                             </ul>
                                             <div class="single-mega cn-col-4">
-                                                <img src="img/bg-img/bg-1.jpg" alt="">
+                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}" alt="">
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="about-us.html">Acerca de Nosotros</a></li>
+                                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
                                     <li><a href="course.html">Certificaciones</a></li>
-                                    <li><a href="contact.html">Contacto</a></li>
+                                    <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -101,7 +101,7 @@
                         <!-- Calling Info -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+65) 456 332 5568 889</span></a>
+                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359</span></a>
                             </div>
                         </div>
                     </nav>
@@ -112,20 +112,20 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
+    <div class="breadcumb-area bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}');">
         <div class="bradcumbContent">
             <h2>Certificación</h2>
         </div>
     </div>
     <!-- ##### Breadcumb Area End ##### -->
 <br><br><br>
- 
+
     <!-- ***** Información de curso ***** -->
     <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
         <div class="single-top-popular-course d-flex align-items-center flex-wrap">
             <div class="popular-course-content">
-                <h5 style="text-align: justify;">Administración y venta en pequeños negocios/establecimientos</h5>
-                <span>EC1415</span>
+                <h5>Liderazgo en el servicio Publico</h5>
+                <span>EC0401</span>
                 <div class="course-ratings">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -133,24 +133,24 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p style="text-align: justify;">Estándar de Competencia dirigido a personas que deban contar con conocimientos, habilidades, destrezas
-                    y actitudes para las personas que desempeñan las funciones de ventas en pequeños negocios, desde
-                    realizar el inventario para saber de los recursos que dispone para realizar las ventas, hasta las estrategias
-                    de venta que aplicará para incentivar el consumo de los productos en el establecimiento.</p>
+                <p style="text-align: justify;">Certificación Estándar EC0401 Orientado a las personas que se desempeñan en la Administración Pública,
+                    cuyas competencias incluyen: demostrar vocación de servicio, construir relaciones, actuar con valores,
+                    enfocar a resultados e impulsar el cambio, disponiendo de los instrumentos necesarios para desempeñar
+                    con calidad su función.</p>
             </div>
-            <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/ec1415.jpeg);"></div>
+            <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0401.jpeg') }}');"></div>
         </div>
     </div>
        <!-- ##### Elements Area Start ##### -->
-       <section class="elements-area mt-50 section-padding-100-0">                
+       <section class="elements-area mt-50 section-padding-100-0">
                 <!-- ##### Tabs ##### -->
                 <div class="col-12 col-lg-12">
                     <div class="academy-tabs-content">
                         <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false">CERTIFICACION EC1415 ante Conocer</a>
+                                <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false">CERTIFICACION EC0401 ante Conocer</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item ml">
                                 <a class="nav-link active" id="tab--2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Beneficios y valor de la Certificación</a>
                             </li>
                             <li class="nav-item">
@@ -163,14 +163,16 @@
                                 <div class="academy-tab-content">
                                     <!-- Tab Text -->
                                     <div class="academy-tab-text">
-                                        <p style="text-align: justify;">Capacitación en el Estándar de Competencia EC1415 + Evaluación + Certificación<br>
-                                            <br>• Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con retroalimentación y
-                                            definición de pasos siguientes.<br>
-                                            • Capacitación en el Estándar de Competencia EC1415 de CONOCER como preparación a la
-                                            Evaluación.<br>
-                                            • Revisión del Plan de Evaluación y aplicación de la Evaluación.<br>
-                                            • Presentación de resultados y puntaje de la Evaluación*.<br>
-                                            • Gestión y entrega del Certificado por parte de la Entidad de Certificación.
+                                        <p style="text-align: justify;">Orientado a las personas que se desempeñan en la Administración Pública, cuyas competencias incluyen:
+                                            demostrar vocación de servicio, construir relaciones, actuar con valores, enfocar a resultados e impulsar el
+                                            cambio.<br>
+                                            <br>¿QUE ES LA CERTIFICACIÓN DE LAS COMPETENCIAS?<br>
+                                            <br>Para cada actividad o función en específico hay más de mil estándares de competencia, que aplican en
+                                            toda la república mexicana, que servirá como referente para evaluar y certificar la competencia laboral
+                                            de las personas, y que describirá en términos de resultados, el conjunto de conocimientos, habilidades,
+                                            destrezas y actitudes que requiere una persona para realizar una función individual en el mercado de
+                                            trabajo con un alto nivel de desempeño. Hay un estándar específico para los servidores, el Estándar de
+                                            Competencia EC0401 – LIDERAZGO EN EL SERVICIO PÚBLICO.<br>
                                             </p>
                                     </div>
                                 </div>
@@ -179,16 +181,31 @@
                                 <div class="academy-tab-content">
                                     <!-- Tab Text -->
                                     <div class="academy-tab-text">
-                                        <p style="text-align: justify;">Dirigido a:<br>
-                                            • Administradores de pequeños negocios<br>
-                                            • Vendedores<br>
-                                            • Despachadores<br>
-                                            
-                                            <br>Beneficios:<br>
-                                            • Desarrollo de programas de capacitación y formación<br>
-                                            • Mejora en la calidad de los productos y servicios<br>
-                                            • Aumento en la satisfacción de los clientes<br>
-                                            • Mejor administración
+                                        <p style="text-align: justify;">BENEFICIOS<br>
+                                            1.- Recibir un documento con reconocimiento oficial del Consejo Nacional de Normalización y Certificación
+                                            de Competencias Laborales (CONOCER).<br>
+                                            2.- Una certificación otorga ventaja frente a los competidores, ya que los clientes prefieren cerrar negocios
+                                            con empresas y personal certificado.<br>
+                                            3.- Avala que se cuentan con los conocimientos, las habilidades y las actitudes necesarias para
+                                            desempeñar una función laboral.<br>
+                                            4.- Reconoce los conocimientos y experiencia, independientemente de cómo se haya adquirido.
+                                            5.- Superación personal y sentido de pertenencia a una organización.<br>
+                                            Capacitación en el Estándar de Competencia EC0401 + Evaluación + Certificación
+                                            • Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con retroalimentación y
+                                            definición de pasos siguientes.<br>
+                                            • Capacitación en el Estándar de Competencia EC0401 de CONOCER como preparación a la
+                                            Evaluación.<br>
+                                            • Revisión del Plan de Evaluación y aplicación de la Evaluación.<br>
+                                            • Presentación de resultados y puntaje de la Evaluación.<br>
+                                            • Gestión y entrega del Certificado por parte de la Entidad de Certificación.<br>
+                                            <br>¿PROPÓSITO DEL EC0401.<br>
+                                            <br>Constituir el modelo referencial del ser y actuar del servidor público y servir como referente para la
+                                            evaluación y certificación de las personas que se desempeñan en la Administración Pública, cuyas
+                                            competencias incluyen: demostrar vocación de servicio, construir relaciones, actuar con valores, enfocar
+                                            a resultados e impulsar el cambio, disponiendo de los instrumentos necesarios para desempeñar con
+                                            calidad su función. Asimismo, puede ser referente para el desarrollo de programas de capacitación y de
+                                            formación basados en el Estándar de Competencia (EC).<br>
+
                                             </p>
                                     </div>
                                 </div>
@@ -200,7 +217,7 @@
                                         <p style="text-align: justify;">Estándar de competencia: $2,500.00<br>
                                             Certificado $500.00<br>
                                             Inversión total: $3,000.00<br>
-                                            
+
                                             Requisitos:<br>
                                             • Identificación oficial<br>
                                             • Curp<br>
@@ -222,7 +239,7 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <a href="#"><img src="img/core-img/LOGO_ECE4.png" alt=""></a>
+                                <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt=""></a>
                             </div>
                             <p>Entidad de Certificación y Evaluación del ICATECH.</p>
                             <div class="footer-social-info">
@@ -254,12 +271,12 @@
                                 <h6>Galeria</h6>
                             </div>
                             <div class="gallery-list d-flex justify-content-between flex-wrap">
-                                <a href="img/bg-img/gallery1.jpg" class="gallery-img" title="Gallery Image 1"><img src="img/bg-img/gallery1.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="img/bg-img/gallery2.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="img/bg-img/gallery3.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="img/bg-img/gallery4.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="img/bg-img/gallery5.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="img/bg-img/gallery6.jpg" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" class="gallery-img" title="Gallery Image 1"><img src="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" class="gallery-img" title="Gallery Image 2"><img src="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" class="gallery-img" title="Gallery Image 3"><img src="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" class="gallery-img" title="Gallery Image 4"><img src="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" class="gallery-img" title="Gallery Image 5"><img src="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" class="gallery-img" title="Gallery Image 6"><img src="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -302,15 +319,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="{{ asset('assets/ece/js/jquery/jquery-2.2.4.min.js') }}"></script>
     <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="{{ asset('assets/ece/js/bootstrap/popper.min.js') }}"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/ece/js/bootstrap/bootstrap.min.js') }}"></script>
     <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
+    <script src="{{ asset('assets/ece/js/plugins/plugins.js') }}"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="{{ asset('assets/ece/js/active.js') }}"></script>
 </body>
 
 </html>

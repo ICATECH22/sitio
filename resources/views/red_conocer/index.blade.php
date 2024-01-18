@@ -84,10 +84,10 @@
                                             </ul>
                                             <ul class="single-mega cn-col-4">
                                                 <li><a
-                                                        href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0366.html">EC0366</a>
+                                                        href="{{ route('ce_icatech.certificacion.ec0366') }}">EC0366</a>
                                                 </li>
                                                 <li><a
-                                                        href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0401.html">EC0401</a>
+                                                        href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a>
                                                 </li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
@@ -95,7 +95,7 @@
                                                         href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a>
                                                 </li>
                                                 <li><a
-                                                        href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec1415.html">EC1415</a>
+                                                        href="{{ route('ece_icatech.certificacion.ec1415') }}">EC1415</a>
                                                 </li>
                                             </ul>
                                             <div class="single-mega cn-col-4">
@@ -114,8 +114,7 @@
                         <!-- Calling Info -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359
-                                        0</span></a>
+                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359</span></a>
                             </div>
                         </div>
                     </nav>

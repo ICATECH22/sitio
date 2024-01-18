@@ -110,4 +110,19 @@ class EceController extends Controller
     {
         return view('red_conocer.ec0305');
     }
+
+    public function certificacion_0366(Request $request)
+    {
+        return view('red_conocer.ec0366');
+    }
+
+    public function certificacion_0401(Request $request)
+    {
+        return view('red_conocer.ec0401');
+    }
+
+    public function certificacion_1415(Request $request)
+    {
+        return view('red_conocer.ec1415');
+    }
 }
