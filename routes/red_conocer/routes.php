@@ -5,7 +5,7 @@ use App\Http\Controllers\ece\EceController;
 
 Route::get('/ece-icatech/inicio', [EceController::class, 'index'])->name('ece_icatech.index');
 // certificaciones
-// Route::get('/ece-icatech/certificaciones', [EceController::class, 'index'])->name('ece_icatech.certificaciones');
+Route::get('/ece-icatech/certificaciones', [EceController::class, 'course'])->name('ece_icatech.certificaciones');
 // contactanos
 Route::get('/ece-icatech/contactanos', [EceController::class, 'contact'])->name('ece_icatech.contactanos');
 // about us

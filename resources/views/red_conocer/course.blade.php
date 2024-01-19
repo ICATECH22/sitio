@@ -12,10 +12,10 @@
     <title>certificaciones</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/logo_ece_icatech1.png">
+    <link rel="icon" href="{{ asset('assets/ece/img/core-img/logo_ece_icatech1.png') }}">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ asset('assets/ece/style.css') }}">
 
 </head>
 
@@ -35,12 +35,14 @@
                     <div class="col-12 h-100">
                         <div class="academy-logo">
                             <a href="index.html">
-                                <img src="img/core-img/LOGO_ECE4.png" alt="" style="float: left;">
+                                <img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt=""
+                                    style="float: left;">
                             </a>
                             <a href="index.html">
-                                <img src="img/core-img/conocer-logo.png" alt="" style="float: right;">
+                                <img src="{{ asset('assets/ece/img/core-img/conocer-logo.png') }}" alt=""
+                                    style="float: right;">
                             </a>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </div>
@@ -68,29 +70,30 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Inicio</a></li>                                   
-                    <li><a href="#">Registros</a>
-                        <div class="megamenu">
-                            <ul class="single-mega cn-col-4">
-                                <li><a href="#">EC02017.01</a></li>
-                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0076.html">EC0076</a></li>
-                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0127.html">EC0127</a></li>
-                            </ul>
-                            <ul class="single-mega cn-col-4">
-                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0366.html">EC0366</a></li>
-                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0401.html">EC0401</a></li>
-                            </ul>
-                            <ul class="single-mega cn-col-4">
-                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0305.html">EC0305</a></li>
-                                <li><a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec1415.html">EC1415</a></li>
-                            </ul>
-                            <div class="single-mega cn-col-4">
-                                <img src="img/bg-img/bg-1.jpg" alt="">
-                            </div>
-                        </div>
-                    </li>
-                                    <li><a href="about-us.html">Acerca de Nosotros</a></li>
-                                    <li><a href="contact.html">Contactanos</a></li>
+                                    <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
+                                    <li><a href="#">Registros</a>
+                                        <div class="megamenu">
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec02017_1') }}">EC02017.01</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0366') }}">EC0366</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a></li>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec1415') }}">EC1415</a></li>
+                                            </ul>
+                                            <div class="single-mega cn-col-4">
+                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}" alt="">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
+                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
+                                    <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -99,7 +102,7 @@
                         <!-- Calling Info -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+65) 456 332 5568 889</span></a>
+                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359</span></a>
                             </div>
                         </div>
                     </nav>
@@ -110,7 +113,7 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
+    <div class="breadcumb-area bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}');">
         <div class="bradcumbContent">
             <h2>Certificaciones</h2>
         </div>
@@ -131,7 +134,8 @@
 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
+                        data-wow-delay="400ms">
                         <div class="popular-course-content">
                             <h5>Evaluación de la competencia de candidatos con base en Estándares de Competencia</h5>
                             <span>CERTIFICACION EC0076</span>
@@ -142,16 +146,20 @@
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star-o" aria-hidden="true"></i>
                             </div>
-                            <p style="text-align: justify;">Refiere a las funciones que una persona realiza para evaluar la competencia de candidatos con base en Estándares de Competencia cumpliendo los principios de transparencia, imparcialidad y objetividad.</p>
+                            <p style="text-align: justify;">Refiere a las funciones que una persona realiza para evaluar
+                                la competencia de candidatos con base en Estándares de Competencia cumpliendo los
+                                principios de transparencia, imparcialidad y objetividad.</p>
                             <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
-                        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-1.jpg);"></div>
+                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/pc-1.jpg') }}');">
+                        </div>
                     </div>
                 </div>
 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
+                        data-wow-delay="500ms">
                         <div class="popular-course-content">
                             <h5>Preparación de alimentos</h5>
                             <span>Certificación EC0127</span>
@@ -162,16 +170,19 @@
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star-o" aria-hidden="true"></i>
                             </div>
-                            <p style="text-align: justify;">Relacionado con la elaboración de los alimentos desde su preparación, hasta su terminación para servirse en restaurantes.</p>
+                            <p style="text-align: justify;">Relacionado con la elaboración de los alimentos desde su
+                                preparación, hasta su terminación para servirse en restaurantes.</p>
                             <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
-                        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-2.jpg);"></div>
+                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/pc-2.jpg') }}');">
+                        </div>
                     </div>
                 </div>
 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="600ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
+                        data-wow-delay="600ms">
                         <div class="popular-course-content">
                             <h5>Prestación de servicios de atención a clientes</h5>
                             <span>Certificación EC0305</span>
@@ -182,16 +193,20 @@
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star-o" aria-hidden="true"></i>
                             </div>
-                            <p style="text-align: justify;">El Estándar de Competencia prestación de servicios de atención a clientes contempla las funciones de atender los requerimientos del cliente.</p>
+                            <p style="text-align: justify;">El Estándar de Competencia prestación de servicios de
+                                atención a clientes contempla las funciones de atender los requerimientos del cliente.
+                            </p>
                             <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
-                        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-3.jpg);"></div>
+                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/pc-3.jpg') }}');">
+                        </div>
                     </div>
                 </div>
 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
+                        data-wow-delay="700ms">
                         <div class="popular-course-content">
                             <h5>Administración y venta en pequeños negocios/establecimientos</h5>
                             <span>Certificación EC1415</span>
@@ -202,59 +217,73 @@
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star-o" aria-hidden="true"></i>
                             </div>
-                            <p style="text-align: justify;">Estándar de Competencia dirigido a personas que deban contar con conocimientos, habilidades, destrezas y actitudes para las personas que desempeñan las funciones de ventas en pequeños negocios.</p>
+                            <p style="text-align: justify;">Estándar de Competencia dirigido a personas que deban
+                                contar con conocimientos, habilidades, destrezas y actitudes para las personas que
+                                desempeñan las funciones de ventas en pequeños negocios.</p>
                             <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
-                        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-4.jpg);"></div>
+                        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-4.jpg);">
+                        </div>
                     </div>
                 </div>
                 <!-- Single Top Popular Course -->
-    <div class="col-12 col-lg-6">
-        <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="800ms">
-            <div class="popular-course-content">
-                <h5>Desarrollo de cursos de formación en línea</h5>
-                <span>Certificación EC0366</span>
-                <div class="course-ratings">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                <div class="col-12 col-lg-6">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
+                        data-wow-delay="800ms">
+                        <div class="popular-course-content">
+                            <h5>Desarrollo de cursos de formación en línea</h5>
+                            <span>Certificación EC0366</span>
+                            <div class="course-ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <p style="text-align: justify;">La certificación por competencias laborales es un documento
+                                de reconocimiento oficial que avala y soporta de que cuentas con los conocimientos,
+                                habilidades y actitudes para desarrollar una actividad laboral con un alto nivel de
+                                profesionalismo y totalmente apegado a las mejores prácticas que dictan los mercados
+                                laborales internacionales.</p>
+                            <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
+                        </div>
+                        <div class="popular-course-thumb bg-img"
+                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0366.jpeg') }}');"></div>
+                    </div>
                 </div>
-                <p style="text-align: justify;">La certificación por competencias laborales es un documento de reconocimiento oficial que avala y soporta de que cuentas con los conocimientos, habilidades y actitudes para desarrollar una actividad laboral con un alto nivel de profesionalismo y totalmente apegado a las mejores prácticas que dictan los mercados laborales internacionales.</p>
-                <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
-            </div>
-            <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/ec0366.jpeg);"></div>
-        </div>
-    </div>
 
-<!-- ##### Top Popular Courses Area End ##### -->
-<!-- Single Top Popular Course -->
-<div class="col-12 col-lg-6">
-    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="00ms">
-        <div class="popular-course-content">
-            <h5>Liderazgo en el servicio público</h5>
-            <span>Certificación EC0401</span>
-            <div class="course-ratings">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star-o" aria-hidden="true"></i>
-            </div>
-            <p style="text-align: justify;">Orientado a las personas que se desempeñan en la Administración Pública, cuyas competencias incluyen: demostrar vocación de servicio, construir relaciones, actuar con valores, enfocar a resultados e impulsar el cambio, disponiendo de los instrumentos necesarios para desempeñar con calidad su función.</p>
-            <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
-        </div>
-        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/ec0401.jpeg);"></div>
-    </div>
-</div>
+                <!-- ##### Top Popular Courses Area End ##### -->
+                <!-- Single Top Popular Course -->
+                <div class="col-12 col-lg-6">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
+                        data-wow-delay="00ms">
+                        <div class="popular-course-content">
+                            <h5>Liderazgo en el servicio público</h5>
+                            <span>Certificación EC0401</span>
+                            <div class="course-ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <p style="text-align: justify;">Orientado a las personas que se desempeñan en la
+                                Administración Pública, cuyas competencias incluyen: demostrar vocación de servicio,
+                                construir relaciones, actuar con valores, enfocar a resultados e impulsar el cambio,
+                                disponiendo de los instrumentos necesarios para desempeñar con calidad su función.</p>
+                            <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
+                        </div>
+                        <div class="popular-course-thumb bg-img"
+                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0401.jpeg') }}');"></div>
+                    </div>
+                </div>
 
-<!-- ##### Top Popular Courses Area End ##### -->
+                <!-- ##### Top Popular Courses Area End ##### -->
             </div>
         </div>
     </div>
     <!-- ##### Top Popular Courses Area End ##### -->
-    
+
 
     <!-- ##### Top Popular Courses Details Area Start ##### -->
     <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
@@ -269,7 +298,8 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p style="text-align: justify;">Impartición de cursos de formación del capital humano de manera presencial grupal.
+                <p style="text-align: justify;">Impartición de cursos de formación del capital humano de manera
+                    presencial grupal.
                     Adquiere conocimientos, habilidades y destrezas evaluadas y reconocidas por un organismo oficial que
                     te avala como instructor de capacitación.
                     Dirigido a:<br>
@@ -277,7 +307,7 @@
                     • Instructores independientes, sea que trabajen o no dentro de una organización..</p>
                 <a href="#" class="btn academy-btn btn-sm mt-15">Ver Más</a>
             </div>
-            <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/ec02017.01.jpeg);"></div>
+            <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec02017.01.jpeg') }}');"></div>
         </div>
     </div>
     <!-- ##### Top Popular Courses Details Area End ##### -->
@@ -351,31 +381,33 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <a href="#"><img src="img/core-img/LOGO_ECE4.png" alt=""></a>
+                                <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt=""></a>
                             </div>
                             <p>Entidad de Certificación y Evaluación del ICATECH.</p>
                             <div class="footer-social-info">
-                                <a href="https://www.facebook.com/ICATchiapas?mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/ICATchiapas?mibextid=ZbWKwL"><i
+                                        class="fa fa-facebook"></i></a>
                                 <a href="https://twitter.com/IcatechOficial?s=09"><i class="fa fa-twitter"></i></a>
-                                <a href="https://instagram.com/icatechchiapas?igshid=NTc4MTIwNjQ2YQ=="><i class="fa fa-instagram"></i></a>
+                                <a href="https://instagram.com/icatechchiapas?igshid=NTc4MTIwNjQ2YQ=="><i
+                                        class="fa fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
                     <!-- Footer Widget Area -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="footer-widget mb-100">
-                  <div class="widget-title">
-                    <h6>Accesos Directos</h6>
-                  </div>
-                  <nav>
-                    <ul class="useful-links">
-                      <li><a href="#">Inicio</a></li>
-                      <li><a href="#">Contacto</a></li>
-                      <li><a href="#">Avisos de Privacidad</a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Accesos Directos</h6>
+                            </div>
+                            <nav>
+                                <ul class="useful-links">
+                                    <li><a href="#">Inicio</a></li>
+                                    <li><a href="#">Contacto</a></li>
+                                    <li><a href="#">Avisos de Privacidad</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                     <!-- Footer Widget Area -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
@@ -383,12 +415,12 @@
                                 <h6>Galeria</h6>
                             </div>
                             <div class="gallery-list d-flex justify-content-between flex-wrap">
-                                <a href="img/bg-img/gallery1.jpg" class="gallery-img" title="Gallery Image 1"><img src="img/bg-img/gallery1.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="img/bg-img/gallery2.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="img/bg-img/gallery3.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="img/bg-img/gallery4.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="img/bg-img/gallery5.jpg" alt=""></a>
-                                <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="img/bg-img/gallery6.jpg" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" class="gallery-img" title="Gallery Image 1"><img src="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" class="gallery-img" title="Gallery Image 2"><img src="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" class="gallery-img" title="Gallery Image 3"><img src="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" class="gallery-img" title="Gallery Image 4"><img src="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" class="gallery-img" title="Gallery Image 5"><img src="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" class="gallery-img" title="Gallery Image 6"><img src="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -420,8 +452,14 @@
                 <div class="row">
                     <div class="col-12">
                         <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | This template is made with <i
+                                class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                                target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
                     </div>
                 </div>
             </div>
@@ -431,15 +469,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="{{ asset('assets/ece/js/jquery/jquery-2.2.4.min.js') }}"></script>
     <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="{{ asset('assets/ece/js/bootstrap/popper.min.js') }}"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/ece/js/bootstrap/bootstrap.min.js') }}"></script>
     <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
+    <script src="{{ asset('assets/ece/js/plugins/plugins.js') }}"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="{{ asset('assets/ece/js/active.js') }}"></script>
 </body>
 
 </html>

@@ -86,12 +86,12 @@
                                                 <li><a href="{{ route('ece_icatech.certificacion.ec1415') }}">EC1415</a></li>
                                             </ul>
                                             <div class="single-mega cn-col-4">
-                                                <img src="img/bg-img/bg-1.jpg" alt="">
+                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}" alt="">
                                             </div>
                                         </div>
                                     </li>
                                     <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
-                                    <li><a href="course.html">Certificaciones</a></li>
+                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
                                 </ul>
                             </div>

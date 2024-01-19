@@ -91,7 +91,7 @@
                                         </div>
                                     </li>
                                     <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
-                                    <li><a href="course.html">Certificaciones</a></li>
+                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
                                 </ul>
                             </div>
@@ -102,7 +102,7 @@
                         <div class="calling-info">
                             <div class="call-center">
                                 <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359
-                                    0</span></a>
+                                    </span></a>
                             </div>
                         </div>
                     </nav>
