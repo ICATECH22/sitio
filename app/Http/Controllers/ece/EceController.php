@@ -15,6 +15,7 @@ class EceController extends Controller
     public function index()
     {
         //
+        dd('HOLA SOY UN INDICE');
         return view('red_conocer/index');
     }
 
