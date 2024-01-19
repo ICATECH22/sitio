@@ -151,7 +151,7 @@
                                 principios de transparencia, imparcialidad y objetividad.</p>
                             <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
-                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/pc-1.jpg') }}');">
+                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0076.jpeg') }}');">
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                                 preparación, hasta su terminación para servirse en restaurantes.</p>
                             <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
-                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/pc-2.jpg') }}');">
+                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0127.jpeg') }}');">
                         </div>
                     </div>
                 </div>
@@ -198,7 +198,7 @@
                             </p>
                             <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
-                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/pc-3.jpg') }}');">
+                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0305.jpeg') }}');">
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@
                                 desempeñan las funciones de ventas en pequeños negocios.</p>
                             <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
-                        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-4.jpg);">
+                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec1415.jpeg') }}');">
                         </div>
                     </div>
                 </div>
