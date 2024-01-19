@@ -84,7 +84,7 @@
                                             </ul>
                                             <ul class="single-mega cn-col-4">
                                                 <li><a
-                                                        href="{{ route('ce_icatech.certificacion.ec0366') }}">EC0366</a>
+                                                        href="{{ route('ece_icatech.certificacion.ec0366') }}">EC0366</a>
                                                 </li>
                                                 <li><a
                                                         href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a>
@@ -292,7 +292,7 @@
 
     <!-- ##### Testimonials Area Start ##### -->
     <div class="testimonials-area section-padding-100 bg-img bg-overlay"
-        style="background-image: url(img/bg-img/bg-2.jpg);">
+        style="background-image: url('{{ asset('assets/ece/img/bg-img/bg-2.jpg') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-12">
