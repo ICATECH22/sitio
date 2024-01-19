@@ -15,13 +15,6 @@
     <link rel="icon" href="{{ asset('assets/ece/img/core-img/logo_ece_icatech1.png') }}">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('assets/ece/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ece/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ece/css/animate.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ece/css/magnific-popup.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ece/css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ece/css/custom-icon.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ece/css/classy-nav.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/ece/style.css') }}">
 </head>
 
