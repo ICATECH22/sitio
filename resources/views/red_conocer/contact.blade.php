@@ -92,7 +92,7 @@
                       </div>
                   </li>
                     <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
-                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
+                    <li><a href="{{ route('ece_icatech.certificaciones') }}s">Certificaciones</a></li>
                   </ul>
                 </div>
                 <!-- Nav End -->

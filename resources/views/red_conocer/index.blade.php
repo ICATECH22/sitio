@@ -407,7 +407,7 @@
                                 evaluar la competencia de candidatos con base en
                                 Estándares de Competencia cumpliendo los principios de transparencia, imparcialidad y
                                 objetividad.</p>
-                            <a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0076.html"
+                            <a href="{{ route('ece_icatech.certificacion.ec0076') }}"
                                 class="btn academy-btn btn-sm">Leer Mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
@@ -432,7 +432,7 @@
                             <p style="text-align: justify;">relacionado con la elaboración de los alimentos desde su
                                 preparación, hasta su terminación para servirse
                                 en restaurantes.</p>
-                            <a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0127.html"
+                            <a href="{{ route('ece_icatech.certificacion.ec0127') }}"
                                 class="btn academy-btn btn-sm">Leer Mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
@@ -457,7 +457,7 @@
                             <p style="text-align: justify;">El Estándar de Competencia prestación de servicios de
                                 atención a clientes contempla las funciones de
                                 atender los requerimientos del cliente.</p>
-                            <a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/certificacion_ec0305.html"
+                            <a href="{{ route('ece_icatech.certificacion.ec0305') }}"
                                 class="btn academy-btn btn-sm">Leer Mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
@@ -483,7 +483,7 @@
                                 contar con conocimientos, habilidades, destrezas
                                 y actitudes para las personas que desempeñan las funciones de ventas en pequeños
                                 negocios.</p>
-                            <a href="" class="btn academy-btn btn-sm">Leer Mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec1415') }}" class="btn academy-btn btn-sm">Leer Mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec1415.jpeg') }}');"></div>
@@ -518,7 +518,7 @@
                 <div class="col-12">
                     <div class="cta-content d-flex align-items-center justify-content-between flex-wrap">
                         <h3>¿Quieres certificarte con nosotros? ponte en contacto</h3>
-                        <a href="file:///C:/Users/puma1/OneDrive/Documentos/200%20TEMPLEATES/a3/academy/contact.html"
+                        <a href="{{ route('ece_icatech.contactanos') }}"
                             class="btn academy-btn">Mas Información</a>
                     </div>
                 </div>
@@ -620,12 +620,10 @@
                 <div class="row">
                     <div class="col-12">
                         <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;
+                            ICATECH &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with
-                            <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                            <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            </script> Todos los Derechos reservados
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
