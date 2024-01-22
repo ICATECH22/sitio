@@ -149,7 +149,7 @@
                             <p style="text-align: justify;">Refiere a las funciones que una persona realiza para evaluar
                                 la competencia de candidatos con base en Estándares de Competencia cumpliendo los
                                 principios de transparencia, imparcialidad y objetividad.</p>
-                            <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec0076') }}" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0076.jpeg') }}');">
                         </div>
@@ -172,7 +172,7 @@
                             </div>
                             <p style="text-align: justify;">Relacionado con la elaboración de los alimentos desde su
                                 preparación, hasta su terminación para servirse en restaurantes.</p>
-                            <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec0127') }}" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0127.jpeg') }}');">
                         </div>
@@ -196,7 +196,7 @@
                             <p style="text-align: justify;">El Estándar de Competencia prestación de servicios de
                                 atención a clientes contempla las funciones de atender los requerimientos del cliente.
                             </p>
-                            <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec0305') }}" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0305.jpeg') }}');">
                         </div>
@@ -220,7 +220,7 @@
                             <p style="text-align: justify;">Estándar de Competencia dirigido a personas que deban
                                 contar con conocimientos, habilidades, destrezas y actitudes para las personas que
                                 desempeñan las funciones de ventas en pequeños negocios.</p>
-                            <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec1415') }}" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec1415.jpeg') }}');">
                         </div>
@@ -245,7 +245,7 @@
                                 habilidades y actitudes para desarrollar una actividad laboral con un alto nivel de
                                 profesionalismo y totalmente apegado a las mejores prácticas que dictan los mercados
                                 laborales internacionales.</p>
-                            <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec0366') }}" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0366.jpeg') }}');"></div>
@@ -271,7 +271,7 @@
                                 Administración Pública, cuyas competencias incluyen: demostrar vocación de servicio,
                                 construir relaciones, actuar con valores, enfocar a resultados e impulsar el cambio,
                                 disponiendo de los instrumentos necesarios para desempeñar con calidad su función.</p>
-                            <a href="#" class="btn academy-btn btn-sm">Leer mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec0401') }}" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0401.jpeg') }}');"></div>
@@ -305,7 +305,7 @@
                     Dirigido a:<br>
                     • Equipos de Instructores Internos de una empresa.<br>
                     • Instructores independientes, sea que trabajen o no dentro de una organización..</p>
-                <a href="#" class="btn academy-btn btn-sm mt-15">Ver Más</a>
+                <a href="{{ route('ece_icatech.certificacion.ec02017_1') }}" class="btn academy-btn btn-sm mt-15">Ver Más</a>
             </div>
             <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec02017.01.jpeg') }}');"></div>
         </div>
@@ -313,7 +313,7 @@
     <!-- ##### Top Popular Courses Details Area End ##### -->
 
     <!-- ##### Course Area Start ##### -->
-    <div class="academy-courses-area section-padding-100-0">
+    {{-- <div class="academy-courses-area section-padding-100-0">
         <div class="container">
             <div class="row">
                 <!-- Single Course Area -->
@@ -354,7 +354,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- ##### Course Area End ##### -->
 
     <!-- ##### CTA Area Start ##### -->
