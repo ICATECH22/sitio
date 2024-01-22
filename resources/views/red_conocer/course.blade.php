@@ -315,6 +315,20 @@
     <!-- ##### Course Area Start ##### -->
     {{-- <div class="academy-courses-area section-padding-100-0">
         <div class="container">
+            <div class="row">
+                <!-- Single Course Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100"></div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100"></div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100"></div>
+                </div>
+            </div>
         </div>
     </div> --}}
     <!-- ##### Course Area End ##### -->
