@@ -116,6 +116,9 @@
                 <div class="col-md-2 g-mb-30">
                     <a href="https://www.plataformadetransparencia.org.mx/" title="Sipot" target="_blank"><img src="{{ asset('Imagenes_Pagina/sipot.png') }}" alt="Pnt" width="100%" height="60"><span></span></a>
                 </div>
+                <div class="col-md-2 g-mb-30">
+                    <a href="https://itaipchiapas.org.mx/transparencia/informe-de-labores" title="itaipch" target="_blank"><img src="{{ asset('Imagenes_Pagina/itaipch.jpeg') }}" alt="Pnt" width="100%" height="60"><span></span></a>
+                </div>
             </div>
         </div>
     </div>

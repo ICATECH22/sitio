@@ -292,7 +292,7 @@ class CuentapublicaController extends Controller
             'ACTA DE FALLO' => 'licitaciones_/adquisiciones/ADF_4_2023.pdf',
         ];
         $programa_anual_adquisiciones = [
-            'PROGRAMA ANUAL DE ADQUISICIONES 2023' => 'licitaciones_/adquisiciones/PADA_2023.pdf'
+            'PROGRAMA ANUAL DE ADQUISICIONES 2024' => 'licitaciones_/adquisiciones/PADA_2024.pdf'
         ];
 
         $bprincipal = $this->getBanner('banner_principal');
