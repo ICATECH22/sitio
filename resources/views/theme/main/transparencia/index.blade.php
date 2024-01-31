@@ -66,7 +66,7 @@
                                 <i class="fa fa-minus"></i>
                             </span>
                             <span class="g-pa-20">
-                                PLAN ANUAL DE DESARROLLO ARCHIVISTICO
+                                INSTRUMENTOS ARCHIVÍSTICOS
                             </span>
                         </a>
                     </h5>
