@@ -189,7 +189,7 @@
                             <i class="icon-responsive"></i>
                         </div>
                         <div class="course-content">
-                            <a href="educacion.html" class="">
+                            <a href="{{ route('ece_icateh.educacion') }}" class="">
                                 <h4>Educación</h4>
                             </a>
                             <p style="text-align: justify;">Comprende el fortalecimiento del conocimiento y desarrollo
@@ -206,7 +206,7 @@
                             <i class="icon-worldwide"></i>
                         </div>
                         <div class="course-content">
-                            <a href="administracion_publica.html" class="">
+                            <a href="{{ route('ece_icatech.administracion.publica') }}" class="">
                                 <h4>Administración pública</h4>
                             </a>
                             <p style="text-align: justify;">Se desarrollan los conocimientos que conforman la
@@ -223,7 +223,7 @@
                             <i class="icon-map"></i>
                         </div>
                         <div class="course-content">
-                            <a href="empresarios_emprendedores.html" class="">
+                            <a href="{{ route('ece_icatech.empresarios') }}" class="">
                                 <h4>Empresarios, emprendedores.</h4>
                             </a>
                             <p style="text-align: justify;">van dirigidos al desarrollo del conocimiento con dinámicas

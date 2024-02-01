@@ -11,6 +11,13 @@ Route::get('/ece-icatech/contactanos', [EceController::class, 'contact'])->name(
 // about us
 Route::get('/ece-icatech/acerca-de-nosotros', [EceController::class, 'about'])->name('ece_icatech.acercadenosotros');
 
+Route::get('/ece-icatech/educacion', [EceController::class, 'education'])->name('ece_icateh.educacion');
+
+Route::get('/ece-icatech/empresarios_emprendedores', [EceController::class, 'bussiness'])->name('ece_icatech.empresarios');
+
+Route::get('/ece-icatech/administracion_publica', [EceController::class, 'admin'])->name('ece_icatech.administracion.publica');
+
+
 // certificaciones
 Route::get('/ece-icatech/certificacion/ec0076', [EceController::class, 'certificacion_0076'])->name('ece_icatech.certificacion.ec0076');
 Route::get('/ece-icatech/certificacion/ec02017.1', [EceController::class, 'certificacion_02017_1'])->name('ece_icatech.certificacion.ec02017_1');

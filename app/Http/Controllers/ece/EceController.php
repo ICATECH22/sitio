@@ -130,4 +130,19 @@ class EceController extends Controller
     {
         return view('red_conocer.ec1415');
     }
+
+    public function education(Request $request)
+    {
+        return view('red_conocer.educacion');
+    }
+
+    public function bussiness(Request $request)
+    {
+        return view('red_conocer.empresarios_emprendedores');
+    }
+
+    public function admin(Request $request)
+    {
+        return view('red_conocer.administracion_publica');
+    }
 }

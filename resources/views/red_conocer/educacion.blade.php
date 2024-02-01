@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>certificaciones</title>
+    <title>Educación</title>
 
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('assets/ece/img/core-img/logo_ece_icatech1.png') }}">
@@ -53,7 +53,6 @@
                 <div class="container">
                     <!-- Menu -->
                     <nav class="classy-navbar justify-content-between" id="academyNav">
-
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
                             <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -61,10 +60,11 @@
 
                         <!-- Menu -->
                         <div class="classy-menu">
-
                             <!-- close btn -->
                             <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                                <div class="cross-wrap">
+                                    <span class="top"></span><span class="bottom"></span>
+                                </div>
                             </div>
 
                             <!-- Nav Start -->
@@ -74,13 +74,13 @@
                                     <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a>
                                     </li>
-                                    <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
+                                    <li><a href="{{ route('ece_icatech.contactanos') }}">Contactanos</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
                         </div>
 
-                        <!-- Calling Info -->
+                        <!-- Informacion de telefono -->
                         <div class="calling-info">
                             <div class="call-center">
                                 <a href="tel:9616494788"><i class="icon-telephone-2"></i> <span>(+52) 961 649
@@ -98,10 +98,9 @@
     <div class="breadcumb-area bg-img"
         style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}');">
         <div class="bradcumbContent">
-            <h2>Certificaciones</h2>
+            <h2>Educación</h2>
         </div>
     </div>
-    <!-- ##### Breadcumb Area End ##### -->
 
     <!-- ##### Top Popular Courses Area Start ##### -->
     <div class="top-popular-courses-area mt-50 section-padding-100-70">
@@ -109,18 +108,17 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
-                        <h3>Certificaciones mas populares</h3>
+                        <h3>Educación, formador de formadores, capacitación e investigación.</h3>
                     </div>
                 </div>
             </div>
             <div class="row">
-
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
                     <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
                         data-wow-delay="400ms">
                         <div class="popular-course-content">
-                            <h5>Evaluación de la competencia de candidatos con base en Estándares de Competencia</h5>
+                            <h5>Evaluación de la competencia de candidatos con base en estándares de competencia</h5>
                             <span>CERTIFICACION EC0076</span>
                             <div class="course-ratings">
                                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -130,93 +128,15 @@
                                 <i class="fa fa-star-o" aria-hidden="true"></i>
                             </div>
                             <p style="text-align: justify;">Refiere a las funciones que una persona realiza para evaluar
-                                la competencia de candidatos con base en Estándares de Competencia cumpliendo los
+                                la competencia de candidatos con base en estándares de competencia cumpliendo los
                                 principios de transparencia, imparcialidad y objetividad.</p>
-                            <a href="{{ route('ece_icatech.certificacion.ec0076') }}"
-                                class="btn academy-btn btn-sm">Leer mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec0076') }}" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
-                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0076.jpeg') }}');">
-                        </div>
+                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0076.jpeg') }}');"></div>
                     </div>
                 </div>
 
-                <!-- Single Top Popular Course -->
-                <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
-                        data-wow-delay="500ms">
-                        <div class="popular-course-content">
-                            <h5>Preparación de alimentos</h5>
-                            <span>Certificación EC0127</span>
-                            <div class="course-ratings">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </div>
-                            <p style="text-align: justify;">Relacionado con la elaboración de los alimentos desde su
-                                preparación, hasta su terminación para servirse en restaurantes.</p>
-                            <a href="{{ route('ece_icatech.certificacion.ec0127') }}"
-                                class="btn academy-btn btn-sm">Leer mas</a>
-                        </div>
-                        <div class="popular-course-thumb bg-img"
-                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0127.jpeg') }}');">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Top Popular Course -->
-                <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
-                        data-wow-delay="600ms">
-                        <div class="popular-course-content">
-                            <h5>Prestación de servicios de atención a clientes</h5>
-                            <span>Certificación EC0305</span>
-                            <div class="course-ratings">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </div>
-                            <p style="text-align: justify;">El Estándar de Competencia prestación de servicios de
-                                atención a clientes contempla las funciones de atender los requerimientos del cliente.
-                            </p>
-                            <a href="{{ route('ece_icatech.certificacion.ec0305') }}"
-                                class="btn academy-btn btn-sm">Leer mas</a>
-                        </div>
-                        <div class="popular-course-thumb bg-img"
-                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0305.jpeg') }}');">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Top Popular Course -->
-                <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
-                        data-wow-delay="700ms">
-                        <div class="popular-course-content">
-                            <h5>Administración y venta en pequeños negocios/establecimientos</h5>
-                            <span>Certificación EC1415</span>
-                            <div class="course-ratings">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </div>
-                            <p style="text-align: justify;">Estándar de Competencia dirigido a personas que deban
-                                contar con conocimientos, habilidades, destrezas y actitudes para las personas que
-                                desempeñan las funciones de ventas en pequeños negocios.</p>
-                            <a href="{{ route('ece_icatech.certificacion.ec1415') }}"
-                                class="btn academy-btn btn-sm">Leer mas</a>
-                        </div>
-                        <div class="popular-course-thumb bg-img"
-                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec1415.jpeg') }}');">
-                        </div>
-                    </div>
-                </div>
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
                     <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
@@ -236,42 +156,12 @@
                                 habilidades y actitudes para desarrollar una actividad laboral con un alto nivel de
                                 profesionalismo y totalmente apegado a las mejores prácticas que dictan los mercados
                                 laborales internacionales.</p>
-                            <a href="{{ route('ece_icatech.certificacion.ec0366') }}"
-                                class="btn academy-btn btn-sm">Leer mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec0366') }}" class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
-                        <div class="popular-course-thumb bg-img"
-                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0366.jpeg') }}');"></div>
+                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0366.jpeg') }}');">
+                        </div>
                     </div>
                 </div>
-
-                <!-- ##### Top Popular Courses Area End ##### -->
-                <!-- Single Top Popular Course -->
-                <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
-                        data-wow-delay="00ms">
-                        <div class="popular-course-content">
-                            <h5>Liderazgo en el servicio público</h5>
-                            <span>Certificación EC0401</span>
-                            <div class="course-ratings">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </div>
-                            <p style="text-align: justify;">Orientado a las personas que se desempeñan en la
-                                Administración Pública, cuyas competencias incluyen: demostrar vocación de servicio,
-                                construir relaciones, actuar con valores, enfocar a resultados e impulsar el cambio,
-                                disponiendo de los instrumentos necesarios para desempeñar con calidad su función.</p>
-                            <a href="{{ route('ece_icatech.certificacion.ec0401') }}"
-                                class="btn academy-btn btn-sm">Leer mas</a>
-                        </div>
-                        <div class="popular-course-thumb bg-img"
-                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0401.jpeg') }}');"></div>
-                    </div>
-                </div>
-
-                <!-- ##### Top Popular Courses Area End ##### -->
             </div>
         </div>
     </div>
@@ -282,7 +172,7 @@
     <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
         <div class="single-top-popular-course d-flex align-items-center flex-wrap">
             <div class="popular-course-content">
-                <h5>Certificación en el Estándar de Competencia</h5>
+                <h5>Certificación en el estándar de competencia</h5>
                 <span>EC02017.01</span>
                 <div class="course-ratings">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -296,76 +186,16 @@
                     Adquiere conocimientos, habilidades y destrezas evaluadas y reconocidas por un organismo oficial que
                     te avala como instructor de capacitación.
                     Dirigido a:<br>
-                    • Equipos de Instructores Internos de una empresa.<br>
+                    • Equipos de instructores internos de una empresa.<br>
                     • Instructores independientes, sea que trabajen o no dentro de una organización..</p>
-                <a href="{{ route('ece_icatech.certificacion.ec02017_1') }}" class="btn academy-btn btn-sm mt-15">Ver
-                    Más</a>
+                <a href="{{ route('ece_icatech.certificacion.ec02017_1') }}" class="btn academy-btn btn-sm mt-15">Ver Más</a>
             </div>
-            <div class="popular-course-thumb bg-img"
-                style="background-image: url('{{ asset('assets/ece/img/bg-img/ec02017.01.jpeg') }}');"></div>
+            <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec02017.01.jpeg') }}');"></div>
         </div>
     </div>
     <!-- ##### Top Popular Courses Details Area End ##### -->
+    <br>
 
-    <!-- ##### Course Area Start ##### -->
-    <div class="academy-courses-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <!-- Single Course Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp"
-                        data-wow-delay="300ms">
-                        <div class="course-icon">
-                            <i class="icon-responsive"></i>
-                        </div>
-                        <div class="course-content">
-                            <a href="{{ route('ece_icateh.educacion') }}" class="">
-                                <h4>Educación</h4>
-                            </a>
-                            <p style="text-align: justify;">Comprende el fortalecimiento del conocimiento y desarrollo
-                                de habilidades que
-                                impulsen a las unidades económicas.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Course Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp"
-                        data-wow-delay="400ms">
-                        <div class="course-icon">
-                            <i class="icon-worldwide"></i>
-                        </div>
-                        <div class="course-content">
-                            <a href="{{ route('ece_icatech.administracion.publica') }}" class="">
-                                <h4>Administración Pública</h4>
-                            </a>
-                            <p style="text-align: justify;">Se desarrollan los conocimientos que conforman la
-                                Administración Pública en los niveles estatal y
-                                municipal.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Course Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp"
-                        data-wow-delay="500ms">
-                        <div class="course-icon">
-                            <i class="icon-map"></i>
-                        </div>
-                        <div class="course-content">
-                            <a href="{{ route('ece_icatech.empresarios') }}" class="">
-                                <h4>Empresarios, emprendedores.</h4>
-                            </a>
-                            <p style="text-align: justify;">van dirigidos al desarrollo del conocimiento con dinámicas
-                                de investigación para fortalecer al sector empresarial.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Course Area -->
-            </div>
-        </div>
-    </div>
-    <!-- ##### Course Area End ##### -->
 
     <!-- ##### CTA Area Start ##### -->
     <div class="call-to-action-area">
@@ -373,8 +203,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="cta-content d-flex align-items-center justify-content-between flex-wrap">
-                        <h3>¿Quieres certificarte con nosotros? ¡Ponerse en contacto!</h3>
-                        <a href="{{ route('ece_icatech.contactanos') }}" class="btn academy-btn">Contactanos</a>
+                        <h3>¿Quieres certificarte con nosotros? ¡Ponte en contacto!</h3>
+                        <a href="{{ route('ece_icatech.contactanos') }}" class="btn academy-btn" style="text-align: center;">Contactanos</a>
                     </div>
                 </div>
             </div>
@@ -392,9 +222,11 @@
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
-                                        alt=""></a>
+                                        alt="" /></a>
                             </div>
-                            <p>Entidad de Certificación y Evaluación del ICATECH.</p>
+                            <p>
+                                Entidad de Certificación y Evaluación del ICATECH.
+                            </p>
                             <div class="footer-social-info">
                                 <a href="https://www.facebook.com/ICATchiapas?mibextid=ZbWKwL"><i
                                         class="fa fa-facebook"></i></a>
@@ -412,9 +244,9 @@
                             </div>
                             <nav>
                                 <ul class="useful-links">
-                                    <li><a href="#">Inicio</a></li>
-                                    <li><a href="#">Contacto</a></li>
-                                    <li><a href="#">Avisos de Privacidad</a></li>
+                                    <li><a href="#">Avisos de privacidad</a></li>
+                                    <li><a href="#">Normatividad</a></li>
+                                    <li><a href="#">Organigrama</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -471,6 +303,9 @@
     <script src="{{ asset('assets/ece/js/plugins/plugins.js') }}"></script>
     <!-- Active js -->
     <script src="{{ asset('assets/ece/js/active.js') }}"></script>
+    <!-- Google Maps -->
+    <script src="https://maps.app.goo.gl/mQa8aTLrfz4UmAM7A"></script>
+    <script src="{{ asset('assets/ece/js/google-map/map-active.js') }}"></script>
 </body>
 
 </html>
