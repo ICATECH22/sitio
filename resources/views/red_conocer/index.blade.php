@@ -70,40 +70,8 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
-                                    <li><a href="#">Registros</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec02017_1') }}">EC02017.01</a></li>
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a>
-                                                </li>
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec0366') }}">EC0366</a>
-                                                </li>
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a>
-                                                </li>
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec1415') }}">EC1415</a>
-                                                </li>
-                                            </ul>
-                                            <div class="single-mega cn-col-4">
-                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}" alt="">
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
                                     <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
+                                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
                                     <li><a href="{{ route('ece_icatech.contactanos') }}">Contactanos</a></li>
                                 </ul>
                             </div>
@@ -113,7 +81,8 @@
                         <!-- Calling Info -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359</span></a>
+                                <a href="tel:9616494788"><i class="icon-telephone-2"></i> <span>(+52) 961 649
+                                        4788</span></a>
                             </div>
                         </div>
                     </nav>
@@ -129,7 +98,7 @@
 
             <!-- Single Hero Slide -->
             <div class="single-hero-slide bg-img"
-                style="background-image: url('{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}');">
+                style="background-image: url('{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}');">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -137,8 +106,8 @@
                                 <h4 data-animation="fadeInUp" data-delay="100ms">Certificaciones que necesitas</h4>
                                 <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra<br>Pagina en Linea
                                 </h2>
-                                <a href="#" class="btn academy-btn" data-animation="fadeInUp"
-                                    data-delay="700ms">Leer mas</a>
+                                <a href="{{ route('ece_icatech.certificaciones') }}" class="btn academy-btn"
+                                    data-animation="fadeInUp" data-delay="700ms">Leer mas</a>
                             </div>
                         </div>
                     </div>
@@ -147,7 +116,7 @@
 
             <!-- Single Hero Slide -->
             <div class="single-hero-slide bg-img"
-                style="background-image: url('{{ asset('assets/ece/img/bg-img/bg-2.jpg') }}');">
+                style="background-image: url('{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}');">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -155,8 +124,8 @@
                                 <h4 data-animation="fadeInUp" data-delay="100ms">Certificaciones que necesitas</h4>
                                 <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra<br>Pagina en Linea
                                 </h2>
-                                <a href="#" class="btn academy-btn" data-animation="fadeInUp"
-                                    data-delay="700ms">Leer mas</a>
+                                <a href="{{ route('ece_icatech.certificaciones') }}" class="btn academy-btn"
+                                    data-animation="fadeInUp" data-delay="700ms">Leer mas</a>
                             </div>
                         </div>
                     </div>
@@ -177,21 +146,27 @@
                             <div class="col-12 col-md-4">
                                 <div class="single-top-features d-flex align-items-center justify-content-center">
                                     <i class="icon-agenda-1"></i>
-                                    <h5>Certificaciones en Linea</h5>
+                                    <a href="{{ route('ece_icatech.certificaciones') }}" class="">
+                                        <h5>Certificaciones en Linea</h5>
+                                    </a>
                                 </div>
                             </div>
                             <!-- Single Top Features -->
                             <div class="col-12 col-md-4">
                                 <div class="single-top-features d-flex align-items-center justify-content-center">
                                     <i class="icon-assistance"></i>
-                                    <h5>Plataforma virtual ICATECH</h5>
+                                    <a href="https://icatechvirtual.com/" target="_blank" class="">
+                                        <h5>Plataforma virtual ICATECH</h5>
+                                    </a>
                                 </div>
                             </div>
                             <!-- Single Top Features -->
                             <div class="col-12 col-md-4">
                                 <div class="single-top-features d-flex align-items-center justify-content-center">
                                     <i class="icon-telephone-3"></i>
-                                    <h5>Soporte Técnico</h5>
+                                    <a href="{{ route('ece_icatech.contactanos') }}" class="">
+                                        <h5>Soporte Técnico</h5>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -211,11 +186,15 @@
                     <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp"
                         data-wow-delay="300ms">
                         <div class="course-icon">
-                            <i class="icon-id-card"></i>
+                            <i class="icon-responsive"></i>
                         </div>
                         <div class="course-content">
-                            <h4>Business School</h4>
-                            <p>Cras vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+                            <a href="educacion.html" class="">
+                                <h4>Educación</h4>
+                            </a>
+                            <p style="text-align: justify;">Comprende el fortalecimiento del conocimiento y desarrollo
+                                de habilidades que
+                                impulsen a las unidades económicas.</p>
                         </div>
                     </div>
                 </div>
@@ -227,8 +206,12 @@
                             <i class="icon-worldwide"></i>
                         </div>
                         <div class="course-content">
-                            <h4>Marketing</h4>
-                            <p>Lacinia, lacinia la cus non, fermen tum nisi.</p>
+                            <a href="administracion_publica.html" class="">
+                                <h4>Administración pública</h4>
+                            </a>
+                            <p style="text-align: justify;">Se desarrollan los conocimientos que conforman la
+                                administración pública en los niveles estatal y
+                                municipal.</p>
                         </div>
                     </div>
                 </div>
@@ -240,47 +223,11 @@
                             <i class="icon-map"></i>
                         </div>
                         <div class="course-content">
-                            <h4>Photography</h4>
-                            <p>Cras vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Course Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp"
-                        data-wow-delay="600ms">
-                        <div class="course-icon">
-                            <i class="icon-like"></i>
-                        </div>
-                        <div class="course-content">
-                            <h4>Social Media</h4>
-                            <p>Cras vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Course Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp"
-                        data-wow-delay="700ms">
-                        <div class="course-icon">
-                            <i class="icon-responsive"></i>
-                        </div>
-                        <div class="course-content">
-                            <h4>Development</h4>
-                            <p>Lacinia, lacinia la cus non, fermen tum nisi.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Course Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp"
-                        data-wow-delay="800ms">
-                        <div class="course-icon">
-                            <i class="icon-message"></i>
-                        </div>
-                        <div class="course-content">
-                            <h4>Design</h4>
-                            <p>Cras vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+                            <a href="empresarios_emprendedores.html" class="">
+                                <h4>Empresarios, emprendedores.</h4>
+                            </a>
+                            <p style="text-align: justify;">van dirigidos al desarrollo del conocimiento con dinámicas
+                                de investigación para fortalecer al sector empresarial.</p>
                         </div>
                     </div>
                 </div>
@@ -483,7 +430,8 @@
                                 contar con conocimientos, habilidades, destrezas
                                 y actitudes para las personas que desempeñan las funciones de ventas en pequeños
                                 negocios.</p>
-                            <a href="{{ route('ece_icatech.certificacion.ec1415') }}" class="btn academy-btn btn-sm">Leer Mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec1415') }}"
+                                class="btn academy-btn btn-sm">Leer Mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec1415.jpeg') }}');"></div>
@@ -494,6 +442,24 @@
     </div>
     <!-- ##### Top Popular Courses Area End ##### -->
 
+    <!-- ##### Partner Area Start ##### -->
+    <div class="partner-area section-padding-0-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="partners-logo d-flex align-items-center justify-content-between flex-wrap">
+                        <a href="http://www.dgcft.sems.gob.mx/" target="_blank"><img
+                                src="{{ asset('assets/ece/img/clients-img/logo_dgcft.png') }}" alt=""/></a>
+                        <a href="https://www.icatech.gob.mx/" target="_blank"><img src="{{ asset('assets/ece/img/clients-img/icatech.jpg') }}"
+                                alt=""></a>
+                        <a href="http://www.redconocer.gob.mx/intranet.php" target="_blank"><img
+                                src="{{ asset('assets/ece/img/clients-img/conocer_.jpg') }}" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Partner Area End ##### -->
 
     <!-- ##### CTA Area Start ##### -->
     <div class="call-to-action-area">
@@ -502,8 +468,7 @@
                 <div class="col-12">
                     <div class="cta-content d-flex align-items-center justify-content-between flex-wrap">
                         <h3>¿Quieres certificarte con nosotros? ponte en contacto</h3>
-                        <a href="{{ route('ece_icatech.contactanos') }}"
-                            class="btn academy-btn">Mas Información</a>
+                        <a href="{{ route('ece_icatech.contactanos') }}" class="btn academy-btn">Mas Información</a>
                     </div>
                 </div>
             </div>
@@ -517,7 +482,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
@@ -534,7 +499,7 @@
                         </div>
                     </div>
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <h6>Accesos Directos</h6>
@@ -549,35 +514,7 @@
                         </div>
                     </div>
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="footer-widget mb-100">
-                            <div class="widget-title">
-                                <h6>Galeria</h6>
-                            </div>
-                            <div class="gallery-list d-flex justify-content-between flex-wrap">
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 1"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 2"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 3"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 4"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 5"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 6"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <h6>Contacto</h6>

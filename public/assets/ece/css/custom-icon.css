@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('https://icatech.gob.mx/assets/ece/fonts/icomoon.eot?yu9alg');
-  src:  url('https://icatech.gob.mx/assets/ece/fonts/icomoon.eot?yu9alg') format('embedded-opentype'),
-    url('https://icatech.gob.mx/assets/ece/fonts/icomoon.ttf?yu9alg') format('truetype'),
-    url('https://icatech.gob.mx/assets/ece/fonts/icomoon.woff?yu9alg') format('woff'),
-    url('https://icatech.gob.mx/assets/ece/fonts/icomoon.svg?yu9alg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?yu9alg');
+    src:  url('../fonts/icomoon.eot?yu9alg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?yu9alg') format('truetype'),
+      url('../fonts/icomoon.woff?yu9alg') format('woff'),
+      url('../fonts/icomoon.svg?yu9alg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
