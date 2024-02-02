@@ -430,9 +430,9 @@
                                         src="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
                                         alt="" /></a>
                                 <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
-                                    class="gallery-img" title="Gallery Image 4"><img
-                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
-                                        alt="" /></a>
+                                    class="gallery-img" title="Gallery Image 4">
+                                    <img src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}" alt="" />
+                                </a>
                                 <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
                                     class="gallery-img" title="Gallery Image 5"><img
                                         src="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
