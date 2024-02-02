@@ -72,34 +72,9 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
-                                    <li><a href="#">Registros</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec02017_1') }}">EC02017.01</a>
-                                                </li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a>
-                                                </li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0366') }}">EC0366</a></li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a>
-                                                </li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec1415') }}">EC1415</a></li>
-                                            </ul>
-                                            <div class="single-mega cn-col-4">
-                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}" alt="">
-                                            </div>
-                                        </div>
-                                    </li>
+                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a>
                                     </li>
-                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
                                 </ul>
                             </div>
@@ -109,8 +84,8 @@
                         <!-- Calling Info -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359
-                                        0</span></a>
+                                <a href="tel:9616494788"><i class="icon-telephone-2"></i>
+                                    <span>(+52) 961 6494788</span></a>
                             </div>
                         </div>
                     </nav>
@@ -162,7 +137,7 @@
                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab"
-                            aria-controls="tab1" aria-selected="false">CERTIFICACION EC0366 ante Conocer</a>
+                            aria-controls="tab1" aria-selected="false">CERTIFICACIÓN EC0366 ante Conocer</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" id="tab--2" data-toggle="tab" href="#tab2" role="tab"
@@ -200,30 +175,30 @@
                             <!-- Tab Text -->
                             <div class="academy-tab-text">
                                 <p style="text-align: justify;">BENEFICIOS<br>
-                                    1.- Recibes Documento Oficial, Certificado de Competencia Laboral con Valor
-                                    Curricular con Folio único.<br>
+                                    1.- Obetendras: documento oficial, certificado de competencia laboral con valor
+                                    curricular con folio único.<br>
                                     2.- Aumento de conocimientos, habilidades y actitudes que te alinearán a un mercado
                                     globalizado y estarás
                                     preparado profesionalmente para enfrentar las demandas laborales actuales de sector
                                     productivo en
-                                    México y Latinoamérica.<br>
+                                    México y latinoamérica.<br>
                                     3.- Aumentará tu competitividad en el mercado.<br>
                                     4.- Adquirirás herramientas para profesionalizarte como desarrollador de cursos en
                                     línea.<br>
-                                    5.- Tendrás mayor Movilidad Laboral en todo el país y Latinoamérica.<br>
+                                    5.- Tendrás mayor movilidad laboral en todo el país y latinoamérica.<br>
                                     6.- Si buscas ser tu propio jefe, podrás monetizar tus conocimientos y experiencia
                                     como desarrollador de
                                     cursos en línea independiente.<br>
                                     7.- Tendrás acceso a mejores oportunidades laborales.<br>
-                                    Capacitación en el Estándar de Competencia EC0366 + Evaluación + Certificación.<br>
+                                    Capacitación en el estándar de competencia EC0366 + evaluación + certificación.<br>
                                     • Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con
                                     retroalimentación y
                                     definición de pasos siguientes.<br>
-                                    • Capacitación en el Estándar de Competencia EC0366 de CONOCER como preparación a la
-                                    Evaluación.<br>
-                                    • Revisión del Plan de Evaluación y aplicación de la Evaluación.<br>
-                                    • Presentación de resultados y puntaje de la Evaluación.<br>
-                                    • Gestión y entrega del Certificado por parte de la Entidad de Certificación.
+                                    • Capacitación en el estándar de competencia EC0366 de CONOCER como preparación a la
+                                    evaluación.<br>
+                                    • Revisión del plan de evaluación y aplicación de la evaluación.<br>
+                                    • Presentación de resultados y puntaje de la evaluación.<br>
+                                    • Gestión y entrega del certificado por parte de la entidad de certificación.
                                 </p>
                             </div>
                         </div>
@@ -257,7 +232,8 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
+                                        alt=""></a>
                             </div>
                             <p>Entidad de Certificación y Evaluación del ICATECH.</p>
                             <div class="footer-social-info">

@@ -71,7 +71,8 @@
                                 <ul>
                                     <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
                                     <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
-                                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
+                                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a>
+                                    </li>
                                     <li><a href="{{ route('ece_icatech.contactanos') }}">Contactanos</a></li>
                                 </ul>
                             </div>
@@ -276,7 +277,7 @@
                             <h5>Cursos fáciles y amigables</h5>
                             <p style="text-align: justify;">Hubo buena armonía con el maestro así como con los
                                 compañeros, aprendí el trabajo en equipo, a realizar correctamente una carta
-                                descriptiva, a tener un las herramientas para el inicio de un curso como por ejemplo
+                                descriptiva, a tener una de las herramientas para el inicio de un curso como por ejemplo
                                 lista de asistencia, ficha técnica y finalizar con las Evaluaciones.</p>
                             <h6><span>Elda Clemente Trujillo ,</span>Instructor</h6>
                         </div>
@@ -303,19 +304,12 @@
                             <img src="{{ asset('assets/ece/img/bg-img/Claudia_Lopez.jpg') }}" alt="">
                         </div>
                         <div class="testimonial-content">
-                            <h5>Un buen Instituto</h5>
+                            <h5>Un buen instituto</h5>
                             <p style="text-align: justify;">Ha sido interesante y desafiante, puesto que ha motivado el
                                 estar más atenta en la forma de impartir un curso y mejorar la calidad de cursos y
                                 servicios del instituto</p>
                             <h6><span>Claudia López Maldonado,</span>Instructor</h6>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="load-more-btn text-center wow fadeInUp" data-wow-delay="800ms">
-                        <a href="#" class="btn academy-btn">Leer Mas</a>
                     </div>
                 </div>
             </div>
@@ -329,7 +323,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
-                        <h3>Certificaciones mas Populares</h3>
+                        <h3>Certificaciones más Populares</h3>
                     </div>
                 </div>
             </div>
@@ -340,9 +334,9 @@
                     <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
                         data-wow-delay="400ms">
                         <div class="popular-course-content">
-                            <h5>Evaluación de la competencia de candidatos con base en Estándares de
-                                Competencia</h5>
-                            <span>CERTIFICACION EC0076</span>
+                            <h5>Evaluación de la competencia de candidatos con base en estándares de
+                                competencia</h5>
+                            <span>CERTIFICACIÓN EC0076</span>
                             <div class="course-ratings">
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -352,7 +346,7 @@
                             </div>
                             <p style="text-align: justify;">Refiere a las funciones que una persona realiza para
                                 evaluar la competencia de candidatos con base en
-                                Estándares de Competencia cumpliendo los principios de transparencia, imparcialidad y
+                                estándares de competencia cumpliendo los principios de transparencia, imparcialidad y
                                 objetividad.</p>
                             <a href="{{ route('ece_icatech.certificacion.ec0076') }}"
                                 class="btn academy-btn btn-sm">Leer Mas</a>
@@ -401,7 +395,7 @@
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star-o" aria-hidden="true"></i>
                             </div>
-                            <p style="text-align: justify;">El Estándar de Competencia prestación de servicios de
+                            <p style="text-align: justify;">El estándar de competencia prestación de servicios de
                                 atención a clientes contempla las funciones de
                                 atender los requerimientos del cliente.</p>
                             <a href="{{ route('ece_icatech.certificacion.ec0305') }}"
@@ -417,7 +411,7 @@
                     <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp"
                         data-wow-delay="700ms">
                         <div class="popular-course-content">
-                            <h5>Administración y venta en pequeños negocios/establecimientos</h5>
+                            <h5>Administración y venta en pequeños negocios y/o establecimientos</h5>
                             <span>Certificación EC1415 </span>
                             <div class="course-ratings">
                                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -449,9 +443,9 @@
                 <div class="col-12">
                     <div class="partners-logo d-flex align-items-center justify-content-between flex-wrap">
                         <a href="http://www.dgcft.sems.gob.mx/" target="_blank"><img
-                                src="{{ asset('assets/ece/img/clients-img/logo_dgcft.png') }}" alt=""/></a>
-                        <a href="https://www.icatech.gob.mx/" target="_blank"><img src="{{ asset('assets/ece/img/clients-img/icatech.jpg') }}"
-                                alt=""></a>
+                                src="{{ asset('assets/ece/img/clients-img/logo_dgcft.png') }}" alt="" /></a>
+                        <a href="https://www.icatech.gob.mx/" target="_blank"><img
+                                src="{{ asset('assets/ece/img/clients-img/icatech.jpg') }}" alt=""></a>
                         <a href="http://www.redconocer.gob.mx/intranet.php" target="_blank"><img
                                 src="{{ asset('assets/ece/img/clients-img/conocer_.jpg') }}" alt=""></a>
                     </div>
@@ -482,7 +476,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
@@ -499,7 +493,7 @@
                         </div>
                     </div>
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <h6>Accesos Directos</h6>
@@ -514,7 +508,41 @@
                         </div>
                     </div>
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Galeria</h6>
+                            </div>
+                            <div class="gallery-list d-flex justify-content-between flex-wrap">
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
+                                    class="gallery-img" title="Gallery Image 1"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
+                                    class="gallery-img" title="Gallery Image 2"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
+                                    class="gallery-img" title="Gallery Image 3"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
+                                    class="gallery-img" title="Gallery Image 4"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                    class="gallery-img" title="Gallery Image 5"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                    class="gallery-img" title="Gallery Image 6"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                        alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <h6>Contacto</h6>

@@ -36,10 +36,12 @@
                     <div class="col-12 h-100">
                         <div class="academy-logo">
                             <a href="index.html">
-                                <img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt="" style="float: left;">
+                                <img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt=""
+                                    style="float: left;">
                             </a>
                             <a href="index.html">
-                                <img src="{{ asset('assets/ece/img/core-img/conocer-logo.png') }}" alt="" style="float: right;">
+                                <img src="{{ asset('assets/ece/img/core-img/conocer-logo.png') }}" alt=""
+                                    style="float: right;">
                             </a>
                         </div>
                     </div>
@@ -69,29 +71,10 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
-                                    <li><a href="#">Registros</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec02017_1') }}">EC02017.01</a></li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a></li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0366') }}">EC0366</a></li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a></li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec1415') }}">EC1415</a></li>
-                                            </ul>
-                                            <div class="single-mega cn-col-4">
-                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}" alt="">
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a></li>
                                     <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
+                                    <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
+                                    <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a>
+                                    </li>
                                     <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
                                 </ul>
                             </div>
@@ -101,8 +84,8 @@
                         <!-- Calling Info -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359
-                                    0</span></a>
+                                <a href="tel:9616494788"><i class="icon-telephone-2"></i>
+                                    <span>(+52) 961 6494788</span></a>
                             </div>
                         </div>
                     </nav>
@@ -113,13 +96,14 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}');">
+    <div class="breadcumb-area bg-img"
+        style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}');">
         <div class="bradcumbContent">
             <h2>Certificación</h2>
         </div>
     </div>
     <!-- ##### Breadcumb Area End ##### -->
-<br><br><br>
+    <br><br><br>
 
     <!-- ***** Información de curso ***** -->
     <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
@@ -134,92 +118,108 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p style="text-align: justify;">El Estándar de Competencia prestación de servicios de atención a clientes contempla las funciones de
+                <p style="text-align: justify;">El estándar de competencia prestación de servicios de atención a
+                    clientes contempla las funciones de
                     atender los requerimientos del cliente, identificando el tipo de atención y/o servicio requerido y
                     seleccionando el medio de comunicación por el cual se atendrá al cliente.</p>
             </div>
-            <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0305.jpeg') }}');"></div>
+            <div class="popular-course-thumb bg-img"
+                style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0305.jpeg') }}');"></div>
         </div>
     </div>
-       <!-- ##### Elements Area Start ##### -->
-       <section class="elements-area mt-50 section-padding-100-0">
-                <!-- ##### Tabs ##### -->
-                <div class="col-12 col-lg-12">
-                    <div class="academy-tabs-content">
-                        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false">CERTIFICACION EC0305 ante Conocer</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" id="tab--2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Beneficios y valor de la Certificación</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="tab--3" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="true">Requisitos y Costos</a>
-                            </li>
-                        </ul>
+    <!-- ##### Elements Area Start ##### -->
+    <section class="elements-area mt-50 section-padding-100-0">
+        <!-- ##### Tabs ##### -->
+        <div class="col-12 col-lg-12">
+            <div class="academy-tabs-content">
+                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab"
+                            aria-controls="tab1" aria-selected="false">CERTIFICACIÓN EC0305 ante Conocer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tab--2" data-toggle="tab" href="#tab2" role="tab"
+                            aria-controls="tab2" aria-selected="false">Beneficios y valor de la Certificación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab--3" data-toggle="tab" href="#tab3" role="tab"
+                            aria-controls="tab3" aria-selected="true">Requisitos y Costos</a>
+                    </li>
+                </ul>
 
-                        <div class="tab-content mb-100" id="myTabContent">
-                            <div class="tab-pane fade" id="tab1" role="tabpanel" aria-labelledby="tab--1">
-                                <div class="academy-tab-content">
-                                    <!-- Tab Text -->
-                                    <div class="academy-tab-text">
-                                        <p style="text-align: justify;">OBJETIVO<br>
-                                            <br>Los participantes practicarán el proceso completo de prestación de servicios de atención a clientes,
-                                            siguiendo los elementos del estándar, atender los requerimientos del cliente, gestionar el servicio
-                                            requerido por el cliente y obtener la satisfacción del servicio, con base en el estándar EC0305 avalado por
-                                            el CONOCER y la SEP.<br>
-                                            <br>Capacitación en el Estándar de Competencia EC0305 + Evaluación + Certificación<br>
-                                            • Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con retroalimentación y
-                                            definición de pasos siguientes.<br>
-                                            • Capacitación en el Estándar de Competencia EC035 de CONOCER como preparación a la
-                                            Evaluación.<br>
-                                            • Revisión del Plan de Evaluación y aplicación de la Evaluación.<br>
-                                            • Presentación de resultados y puntaje de la Evaluación*.<br>
-                                            • Gestión y entrega del Certificado por parte de la Entidad de Certificación.
-                                            </p>
-                                    </div>
-                                </div>
+                <div class="tab-content mb-100" id="myTabContent">
+                    <div class="tab-pane fade" id="tab1" role="tabpanel" aria-labelledby="tab--1">
+                        <div class="academy-tab-content">
+                            <!-- Tab Text -->
+                            <div class="academy-tab-text">
+                                <p style="text-align: justify;">OBJETIVO<br>
+                                    <br>Los participantes practicarán el proceso completo de prestación de servicios de
+                                    atención a clientes,
+                                    siguiendo los elementos del estándar, atender los requerimientos del cliente,
+                                    gestionar el servicio
+                                    requerido por el cliente y obtener la satisfacción del servicio, con base en el
+                                    estándar EC0305 avalado por
+                                    el CONOCER y la SEP.<br>
+                                    <br>Capacitación en el estándar de competencia EC0305 + Evaluación +
+                                    Certificación<br>
+                                    • Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con
+                                    retroalimentación y
+                                    definición de pasos siguientes.<br>
+                                    • Capacitación en el estándar de competencia EC035 de CONOCER como preparación a la
+                                    Evaluación.<br>
+                                    • Revisión del Plan de evaluación y aplicación de la evaluación.<br>
+                                    • Presentación de resultados y puntaje de la evaluación.<br>
+                                    • Gestión y entrega del certificado por parte de la entidad de certificación.
+                                </p>
                             </div>
-                            <div class="tab-pane fade show active" id="tab2" role="tabpanel" aria-labelledby="tab--2">
-                                <div class="academy-tab-content">
-                                    <!-- Tab Text -->
-                                    <div class="academy-tab-text">
-                                        <p style="text-align: justify;">BENEFICIOS<br>
-                                            <br>• Generará un valor agregado como persona que atiende al cliente con base en el estándar, lo cual
-                                            permitirá desarrollar y fortalecer sus conocimientos, habilidades, destrezas y actitudes, para
-                                            obtener mejores resultados derivados de su trabajo.<br>
-                                            • Aumentará su competitividad en el Mercado.<br>
-                                            • Mejorará su desempeño como prestador de servicios de atención a clientes.<br>
-                                            • Adquirirá herramientas para profesionalizarse como prestador de servicios de atención a clientes.<br>
-                                            • Obtendrá un registro Nacional al acreditarse en la competencia.<br>
-                                            <br>DIRIGIDO<br>
-                                            <br>Dueños de negocio, emprendedores, directores, gerentes, supervisores, coordinadores, jefes de área,
-                                            empleados en áreas secretariales, de recepción, información al público, cajeros, hotelería y restaurantes,
-                                            ventas, servicios de alimentos, salud, trabajo social, entre otros y en general a cualquier persona que ejerza
-                                            un servicio de atención a clientes internos y externos.
-                                            </p>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show active" id="tab2" role="tabpanel" aria-labelledby="tab--2">
+                        <div class="academy-tab-content">
+                            <!-- Tab Text -->
+                            <div class="academy-tab-text">
+                                <p style="text-align: justify;">BENEFICIOS<br>
+                                    <br>• Generará un valor agregado como persona que atiende al cliente con base en el
+                                    estándar, lo cual
+                                    permitirá desarrollar y fortalecer sus conocimientos, habilidades, destrezas y
+                                    actitudes, para
+                                    obtener mejores resultados derivados de su trabajo.<br>
+                                    • Aumentará su competitividad en el Mercado.<br>
+                                    • Mejorará su desempeño como prestador de servicios de atención a clientes.<br>
+                                    • Adquirirá herramientas para profesionalizarse como prestador de servicios de
+                                    atención a clientes.<br>
+                                    • Obtendrá un registro nacional al acreditarse en la competencia.<br>
+                                    <br>DIRIGIDO<br>
+                                    <br>Dueños de negocio, emprendedores, directores, gerentes, supervisores,
+                                    coordinadores, jefes de área,
+                                    empleados en áreas secretariales, de recepción, información al público, cajeros,
+                                    hotelería y restaurantes,
+                                    ventas, servicios de alimentos, salud, trabajo social, entre otros y en general a
+                                    cualquier persona que ejerza
+                                    un servicio de atención a clientes internos y externos.
+                                </p>
                             </div>
-                            <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab--3">
-                                <div class="academy-tab-content">
-                                    <!-- Tab Text -->
-                                    <div class="academy-tab-text">
-                                        <p style="text-align: justify;">Estándar de competencia: $2,500.00<br>
-                                            Certificado $500.00<br>
-                                            Inversión total: $3,000.00<br>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab--3">
+                        <div class="academy-tab-content">
+                            <!-- Tab Text -->
+                            <div class="academy-tab-text">
+                                <p style="text-align: justify;">Estándar de competencia: $2,500.00<br>
+                                    Certificado $500.00<br>
+                                    Inversión total: $3,000.00<br>
 
-                                            Requisitos:<br>
-                                            • Identificación oficial<br>
-                                            • Curp<br>
-                                            • Comprobante de domicilio<br>
-                                            • Fotografía tamaño infantil a color</p>
-                                    </div>
-                                </div>
+                                    Requisitos:<br>
+                                    • Identificación oficial<br>
+                                    • Curp<br>
+                                    • Comprobante de domicilio<br>
+                                    • Fotografía tamaño infantil a color</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
     </section>
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
@@ -230,13 +230,16 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
+                                        alt=""></a>
                             </div>
                             <p>Entidad de Certificación y Evaluación del ICATECH.</p>
                             <div class="footer-social-info">
-                                <a href="https://www.facebook.com/ICATchiapas?mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/ICATchiapas?mibextid=ZbWKwL"><i
+                                        class="fa fa-facebook"></i></a>
                                 <a href="https://twitter.com/IcatechOficial?s=09"><i class="fa fa-twitter"></i></a>
-                                <a href="https://instagram.com/icatechchiapas?igshid=NTc4MTIwNjQ2YQ=="><i class="fa fa-instagram"></i></a>
+                                <a href="https://instagram.com/icatechchiapas?igshid=NTc4MTIwNjQ2YQ=="><i
+                                        class="fa fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -244,13 +247,13 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <h6>Accesos directos</h6>
+                                <h6>Accesos Directos</h6>
                             </div>
                             <nav>
                                 <ul class="useful-links">
-                                    <li><a href="#">Avisos de privacidad</a></li>
-                                    <li><a href="#">Normatividad</a></li>
-                                    <li><a href="#">Organigrama</a></li>
+                                    <li><a href="#">Inicio</a></li>
+                                    <li><a href="#">Contacto</a></li>
+                                    <li><a href="#">Avisos de Privacidad</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -262,12 +265,30 @@
                                 <h6>Galeria</h6>
                             </div>
                             <div class="gallery-list d-flex justify-content-between flex-wrap">
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" class="gallery-img" title="Gallery Image 1"><img src="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" class="gallery-img" title="Gallery Image 2"><img src="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" class="gallery-img" title="Gallery Image 3"><img src="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" class="gallery-img" title="Gallery Image 4"><img src="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" class="gallery-img" title="Gallery Image 5"><img src="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" class="gallery-img" title="Gallery Image 6"><img src="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
+                                    class="gallery-img" title="Gallery Image 1"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
+                                    class="gallery-img" title="Gallery Image 2"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
+                                    class="gallery-img" title="Gallery Image 3"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
+                                    class="gallery-img" title="Gallery Image 4"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                    class="gallery-img" title="Gallery Image 5"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                    class="gallery-img" title="Gallery Image 6"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                        alt="" /></a>
                             </div>
                         </div>
                     </div>

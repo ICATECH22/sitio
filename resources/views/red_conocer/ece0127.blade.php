@@ -80,16 +80,13 @@
                                                 </li>
                                                 <li><a href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a>
                                                 </li>
-                                                <li><a
-                                                        href="{{  route('ece_icatech.certificacion.ec0127') }}">EC0127</a>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a>
                                                 </li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec0366') }}">EC0366</a>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0366') }}">EC0366</a>
                                                 </li>
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a>
+                                                <li><a href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a>
                                                 </li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
@@ -101,7 +98,8 @@
                                                 </li>
                                             </ul>
                                             <div class="single-mega cn-col-4">
-                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}" alt="">
+                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}"
+                                                    alt="">
                                             </div>
                                         </div>
                                     </li>
@@ -117,7 +115,8 @@
                         <!-- Calling Info -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359</span></a>
+                                <a href="tel:9616494788"><i class="icon-telephone-2"></i>
+                                    <span>(+52) 961 6494788</span></a>
                             </div>
                         </div>
                     </nav>
@@ -191,18 +190,18 @@
                                     estado y limpieza del área
                                     de cocina, con la finalidad de conservar el equipo necesario para el desarrollo de
                                     su trabajo.<br>
-                                    <br>Capacitación en el Estándar de Competencia EC0127 + Evaluación +
+                                    <br>Capacitación en el estándar de competencia EC0127 + Evaluación +
                                     Certificación:<br>
                                     • Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con
                                     retroalimentación y
                                     definición de pasos siguientes.<br>
-                                    • Capacitación en el Estándar de Competencia EC0127 de CONOCER como preparación a la
+                                    • Capacitación en el estándar de competencia EC0127 de CONOCER como preparación a la
                                     Evaluación.<br>
-                                    • Revisión del Plan de Evaluación y aplicación de la Evaluación.<br>
+                                    • Revisión del plan de evaluación y aplicación de la evaluación.<br>
                                     • Presentación de resultados y puntaje de la Evaluación.<br>
-                                    • Gestión y entrega del Certificado por parte de la Entidad de Certificación.<br>
+                                    • Gestión y entrega del certificado por parte de la entidad de certificación.<br>
                                     Consta de 4 elementos a evaluar:<br>
-                                    • Disponer la materia prima, equipo y utensilios de cocina<br>
+                                    • Disponer de la materia prima, equipo y utensilios de cocina<br>
                                     • Coordinar la pre-elaboración de alimentos<br>
                                     • Elaborar platillos<br>
                                     • Dar el terminado al platillo
@@ -260,7 +259,8 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <a href="#"><img src="img/core-img/LOGO_ECE4.png" alt=""></a>
+                                <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
+                                        alt=""></a>
                             </div>
                             <p>Entidad de Certificación y Evaluación del ICATECH.</p>
                             <div class="footer-social-info">
@@ -276,14 +276,13 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <h6>Usefull Links</h6>
+                                <h6>Accesos Directos</h6>
                             </div>
                             <nav>
                                 <ul class="useful-links">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Services &amp; Features</a></li>
-                                    <li><a href="#">Accordions and tabs</a></li>
-                                    <li><a href="#">Menu ideas</a></li>
+                                    <li><a href="#">Inicio</a></li>
+                                    <li><a href="#">Contacto</a></li>
+                                    <li><a href="#">Avisos de Privacidad</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -292,27 +291,33 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <h6>Gallery</h6>
+                                <h6>Galeria</h6>
                             </div>
                             <div class="gallery-list d-flex justify-content-between flex-wrap">
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 1"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery1.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 2"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery2.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 3"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery3.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 4"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery4.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 5"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery5.jpg') }}" alt=""></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" class="gallery-img"
-                                    title="Gallery Image 6"><img
-                                        src="{{ asset('assets/ece/img/bg-img/gallery6.jpg') }}" alt=""></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
+                                    class="gallery-img" title="Gallery Image 1"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
+                                    class="gallery-img" title="Gallery Image 2"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
+                                    class="gallery-img" title="Gallery Image 3"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
+                                    class="gallery-img" title="Gallery Image 4"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                    class="gallery-img" title="Gallery Image 5"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                    class="gallery-img" title="Gallery Image 6"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                        alt="" /></a>
                             </div>
                         </div>
                     </div>
