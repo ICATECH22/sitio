@@ -235,9 +235,11 @@
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
-                                        alt=""></a>
+                                        alt="" /></a>
                             </div>
-                            <p>Entidad de Certificación y Evaluación del ICATECH.</p>
+                            <p>
+                                Entidad de Certificación y Evaluación del ICATECH.
+                            </p>
                             <div class="footer-social-info">
                                 <a href="https://www.facebook.com/ICATchiapas?mibextid=ZbWKwL"><i
                                         class="fa fa-facebook"></i></a>
@@ -255,9 +257,9 @@
                             </div>
                             <nav>
                                 <ul class="useful-links">
-                                    <li><a href="#">Inicio</a></li>
-                                    <li><a href="#">Contacto</a></li>
-                                    <li><a href="#">Avisos de Privacidad</a></li>
+                                    <li><a href="#">Avisos de privacidad</a></li>
+                                    <li><a href="#">Normatividad</a></li>
+                                    <li><a href="#">Organigrama</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -285,13 +287,13 @@
                                     class="gallery-img" title="Gallery Image 4"><img
                                         src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
                                         alt="" /></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
                                     class="gallery-img" title="Gallery Image 5"><img
-                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
                                         alt="" /></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp6.webp') }}"
                                     class="gallery-img" title="Gallery Image 6"><img
-                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp6.webp') }}"
                                         alt="" /></a>
                             </div>
                         </div>

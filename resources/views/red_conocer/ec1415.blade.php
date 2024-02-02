@@ -216,9 +216,11 @@
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
-                                        alt=""></a>
+                                        alt="" /></a>
                             </div>
-                            <p>Entidad de Certificación y Evaluación del ICATECH.</p>
+                            <p>
+                                Entidad de Certificación y Evaluación del ICATECH.
+                            </p>
                             <div class="footer-social-info">
                                 <a href="https://www.facebook.com/ICATchiapas?mibextid=ZbWKwL"><i
                                         class="fa fa-facebook"></i></a>
@@ -232,7 +234,7 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <h6>Accesos directos</h6>
+                                <h6>Accesos Directos</h6>
                             </div>
                             <nav>
                                 <ul class="useful-links">

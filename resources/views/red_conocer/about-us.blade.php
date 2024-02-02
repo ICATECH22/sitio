@@ -377,10 +377,11 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}" alt="" /></a>
+                                <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
+                                        alt="" /></a>
                             </div>
                             <p>
                                 Entidad de Certificación y Evaluación del ICATECH.
@@ -395,23 +396,56 @@
                         </div>
                     </div>
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <h6>Accesos directos</h6>
+                                <h6>Accesos Directos</h6>
                             </div>
                             <nav>
                                 <ul class="useful-links">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Services &amp; Features</a></li>
-                                    <li><a href="#">Accordions and tabs</a></li>
-                                    <li><a href="#">Menu ideas</a></li>
+                                    <li><a href="#">Avisos de privacidad</a></li>
+                                    <li><a href="#">Normatividad</a></li>
+                                    <li><a href="#">Organigrama</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Galeria</h6>
+                            </div>
+                            <div class="gallery-list d-flex justify-content-between flex-wrap">
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
+                                    class="gallery-img" title="Gallery Image 1"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
+                                    class="gallery-img" title="Gallery Image 2"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
+                                    class="gallery-img" title="Gallery Image 3"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
+                                    class="gallery-img" title="Gallery Image 4"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
+                                    class="gallery-img" title="Gallery Image 5"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp6.webp') }}"
+                                    class="gallery-img" title="Gallery Image 6"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp6.webp') }}"
+                                        alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <h6>Contacto</h6>
@@ -426,8 +460,7 @@
                             </div>
                             <div class="single-contact d-flex">
                                 <i class="icon-contract"></i>
-                                <p>
-                                    icatech@icatech.chiapas.gob.mx</p>
+                                <p>icatech@icatech.chiapas.gob.mx</p>
                             </div>
                         </div>
                     </div>

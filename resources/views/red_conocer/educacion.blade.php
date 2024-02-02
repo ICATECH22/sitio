@@ -130,7 +130,8 @@
                             <p style="text-align: justify;">Refiere a las funciones que una persona realiza para evaluar
                                 la competencia de candidatos con base en estándares de competencia cumpliendo los
                                 principios de transparencia, imparcialidad y objetividad.</p>
-                            <a href="{{ route('ece_icatech.certificacion.ec0076') }}" class="btn academy-btn btn-sm">Leer mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec0076') }}"
+                                class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0076.jpeg') }}');"></div>
@@ -156,9 +157,11 @@
                                 habilidades y actitudes para desarrollar una actividad laboral con un alto nivel de
                                 profesionalismo y totalmente apegado a las mejores prácticas que dictan los mercados
                                 laborales internacionales.</p>
-                            <a href="{{ route('ece_icatech.certificacion.ec0366') }}" class="btn academy-btn btn-sm">Leer mas</a>
+                            <a href="{{ route('ece_icatech.certificacion.ec0366') }}"
+                                class="btn academy-btn btn-sm">Leer mas</a>
                         </div>
-                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0366.jpeg') }}');">
+                        <div class="popular-course-thumb bg-img"
+                            style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0366.jpeg') }}');">
                         </div>
                     </div>
                 </div>
@@ -188,9 +191,11 @@
                     Dirigido a:<br>
                     • Equipos de instructores internos de una empresa.<br>
                     • Instructores independientes, sea que trabajen o no dentro de una organización..</p>
-                <a href="{{ route('ece_icatech.certificacion.ec02017_1') }}" class="btn academy-btn btn-sm mt-15">Ver Más</a>
+                <a href="{{ route('ece_icatech.certificacion.ec02017_1') }}" class="btn academy-btn btn-sm mt-15">Ver
+                    Más</a>
             </div>
-            <div class="popular-course-thumb bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/ec02017.01.jpeg') }}');"></div>
+            <div class="popular-course-thumb bg-img"
+                style="background-image: url('{{ asset('assets/ece/img/bg-img/ec02017.01.jpeg') }}');"></div>
         </div>
     </div>
     <!-- ##### Top Popular Courses Details Area End ##### -->
@@ -204,7 +209,8 @@
                 <div class="col-12">
                     <div class="cta-content d-flex align-items-center justify-content-between flex-wrap">
                         <h3>¿Quieres certificarte con nosotros? ¡Ponte en contacto!</h3>
-                        <a href="{{ route('ece_icatech.contactanos') }}" class="btn academy-btn" style="text-align: center;">Contactanos</a>
+                        <a href="{{ route('ece_icatech.contactanos') }}" class="btn academy-btn"
+                            style="text-align: center;">Contactanos</a>
                     </div>
                 </div>
             </div>
@@ -218,7 +224,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <a href="#"><img src="{{ asset('assets/ece/img/core-img/LOGO_ECE4.png') }}"
@@ -237,7 +243,7 @@
                         </div>
                     </div>
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <h6>Accesos Directos</h6>
@@ -252,7 +258,41 @@
                         </div>
                     </div>
                     <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Galeria</h6>
+                            </div>
+                            <div class="gallery-list d-flex justify-content-between flex-wrap">
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
+                                    class="gallery-img" title="Gallery Image 1"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
+                                    class="gallery-img" title="Gallery Image 2"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
+                                    class="gallery-img" title="Gallery Image 3"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
+                                    class="gallery-img" title="Gallery Image 4"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
+                                    class="gallery-img" title="Gallery Image 5"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
+                                        alt="" /></a>
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp6.webp') }}"
+                                    class="gallery-img" title="Gallery Image 6"><img
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp6.webp') }}"
+                                        alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
                                 <h6>Contacto</h6>
