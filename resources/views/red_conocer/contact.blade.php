@@ -81,8 +81,8 @@
                         <!-- Informacion de telefono -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="tel:9616494788"><i class="icon-telephone-2"></i> <span>(+52) 961 649
-                                        4788</span></a>
+                                <a href="tel:9616494788"><i class="icon-telephone-2"></i>
+                                    <span>(+52) 961 6494788</span></a>
                             </div>
                         </div>
                     </nav>

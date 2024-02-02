@@ -71,8 +71,8 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
+                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a>
                                     </li>
                                     <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
@@ -281,13 +281,13 @@
                                     class="gallery-img" title="Gallery Image 4"><img
                                         src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
                                         alt="" /></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
                                     class="gallery-img" title="Gallery Image 5"><img
-                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
                                         alt="" /></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp6.webp') }}"
                                     class="gallery-img" title="Gallery Image 6"><img
-                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp6.webp') }}"
                                         alt="" /></a>
                             </div>
                         </div>

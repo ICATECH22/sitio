@@ -72,40 +72,9 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
-                                    <li><a href="#">Registros</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec02017_1') }}">EC02017.01</a>
-                                                </li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a>
-                                                </li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0366') }}">EC0366</a>
-                                                </li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a>
-                                                </li>
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec1415') }}">EC1415</a>
-                                                </li>
-                                            </ul>
-                                            <div class="single-mega cn-col-4">
-                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}"
-                                                    alt="">
-                                            </div>
-                                        </div>
-                                    </li>
+                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a>
                                     </li>
-                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
                                 </ul>
                             </div>
@@ -310,13 +279,13 @@
                                     class="gallery-img" title="Gallery Image 4"><img
                                         src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
                                         alt="" /></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
                                     class="gallery-img" title="Gallery Image 5"><img
-                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp5.webp') }}"
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp5.webp') }}"
                                         alt="" /></a>
-                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp6.webp') }}"
                                     class="gallery-img" title="Gallery Image 6"><img
-                                        src="{{ asset('assets/ece/img/bg-img/BannerECE-webp6.webp') }}"
+                                        src="{{ asset('assets/ece/img/bg-img/BannerECE__webp6.webp') }}"
                                         alt="" /></a>
                             </div>
                         </div>

@@ -73,40 +73,9 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
-                                    <li><a href="">Registros</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec02017_1') }}">EC02017.01</a>
-                                                </li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0076') }}">EC0076</a>
-                                                </li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0127') }}">EC0127</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0366') }}">EC0366</a>
-                                                </li>
-                                                <li><a href="{{ route('ece_icatech.certificacion.ec0401') }}">EC0401</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec0305') }}">EC0305</a>
-                                                </li>
-                                                <li><a
-                                                        href="{{ route('ece_icatech.certificacion.ec1415') }}">EC1415</a>
-                                                </li>
-                                            </ul>
-                                            <div class="single-mega cn-col-4">
-                                                <img src="{{ asset('assets/ece/img/bg-img/bg-1.jpg') }}"
-                                                    alt="">
-                                            </div>
-                                        </div>
-                                    </li>
+                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a>
                                     </li>
-                                    <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
                                 </ul>
                             </div>
@@ -116,8 +85,8 @@
                         <!-- Calling Info -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="tel:+654563325568889"><i class="icon-telephone-2"></i> <span>(+52) 961 150 2359
-                                        0</span></a>
+                                <a href="tel:9616494788"><i class="icon-telephone-2"></i>
+                                    <span>(+52) 961 6494788</span></a>
                             </div>
                         </div>
                     </nav>
