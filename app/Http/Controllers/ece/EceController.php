@@ -4,6 +4,8 @@ namespace App\Http\Controllers\ece;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Response;
 
 class EceController extends Controller
 {
@@ -144,5 +146,27 @@ class EceController extends Controller
     public function admin(Request $request)
     {
         return view('red_conocer.administracion_publica');
+    }
+
+    public function descargar($file)
+    {
+        if (!$file)
+        {
+            abort(500);
+        } else {
+            $filepath = $file;
+            if (!File::exists(public_path("assets/ece/docs/".$file))) {
+                # checando si el archivo éxiste
+                abort(404); // si no hay abortamos
+            }
+            $files = File::get(public_path("assets/ece/docs/".$file));
+            $type = File::mimetype(public_path("assets/ece/docs/".$file));
+            dd($type);
+            // $response = Response::make($file, 200);
+            // $response->header("Content-Type", $type);
+            // return $response;
+            // $filePath = public_path("assets/ece/docs/".$file);
+            // return response()->file($filePath);
+        }
     }
 }
