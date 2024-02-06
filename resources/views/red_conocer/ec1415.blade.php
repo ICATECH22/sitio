@@ -118,11 +118,9 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p style="text-align: justify;">Estándar de competencia dirigido a personas que deban contar con
-                    conocimientos, habilidades, destrezas
+                <p style="text-align: justify;">Estándar de competencia dirigido a personas que deban contar con conocimientos, habilidades, destrezas
                     y actitudes para las personas que desempeñan las funciones de ventas en pequeños negocios, desde
-                    realizar el inventario para saber de los recursos que dispone para realizar las ventas, hasta las
-                    estrategias
+                    realizar el inventario para saber de los recursos que dispone para realizar las ventas, hasta las estrategias
                     de venta que aplicará para incentivar el consumo de los productos en el establecimiento.</p>
             </div>
             <div class="popular-course-thumb bg-img"
@@ -154,10 +152,8 @@
                         <div class="academy-tab-content">
                             <!-- Tab Text -->
                             <div class="academy-tab-text">
-                                <p style="text-align: justify;">Capacitación en el estándar de competencia EC1415 +
-                                    evaluación + certificación<br>
-                                    <br>• Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con
-                                    retroalimentación y
+                                <p style="text-align: justify;">Capacitación en el estándar de competencia EC1415 + evaluación + certificación<br>
+                                    <br>• Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con retroalimentación y
                                     definición de pasos siguientes:<br>
                                     • Capacitación en el estándar de competencia EC1415 de CONOCER como preparación a la
                                     Evaluación.<br>

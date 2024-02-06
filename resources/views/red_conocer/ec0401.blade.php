@@ -109,7 +109,7 @@
     <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
         <div class="single-top-popular-course d-flex align-items-center flex-wrap">
             <div class="popular-course-content">
-                <h5>Liderazgo en el servicio Publico</h5>
+                <h5>Liderazgo en el servicio público</h5>
                 <span>EC0401</span>
                 <div class="course-ratings">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -118,8 +118,8 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p style="text-align: justify;">Certificación Estándar EC0401 Orientado a las personas que se desempeñan
-                    en la Administración Pública,
+                <p style="text-align: justify;">Certificación estándar EC0401, orientado a las personas que se
+                    desempeñan en la administración pública,
                     cuyas competencias incluyen: demostrar vocación de servicio, construir relaciones, actuar con
                     valores,
                     enfocar a resultados e impulsar el cambio, disponiendo de los instrumentos necesarios para
@@ -138,7 +138,7 @@
                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab"
-                            aria-controls="tab1" aria-selected="false">CERTIFICACION EC0401 ante Conocer</a>
+                            aria-controls="tab1" aria-selected="false">CERTIFICACION EC0401 ante CONOCER</a>
                     </li>
                     <li class="nav-item ml">
                         <a class="nav-link active" id="tab--2" data-toggle="tab" href="#tab2" role="tab"
@@ -156,7 +156,7 @@
                             <!-- Tab Text -->
                             <div class="academy-tab-text">
                                 <p style="text-align: justify;">Orientado a las personas que se desempeñan en la
-                                    Administración Pública, cuyas competencias incluyen:
+                                    administración pública, cuyas competencias incluyen:
                                     demostrar vocación de servicio, construir relaciones, actuar con valores, enfocar a
                                     resultados e impulsar el
                                     cambio.<br>
@@ -170,8 +170,8 @@
                                     destrezas y actitudes que requiere una persona para realizar una función individual
                                     en el mercado de
                                     trabajo con un alto nivel de desempeño. Hay un estándar específico para los
-                                    servidores, el Estándar de
-                                    Competencia EC0401 – LIDERAZGO EN EL SERVICIO PÚBLICO.<br>
+                                    servidores, el estándar de
+                                    competencia EC0401 – LIDERAZGO EN EL SERVICIO PÚBLICO.
                                 </p>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
                             <!-- Tab Text -->
                             <div class="academy-tab-text">
                                 <p style="text-align: justify;">BENEFICIOS<br>
-                                    1.- Recibir un documento con reconocimiento oficial del Consejo Nacional de
+                                    1.- Obtendra un documento con reconocimiento oficial del Consejo Nacional de
                                     Normalización y Certificación
                                     de Competencias Laborales (CONOCER).<br>
                                     2.- Una certificación otorga ventaja frente a los competidores, ya que los clientes
@@ -191,29 +191,29 @@
                                     necesarias para
                                     desempeñar una función laboral.<br>
                                     4.- Reconoce los conocimientos y experiencia, independientemente de cómo se haya
-                                    adquirido.
+                                    adquirido.<br>
                                     5.- Superación personal y sentido de pertenencia a una organización.<br>
                                     Capacitación en el Estándar de Competencia EC0401 + Evaluación + Certificación
                                     • Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con
                                     retroalimentación y
-                                    definición de pasos siguientes.<br>
-                                    • Capacitación en el Estándar de Competencia EC0401 de CONOCER como preparación a la
-                                    Evaluación.<br>
-                                    • Revisión del Plan de Evaluación y aplicación de la Evaluación.<br>
-                                    • Presentación de resultados y puntaje de la Evaluación.<br>
-                                    • Gestión y entrega del Certificado por parte de la Entidad de Certificación.<br>
+                                    definición de los siguientes pasos:<br>
+                                    • Capacitación en el estándar de competencia EC0401 de CONOCER como preparación a la
+                                    evaluación.<br>
+                                    • Revisión del plan de evaluación y aplicación de la evaluación.<br>
+                                    • Presentación de resultados y puntaje de la evaluación.<br>
+                                    • Gestión y entrega del certificado por parte de la entidad de certificación.<br>
                                     <br>¿PROPÓSITO DEL EC0401.<br>
                                     <br>Constituir el modelo referencial del ser y actuar del servidor público y servir
                                     como referente para la
-                                    evaluación y certificación de las personas que se desempeñan en la Administración
-                                    Pública, cuyas
+                                    evaluación y certificación de las personas que se desempeñan en la administración
+                                    pública, cuyas
                                     competencias incluyen: demostrar vocación de servicio, construir relaciones, actuar
                                     con valores, enfocar
                                     a resultados e impulsar el cambio, disponiendo de los instrumentos necesarios para
                                     desempeñar con
                                     calidad su función. Asimismo, puede ser referente para el desarrollo de programas de
                                     capacitación y de
-                                    formación basados en el Estándar de Competencia (EC).<br>
+                                    formación basados en el estándar de competencia (EC).<br>
 
                                 </p>
                             </div>

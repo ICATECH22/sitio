@@ -119,10 +119,8 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p style="text-align: justify;">El estándar de competencia EC0076 está dirigido a personas que quieren o
-                    necesitan adquirir y
-                    desarrollar conocimientos, habilidades, actitudes y destrezas para evaluar la competencia de otros
-                    con
+                <p style="text-align: justify;">El estándar de competencia EC0076 está dirigido a personas que quieren o necesitan adquirir y
+                    desarrollar conocimientos, habilidades, actitudes y destrezas para evaluar la competencia de otros con
                     base en los cstándares de competencia.<br>
                     • Capacitadores<br>
                     • Evaluadores<br>
@@ -158,21 +156,15 @@
                         <div class="academy-tab-content">
                             <!-- Tab Text -->
                             <div class="academy-tab-text">
-                                <p style="text-align: justify;">Evaluación de la competencia de candidatos con base en
-                                    estándares de
+                                <p style="text-align: justify;">Evaluación de la competencia de candidatos con base en estándares de
                                     competencia.<br>
-                                    Refiere a las funciones que una persona realiza para evaluar la competencia de
-                                    candidatos con base en
-                                    estándares de competencia cumpliendo los principios de transparencia, imparcialidad
-                                    y objetividad.<br>
-                                    Para obtener la Certificación en el estándar de competencia EC0076 de CONOCER se
-                                    toman en cuenta
-                                    las capacidades y los conocimientos previos del participante. A continuación, los
-                                    pasos a seguir en
+                                    Refiere a las funciones que una persona realiza para evaluar la competencia de candidatos con base en
+                                    estándares de competencia cumpliendo los principios de transparencia, imparcialidad y objetividad.<br>
+                                    Para obtener la Certificación en el estándar de competencia EC0076 de CONOCER se toman en cuenta
+                                    las capacidades y los conocimientos previos del participante. A continuación, los pasos a seguir en
                                     escenarios de menor a mayor experiencia.<br>
                                     Capacitación en el estándar de competencia EC076 + Evaluación + Certificación
-                                    • Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con
-                                    retroalimentación y
+                                    • Aplicación de evaluación diagnóstica para evaluar el nivel del instructor, con retroalimentación y
                                     definición de pasos siguientes.
 
                                     • Capacitación en el estándar de competencia EC0076 de CONOCER como preparación a la
@@ -187,14 +179,11 @@
                         <div class="academy-tab-content">
                             <!-- Tab Text -->
                             <div class="academy-tab-text">
-                                <p style="text-align: justify;">A través del estándar de competencia EC0076, las
-                                    personas pueden:<br>
-                                    • Adquirir y fortalecer sus habilidades para evaluar la competencia de otros
-                                    candidatos con base en
+                                <p style="text-align: justify;">A través del estándar de competencia EC0076, las personas pueden:<br>
+                                    • Adquirir y fortalecer sus habilidades para evaluar la competencia de otros candidatos con base en
                                     estándares de competencia<br>
                                     • Tener una mejor preparación para las evaluaciones y su creación.<br>
-                                    • Orientar la práctica del evaluador durante la evaluación de la competencia de
-                                    candidatos que
+                                    • Orientar la práctica del evaluador durante la evaluación de la competencia de candidatos que
                                     buscan certificar.<br>
                                     • Fortalecer el capital humano del país.<br>
                                     • Cumplir con los principios de transparencia, objetividad e imparcialidad.<br>

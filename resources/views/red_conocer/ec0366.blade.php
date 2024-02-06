@@ -109,7 +109,7 @@
     <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
         <div class="single-top-popular-course d-flex align-items-center flex-wrap">
             <div class="popular-course-content">
-                <h5>Desarrollo de Cursos de Formación en Línea</h5>
+                <h5>Desarrollo de cursos de formación en línea</h5>
                 <span>EC0366</span>
                 <div class="course-ratings">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -137,7 +137,7 @@
                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab"
-                            aria-controls="tab1" aria-selected="false">CERTIFICACIÓN EC0366 ante Conocer</a>
+                            aria-controls="tab1" aria-selected="false">CERTIFICACION EC0366 ante CONOCER</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" id="tab--2" data-toggle="tab" href="#tab2" role="tab"

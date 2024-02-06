@@ -119,7 +119,7 @@
                         data-wow-delay="400ms">
                         <div class="popular-course-content">
                             <h5>Evaluación de la competencia de candidatos con base en estándares de competencia</h5>
-                            <span>CERTIFICACION EC0076</span>
+                            <span>CERTIFICACIÓN EC0076</span>
                             <div class="course-ratings">
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -127,11 +127,9 @@
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star-o" aria-hidden="true"></i>
                             </div>
-                            <p style="text-align: justify;">Refiere a las funciones que una persona realiza para evaluar
-                                la competencia de candidatos con base en estándares de competencia cumpliendo los
-                                principios de transparencia, imparcialidad y objetividad.</p>
+                            <p style="text-align: justify;">Refiere a las funciones que una persona realiza para evaluar la competencia de candidatos con base en estándares de competencia cumpliendo los principios de transparencia, imparcialidad y objetividad.</p>
                             <a href="{{ route('ece_icatech.certificacion.ec0076') }}"
-                                class="btn academy-btn btn-sm">Leer mas</a>
+                                class="btn academy-btn btn-sm">Leer más</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0076.jpeg') }}');"></div>
@@ -152,13 +150,9 @@
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star-o" aria-hidden="true"></i>
                             </div>
-                            <p style="text-align: justify;">La certificación por competencias laborales es un documento
-                                de reconocimiento oficial que avala y soporta de que cuentas con los conocimientos,
-                                habilidades y actitudes para desarrollar una actividad laboral con un alto nivel de
-                                profesionalismo y totalmente apegado a las mejores prácticas que dictan los mercados
-                                laborales internacionales.</p>
+                            <p style="text-align: justify;">La certificación por competencias laborales es un documento de reconocimiento oficial que avala y soporta de que cuentas con los conocimientos, habilidades y actitudes para desarrollar una actividad laboral con un alto nivel de profesionalismo y totalmente apegado a las mejores prácticas que dictan los mercados laborales internacionales.</p>
                             <a href="{{ route('ece_icatech.certificacion.ec0366') }}"
-                                class="btn academy-btn btn-sm">Leer mas</a>
+                                class="btn academy-btn btn-sm">Leer más</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0366.jpeg') }}');">
@@ -184,8 +178,7 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p style="text-align: justify;">Impartición de cursos de formación del capital humano de manera
-                    presencial grupal.
+                <p style="text-align: justify;">Impartición de cursos de formación del capital humano de manera presencial grupal.
                     Adquiere conocimientos, habilidades y destrezas evaluadas y reconocidas por un organismo oficial que
                     te avala como instructor de capacitación.
                     Dirigido a:<br>

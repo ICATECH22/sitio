@@ -182,19 +182,13 @@
                         <div class="academy-tab-content">
                             <!-- Tab Text -->
                             <div class="academy-tab-text">
-                                <p style="text-align: justify;">Certificar y evaluar a las personas que se desempeñan
-                                    en la preparación de alimentos y cuyas
-                                    competencias incluyen el disponer de la materia prima, equipo y utensilios de
-                                    cocina, a la vez que
-                                    coordinan la pre-elaboración de alimentos, elaborar platillos y dar el terminado al
-                                    platillo.<br>
+                                <p style="text-align: justify;">Certificar y evaluar a las personas que se desempeñan en la preparación de alimentos y cuyas
+                                    competencias incluyen el disponer de la materia prima, equipo y utensilios de cocina, a la vez que
+                                    coordinan la pre-elaboración de alimentos, elaborar platillos y dar el terminado al platillo.<br>
                                     <br>A quién va dirigido:<br><br>
-                                    Ayudante de cocina, Ayudante de cocinero, Ayudante comedor (comedor industrial),
-                                    Chef,
-                                    Cocinero/Cocinera, Gerente/Subgerente de alimentos y bebidas, Gerente/Subgerente de
-                                    banquetes,
-                                    Gerente/Subgerente de restaurante, Parrillero/Parrillera, Trabajador/Trabajadora de
-                                    cafetería.
+                                    Ayudante de cocina, Ayudante de cocinero, Ayudante comedor (comedor industrial), Chef,
+                                    Cocinero/Cocinera, Gerente/Subgerente de alimentos y bebidas, Gerente/Subgerente de banquetes,
+                                    Gerente/Subgerente de restaurante, Parrillero/Parrillera, Trabajador/Trabajadora de cafetería.
                                 </p>
                             </div>
                         </div>

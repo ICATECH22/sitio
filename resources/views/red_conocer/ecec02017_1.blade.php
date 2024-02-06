@@ -110,7 +110,7 @@
     <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
         <div class="single-top-popular-course d-flex align-items-center flex-wrap">
             <div class="popular-course-content">
-                <h5 style="text-align: justify;">Certificación en el Estándar de Competencia</h5>
+                <h5 style="text-align: justify;">Certificación en el estándar de competencia</h5>
                 <span>EC02017.01</span>
                 <div class="course-ratings">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -119,12 +119,11 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p style="text-align: justify;">Impartición de cursos de formación del capital humano de manera
-                    presencial grupal.
+                <p style="text-align: justify;">Impartición de cursos de formación del capital humano de manera presencial grupal.
                     Adquiere conocimientos, habilidades y destrezas evaluadas y reconocidas por un organismo oficial que
-                    te avala como instructor de capacitación.
+                    te avala como instructor de capacitación. <br>
                     Dirigido a:<br>
-                    • Equipos de Instructores Internos de una empresa.<br>
+                    • Equipos de instructores internos de una empresa.<br>
                     • Instructores independientes, sea que trabajen o no dentro de una organización..</p>
             </div>
             <div class="popular-course-thumb bg-img"
