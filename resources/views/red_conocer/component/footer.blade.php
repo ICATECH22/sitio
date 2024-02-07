@@ -27,8 +27,8 @@
                         </div>
                         <nav>
                             <ul class="useful-links">
-                                <li><a href="#">Inicio</a></li>
-                                <li><a href="#">Contacto</a></li>
+                                <li><a href="{{ route('ece_icatech.index') }}">Inicio</a></li>
+                                <li><a href="{{ route('ece_icatech.contactanos') }}">Contacto</a></li>
                                 <li><a href="{{ route('ece_icatech.aviso_privacidad', ['file' => 'aviso_de_privacidad.pdf']) }}"
                                         target="_blank">Avisos de Privacidad</a></li>
                             </ul>

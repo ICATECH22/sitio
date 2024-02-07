@@ -154,19 +154,16 @@ class EceController extends Controller
         {
             abort(500);
         } else {
-            $filepath = $file;
             if (!File::exists(public_path("assets/ece/docs/".$file))) {
                 # checando si el archivo éxiste
                 abort(404); // si no hay abortamos
             }
             $files = File::get(public_path("assets/ece/docs/".$file));
             $type = File::mimetype(public_path("assets/ece/docs/".$file));
-            dd($type);
-            // $response = Response::make($file, 200);
-            // $response->header("Content-Type", $type);
-            // return $response;
-            // $filePath = public_path("assets/ece/docs/".$file);
-            // return response()->file($filePath);
+
+            $response = Response::make($files, 200);
+            $response->header("Content-Type", $type);
+            return $response;
         }
     }
 }

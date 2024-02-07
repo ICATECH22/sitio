@@ -255,7 +255,7 @@
 
     <!-- ##### Testimonials Area Start ##### -->
     <div class="testimonials-area section-padding-100 bg-img bg-overlay"
-        style="background-image: url('{{ asset('assets/ece/img/bg-img/bg-2.jpg') }}');">
+        style="background-image: url('{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-12">
