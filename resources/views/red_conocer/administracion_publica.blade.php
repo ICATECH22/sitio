@@ -95,11 +95,7 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}');">
-        <div class="bradcumbContent">
-            <h2>Empresarios</h2>
-        </div>
-    </div>
+    @include('red_conocer.component.breadcumb', ['breadcrumb' => __('Administración Pública')])
     <!-- ##### Breadcumb Area End ##### -->
 
     <!-- ##### Top Popular Courses Area Start ##### -->
@@ -108,7 +104,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
-                        <h3>Empresarios - Emprendedores</h3>
+                        <h3>Certificaciones EC0305 y EC0401</h3>
                     </div>
                 </div>
             </div>

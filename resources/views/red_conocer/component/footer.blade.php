@@ -29,7 +29,8 @@
                             <ul class="useful-links">
                                 <li><a href="#">Inicio</a></li>
                                 <li><a href="#">Contacto</a></li>
-                                <li><a href="{{ route('ece_icatech.aviso_privacidad', ['file' => 'aviso_de_privacidad.pdf']) }}" target="_blank">Avisos de Privacidad</a></li>
+                                <li><a href="{{ route('ece_icatech.aviso_privacidad', ['file' => 'aviso_de_privacidad.pdf']) }}"
+                                        target="_blank">Avisos de Privacidad</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -41,29 +42,29 @@
                             <h6>Galeria</h6>
                         </div>
                         <div class="gallery-list d-flex justify-content-between flex-wrap">
-                            <a href="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
-                                class="gallery-img" title="Gallery Image 1"><img
+                            <a href="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}" class="gallery-img"
+                                title="Gallery Image 1"><img
                                     src="{{ asset('assets/ece/img/bg-img/BannerECE_webp1.webp') }}"
                                     alt="" /></a>
-                            <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
-                                class="gallery-img" title="Gallery Image 2"><img
+                            <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}" class="gallery-img"
+                                title="Gallery Image 2"><img
                                     src="{{ asset('assets/ece/img/bg-img/BannerECE__webp2.webp') }}"
                                     alt="" /></a>
-                            <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
-                                class="gallery-img" title="Gallery Image 3"><img
+                            <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}" class="gallery-img"
+                                title="Gallery Image 3"><img
                                     src="{{ asset('assets/ece/img/bg-img/BannerECE__webp3.webp') }}"
                                     alt="" /></a>
-                            <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
-                                class="gallery-img" title="Gallery Image 4"><img
+                            <a href="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}" class="gallery-img"
+                                title="Gallery Image 4"><img
                                     src="{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}"
                                     alt="" /></a>
-                            <a href="{{ asset('assets/ece/img/bg-img/BannerECE_webp5.webp') }}"
-                                class="gallery-img" title="Gallery Image 5"><img
-                                    src="{{ asset('assets/ece/img/bg-img/BannerECE_webp5.webp') }}"
-                                    alt="" /></a>
-                            <a href="{{ asset('assets/ece/img/bg-img/BannerECE_webp7.webp') }}"
-                                class="gallery-img" title="Gallery Image 7">
-                                <img src="{{ asset('assets/ece/img/bg-img/BannerECE_webp7.webp') }}" alt="" />
+                            <a href="{{ asset('assets/ece/img/bg-img/bannerECE_webp5.webp') }}" class="gallery-img"
+                                title="Gallery Image 5">
+                                <img src="{{ asset('assets/ece/img/bg-img/bannerECE_webp5.webp') }}" alt="" />
+                            </a>
+                            <a href="{{ asset('assets/ece/img/bg-img/bannerECE_webp7.webp') }}" class="gallery-img"
+                                title="Gallery Image 7">
+                                <img src="{{ asset('assets/ece/img/bg-img/bannerECE_webp7.webp') }}" alt="" />
                             </a>
                         </div>
                     </div>

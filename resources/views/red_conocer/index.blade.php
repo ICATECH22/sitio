@@ -132,6 +132,22 @@
                     </div>
                 </div>
             </div>
+            {{-- single Hero Slide --}}
+            <div class="single-hero-slide bg-img" style="background-image: url('{{ asset('assets/ece/img/bg-img/BannerECE__webp4.webp') }}');">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h4 data-animation="fadeInUp" data-delay="100ms">Certificaciones que necesitas</h4>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a ECE-ICATECH<br>en linea
+                                </h2>
+                                <a href="course.html" class="btn academy-btn" data-animation="fadeInUp"
+                                    data-delay="700ms">Leer mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- ##### Hero Area End ##### -->

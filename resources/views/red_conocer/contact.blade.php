@@ -93,12 +93,7 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img"
-        style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}')">
-        <div class="bradcumbContent">
-            <h2>Contáctanos</h2>
-        </div>
-    </div>
+    @include('red_conocer.component.breadcumb', ['breadcrumb' => __('Contáctanos')])
     <!-- ##### Breadcumb Area End ##### -->
     <div class="top-popular-courses-area mt-70 section-padding-100-70"></div>
 

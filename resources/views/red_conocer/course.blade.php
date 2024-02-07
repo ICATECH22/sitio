@@ -95,12 +95,7 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img"
-        style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}');">
-        <div class="bradcumbContent">
-            <h2>Certificaciones</h2>
-        </div>
-    </div>
+    @include('red_conocer.component.breadcumb', ['breadcrumb' => __('Certificaciones')])
     <!-- ##### Breadcumb Area End ##### -->
 
     <!-- ##### Top Popular Courses Area Start ##### -->
@@ -109,7 +104,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
-                        <h3>Certificaciones mas populares</h3>
+                        <h3>Todas las Certificaciones</h3>
                     </div>
                 </div>
             </div>

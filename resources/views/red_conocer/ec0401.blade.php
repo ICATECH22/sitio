@@ -96,12 +96,7 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img"
-        style="background-image: url('{{ asset('assets/ece/img/bg-img/breadcumb.jpg') }}');">
-        <div class="bradcumbContent">
-            <h2>Certificación</h2>
-        </div>
-    </div>
+    @include('red_conocer.component.breadcumb', ['breadcrumb' => __('Certificación EC0401')])
     <!-- ##### Breadcumb Area End ##### -->
     <br><br><br>
 
