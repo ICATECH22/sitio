@@ -17,7 +17,7 @@ Route::get('/ece-icatech/empresarios_emprendedores', [EceController::class, 'bus
 
 Route::get('/ece-icatech/administracion_publica', [EceController::class, 'admin'])->name('ece_icatech.administracion.publica');
 
-Route::get('/ece-icatech/aviso-de-privacidad/{file}', [EceController::class, 'descargar'])->name('ece_icatech.aviso_privacidad');
+Route::get('/ece-icatech/avisos/{file}', [EceController::class, 'descargar'])->name('ece_icatech.aviso_privacidad');
 
 
 
