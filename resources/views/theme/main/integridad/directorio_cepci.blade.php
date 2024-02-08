@@ -12,7 +12,7 @@
     <hr class="g-brd-gray-light-v4">
     <div class="card-header">
         <h3 style="text-align:center">
-            <strong>DIRECTORIO ACTUALIZADO 2023</strong>
+            <strong>DIRECTORIO ACTUALIZADO 2024</strong>
         </h3>
     </div>
     <br>
@@ -69,7 +69,7 @@
             Conmutador: (961) 6121621 Ext. 404
             <br>
             <i class="fas fa-envelope"></i>
-            williamarguellog@hotmail.com
+            cepcisuplepresidente@icatech.chiapas.gob.mx
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
@@ -91,7 +91,7 @@
             Teléfono: (961) 100 7018
             <br>
             <i class="fas fa-evelope"></i>
-            jarmengolfuentes1020@gmail.com
+            comite-etica@icatech.chiapas.gob.mx
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/LIC_ROGER_ANTONIO.png') }}" alt="Avatar" class="avatar">
@@ -112,7 +112,7 @@
             Teléfono: (961) 130 3080
             <br>
             <i class="fas fa-evelope"></i>
-            roger.maza@gmail.com
+            cepci-sejecutivo@icatech.chiapas.gob.mx
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
@@ -134,7 +134,7 @@
             Conmutador: (961) 612 1621 Ext. 402
             <br>
             <i class="fas fa-envelope"></i>
-            odalilita89@gmail.com
+            cepcisecretariat@icatech.chiapas.gob.mx
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_MARTHA_TERSA.png') }}" alt="Avatar" class="avatar">
@@ -155,7 +155,7 @@
             Conmutador: (961) 612 1621 Ext. 402
             <br>
             <i class="fas fa-envelope"></i>
-            maythe040619@gmail.com
+            cepcisuplesecretariat@icatech.chiapas.gob.mx
         </div>
        {{-- nuevo --}}
         <div class="w-100"></div>
@@ -179,7 +179,7 @@
             Conmutador: (961) 612 1621 Ext. 301
             <br>
             <i class="fas fa-envelope"></i>
-            sbetanzos@hotmail.com
+            dplaneacion@icatech.chiapas.gob.mx
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/LIC_MARIA_DEL_PILAR_NIEVES_PEDRERO_ZARDAIN.png') }}" alt="Avatar" class="avatar">
@@ -200,7 +200,7 @@
             Teléfono: (961) 130 3080
             <br>
             <i class="fas fa-envelope"></i>
-            nievespz@hotmail.com
+            vinculacion@icatech.chiapas.gob.mx
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
@@ -222,7 +222,7 @@
             Conmutador: (961) 612 1621 Ext. 304
             <br>
             <i class="fas fa-envelope"></i>
-            lmoises.proyectos@gmail.com
+            enlaceari@icatech.chiapas.gob.mx
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_MARIA_DE_LOURDES.png') }}" alt="Avatar" class="avatar">
@@ -243,7 +243,7 @@
             Conmutador: (961) 612 1621 Ext. 405
             <br>
             <i class="fas fa-envelope"></i>
-            maluye20@hotmail.com
+            cepcisupledepto@icatech.chiapas.gob.mx
         </div>
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
@@ -265,7 +265,7 @@
             Conmutador: (961) 612 1621 Ext. 416
             <br>
             <i class="fas fa-envelope"></i>
-            maclary_salazar@hotmail.com
+            cepcioperativo@icatech.chiapas.gob.mx
         </div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_DANIELA_MAZA.png') }}" alt="Avatar" class="avatar">
@@ -286,7 +286,7 @@
             Conmutador: (961) 612 1621 Ext. 406
             <br>
             <i class="fas fa-envelope"></i>
-            dn_mazza@hotmail.com
+            cepcisupleoperativo@icatech.chiapas.gob.mx
         </div>
         <div class="w-100"></div>
         <div class="col-sm-6" style="margin-top:25px;">
