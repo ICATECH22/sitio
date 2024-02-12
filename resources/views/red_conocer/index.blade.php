@@ -73,7 +73,7 @@
                                     <li><a href="{{ route('ece_icatech.certificaciones') }}">Certificaciones</a></li>
                                     <li><a href="{{ route('ece_icatech.acercadenosotros') }}">Acerca de Nosotros</a>
                                     </li>
-                                    <li><a href="{{ route('ece_icatech.contactanos') }}">Contactanos</a></li>
+                                    <li><a href="{{ route('ece_icatech.contactanos') }}">Contáctanos</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -105,10 +105,10 @@
                         <div class="col-12">
                             <div class="hero-slides-content">
                                 <h4 data-animation="fadeInUp" data-delay="100ms">Certificaciones que necesitas</h4>
-                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra<br>Pagina en Linea
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra<br>Página en Linea
                                 </h2>
                                 <a href="{{ route('ece_icatech.certificaciones') }}" class="btn academy-btn"
-                                    data-animation="fadeInUp" data-delay="700ms">Leer mas</a>
+                                    data-animation="fadeInUp" data-delay="700ms">Leer Más</a>
                             </div>
                         </div>
                     </div>
@@ -123,10 +123,10 @@
                         <div class="col-12">
                             <div class="hero-slides-content">
                                 <h4 data-animation="fadeInUp" data-delay="100ms">Certificaciones que necesitas</h4>
-                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra<br>Pagina en Linea
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra<br>Página en Linea
                                 </h2>
                                 <a href="{{ route('ece_icatech.certificaciones') }}" class="btn academy-btn"
-                                    data-animation="fadeInUp" data-delay="700ms">Leer mas</a>
+                                    data-animation="fadeInUp" data-delay="700ms">Leer Más</a>
                             </div>
                         </div>
                     </div>
@@ -139,10 +139,10 @@
                         <div class="col-12">
                             <div class="hero-slides-content">
                                 <h4 data-animation="fadeInUp" data-delay="100ms">Certificaciones que necesitas</h4>
-                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a ECE-ICATECH<br>en linea
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a ECE-ICATECH<br>en línea
                                 </h2>
                                 <a href="course.html" class="btn academy-btn" data-animation="fadeInUp"
-                                    data-delay="700ms">Leer mas</a>
+                                    data-delay="700ms">Leer Más</a>
                             </div>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                                 <div class="single-top-features d-flex align-items-center justify-content-center">
                                     <i class="icon-agenda-1"></i>
                                     <a href="{{ route('ece_icatech.certificaciones') }}" class="">
-                                        <h5>Certificaciones en Linea</h5>
+                                        <h5>Certificaciones en Línea</h5>
                                     </a>
                                 </div>
                             </div>
@@ -241,7 +241,7 @@
                         </div>
                         <div class="course-content">
                             <a href="{{ route('ece_icatech.empresarios') }}" class="">
-                                <h4>Empresarios, emprendedores.</h4>
+                                <h4>Empresarios, emprendedores</h4>
                             </a>
                             <p style="text-align: justify;">van dirigidos al desarrollo del conocimiento con dinámicas
                                 de investigación para fortalecer al sector empresarial.</p>
@@ -295,7 +295,7 @@
                                 compañeros, aprendí el trabajo en equipo, a realizar correctamente una carta
                                 descriptiva, a tener una de las herramientas para el inicio de un curso como por ejemplo
                                 lista de asistencia, ficha técnica y finalizar con las Evaluaciones.</p>
-                            <h6><span>Elda Clemente Trujillo ,</span>Instructor</h6>
+                            <h6><span>Elda Clemente Trujillo,</span> Instructor</h6>
                         </div>
                     </div>
                 </div>
@@ -306,10 +306,10 @@
                             <img src="{{ asset('assets/ece/img/bg-img/hector_diaz_yañez.jpg') }}" alt="" />
                         </div>
                         <div class="testimonial-content">
-                            <h5>Me encantan los cursos aquí.</h5>
+                            <h5>Me encantan los cursos aquí</h5>
                             <p style="text-align: justify;">Fue una experiencia satisfactoria ya que quienes
                                 intervinieron en ella son gente profesional y con una alta vocación de apoyo.</p>
-                            <h6><span>Héctor Díaz Yáñez,</span>Instructor</h6>
+                            <h6><span>Héctor Díaz Yáñez,</span> Instructor</h6>
                         </div>
                     </div>
                 </div>
@@ -324,7 +324,7 @@
                             <p style="text-align: justify;">Ha sido interesante y desafiante, puesto que ha motivado el
                                 estar más atenta en la forma de impartir un curso y mejorar la calidad de cursos y
                                 servicios del instituto</p>
-                            <h6><span>Claudia López Maldonado,</span>Instructor</h6>
+                            <h6><span>Claudia López Maldonado,</span> Instructor</h6>
                         </div>
                     </div>
                 </div>
@@ -365,7 +365,7 @@
                                 estándares de competencia cumpliendo los principios de transparencia, imparcialidad y
                                 objetividad.</p>
                             <a href="{{ route('ece_icatech.certificacion.ec0076') }}"
-                                class="btn academy-btn btn-sm">Leer Mas</a>
+                                class="btn academy-btn btn-sm">Leer Más</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0076.jpeg') }}');"></div>
@@ -378,7 +378,7 @@
                         data-wow-delay="500ms">
                         <div class="popular-course-content">
                             <h5>Preparación de alimentos</h5>
-                            <span>Certificación EC0127</span>
+                            <span>CERTIFICACIÓN EC0127</span>
                             <div class="course-ratings">
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -390,7 +390,7 @@
                                 preparación, hasta su terminación para servirse
                                 en restaurantes.</p>
                             <a href="{{ route('ece_icatech.certificacion.ec0127') }}"
-                                class="btn academy-btn btn-sm">Leer Mas</a>
+                                class="btn academy-btn btn-sm">Leer Más</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0127.jpeg') }}');"></div>
@@ -415,7 +415,7 @@
                                 atención a clientes contempla las funciones de
                                 atender los requerimientos del cliente.</p>
                             <a href="{{ route('ece_icatech.certificacion.ec0305') }}"
-                                class="btn academy-btn btn-sm">Leer Mas</a>
+                                class="btn academy-btn btn-sm">Leer Más</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec0305.jpeg') }}');"></div>
@@ -441,7 +441,7 @@
                                 y actitudes para las personas que desempeñan las funciones de ventas en pequeños
                                 negocios.</p>
                             <a href="{{ route('ece_icatech.certificacion.ec1415') }}"
-                                class="btn academy-btn btn-sm">Leer Mas</a>
+                                class="btn academy-btn btn-sm">Leer Más</a>
                         </div>
                         <div class="popular-course-thumb bg-img"
                             style="background-image: url('{{ asset('assets/ece/img/bg-img/ec1415.jpeg') }}');"></div>
@@ -477,8 +477,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="cta-content d-flex align-items-center justify-content-between flex-wrap">
-                        <h3>¿Quieres certificarte con nosotros? ponte en contacto</h3>
-                        <a href="{{ route('ece_icatech.contactanos') }}" class="btn academy-btn">Mas Información</a>
+                        <h3>¿Quieres certificarte con nosotros? Ponte en contacto</h3>
+                        <a href="{{ route('ece_icatech.contactanos') }}" class="btn academy-btn">Más Información</a>
                     </div>
                 </div>
             </div>

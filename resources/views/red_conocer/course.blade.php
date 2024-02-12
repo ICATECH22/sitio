@@ -369,7 +369,7 @@
                 <div class="col-12">
                     <div class="cta-content d-flex align-items-center justify-content-between flex-wrap">
                         <h3>¿Quieres certificarte con nosotros? ¡Ponerse en contacto!</h3>
-                        <a href="{{ route('ece_icatech.contactanos') }}" class="btn academy-btn">Contactanos</a>
+                        <a href="{{ route('ece_icatech.contactanos') }}" class="btn academy-btn">Contáctanos</a>
                     </div>
                 </div>
             </div>
