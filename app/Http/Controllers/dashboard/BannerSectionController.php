@@ -394,18 +394,18 @@ class BannerSectionController extends Controller
     {
         // validar
         $validatedData = $request->validate([
-            'linked_file' => 'required|max:2048|mimes:jpg,png,jpeg,jpe,pdf',
+            'linked_file' => 'required|max:3072|mimes:jpg,png,jpeg,jpe,pdf',
         ], [
             'linked_file.required' => 'EL ARCHIVO ES REQUERIDO',
             'linked_file.mimes' => 'NO SE ACEPTA ESTE TIPO DE ARCHIVO, SÓLO jpg, png, jpeg, jpe, pdf',
-            'linked_file.max' => 'EL TAMAÑO MÁXIMO DE UN ARCHIVO A CARGAR ES DE 2MB (2048 KB)'
+            'linked_file.max' => 'EL TAMAÑO MÁXIMO DE UN ARCHIVO A CARGAR ES DE 3MB (3072 KB)'
         ]);
         /**
          * obtenemos un registro y hacemos un try
          */
         try {
             //se inicia el código para guardar el registro 'file' => 'required|max:10000|mimes:doc,docx
-            $activo = $_POST['activo'];
+            $activo = $request->get('activo');
             $habilitado = (empty($activo) ? false : true);
             $idLinkedBanner = base64_decode($request->get('idBanner'));
             $id_categoria = $request->get('idCategoria');
