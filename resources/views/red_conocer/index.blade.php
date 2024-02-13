@@ -105,7 +105,7 @@
                         <div class="col-12">
                             <div class="hero-slides-content">
                                 <h4 data-animation="fadeInUp" data-delay="100ms">Certificaciones que necesitas</h4>
-                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra<br>Página en Linea
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra<br>Página en Línea
                                 </h2>
                                 <a href="{{ route('ece_icatech.certificaciones') }}" class="btn academy-btn"
                                     data-animation="fadeInUp" data-delay="700ms">Leer Más</a>
@@ -123,7 +123,7 @@
                         <div class="col-12">
                             <div class="hero-slides-content">
                                 <h4 data-animation="fadeInUp" data-delay="100ms">Certificaciones que necesitas</h4>
-                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra<br>Página en Linea
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra<br>Página en Línea
                                 </h2>
                                 <a href="{{ route('ece_icatech.certificaciones') }}" class="btn academy-btn"
                                     data-animation="fadeInUp" data-delay="700ms">Leer Más</a>
@@ -164,7 +164,7 @@
                                 <div class="single-top-features d-flex align-items-center justify-content-center">
                                     <i class="icon-agenda-1"></i>
                                     <a href="{{ route('ece_icatech.certificaciones') }}" class="">
-                                        <h5>Certificaciones en Línea</h5>
+                                        <h5>Certificaciones</h5>
                                     </a>
                                 </div>
                             </div>
