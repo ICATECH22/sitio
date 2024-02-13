@@ -53,7 +53,7 @@ Route::get('/cursos/{id}/{categoria}', 'CursoController@show')->name('cursos');
 /**
  * avisos de privacidad
  */
-Route::get( '/avisos-de-privacidad', 'CuentapublicaController@avisosprivacidad');
+Route::get( '/avisos-de-privacidad', 'CuentapublicaController@avisosprivacidad')->name('avisos.privacidad');
 /**
  * ruta de busqueda de cursos
  */
@@ -78,7 +78,7 @@ Route::get('/integridad/plan-anual-trabajo', 'principal\IntegridadController@get
  * catálogo factibilidad
  */
 
-Route::get('/cursos/factibilidad', 'CursoController@getcatfactibilidad')->name('catalogo.factibilidad');
+// Route::get('/cursos/factibilidad', 'CursoController@getcatfactibilidad')->name('catalogo.factibilidad');
 
 Route::middleware(['cors','prevent-back-history'])->group(function () {
     // nuevo comunicado

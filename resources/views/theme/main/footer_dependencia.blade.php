@@ -5,7 +5,7 @@
 				<small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md g-font-weight-300 text-center"><a href="index.html" class="g-color-white-opacity-0_8 g-color-white--hover">Icatech</a></small>
 			</div>
 		</div>
-			
+
 		<div class="row">
 			<div class="col-lg-2 col-md-6 g-mb-20 g-mb-0--lg d-none d-sm-none d-md-none d-lg-none d-xl-block">
 				<img class="img-fluid" src="{{ asset('/assets/logo/logo-blanco.png') }}" alt="Logo">
@@ -21,13 +21,13 @@
 					</li>
 				</ul>
 			</div>
-	
+
 			<div class="col-lg-3 col-md-6 g-mb-20 g-mb-0--lg d-none d-sm-none d-md-none d-lg-none d-xl-block">
-				<div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8"><h2 class="u-heading-v2__title h6 mb-0">Transparencia</h2></div>
+				<div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8"><h2 class="u-heading-v2__title h6 mb-0">Sitios de Interés</h2></div>
 				<ul class="list-unstyled">
 					<li class="g-mb-5"><i class="fa fa-angle-right g-mr-5"></i><a class="g-color-white-opacity-0_8" href="http://icatech.transparencia.chiapas.gob.mx/">Transparencia ICATECH</a></li>
-					<li class="g-mb-5"><i class="fa fa-angle-right g-mr-5"></i><a class="g-color-white-opacity-0_8" href="/avisos-de-privacidad">Avisos de Privacidad</a></li>
-					
+					<li class="g-mb-5"><i class="fa fa-angle-right g-mr-5"></i><a class="g-color-white-opacity-0_8" href="{{ route('avisos.privacidad') }}">Avisos de Privacidad</a></li>
+                    <li class="g-mb-5"><i class="fa fa-angle-right g-mr-5"></i><a class="g-color-white-opacity-0_8" href="{{ route('ece_icatech.index') }}">ECE ICATECH</a></li>
 				</ul>
 			</div>
 
