@@ -5,11 +5,11 @@
 <div class="container g-pt-25">
 	<img src="Imagenes Pagina/cobertura2.jpg" class="img-responsive" width="100%" alig="center">
 	<div class="row">
-		
+
 			<div class="col-md-9 col-sm-4 imagen2">
-				<a href="" target="_new"><img src="Imagenes Pagina/mapa.jpg" class="img-thumbnail"></a>	
+				<a href="" target="_new"><img src="Imagenes Pagina/mapa.jpg" class="img-thumbnail"></a>
 			</div>
-	
+
 		</div>
 </div>
 @stop --}}
@@ -44,7 +44,7 @@
 		<br>
 		<div class="row">
 			<div class="col-md-12 maps">
-				<img src="{{ asset('Imagenes_Pagina/mapa.jpg') }}" class="img-thumbnail" width="100%" style="height: auto;" alig="center">
+				<img src="{{ asset('Imagenes_Pagina/mapa_cobertura.png') }}" class="img-thumbnail" width="100%" style="height: auto;" alig="center">
 			</div>
 		</div>
 		<br>
@@ -54,7 +54,7 @@
 				<div class="masonry-grid-item col-sm-6 col-md-6 col-lg-12">
 					<div class="g-brd-around g-brd-gray-light-v4 g-pa-30 g-mb-10 g-pt-20 g-bg-secondary">
 						<p>
-							<strong> 
+							<strong>
 								<b>{{ $v[0] }}</b>
 							</strong>
 						</p>
