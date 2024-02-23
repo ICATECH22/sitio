@@ -151,8 +151,7 @@
                                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                 <li class="nav-item">
                                                     <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1"
-                                                        role="tab" aria-controls="tab1" aria-selected="false">Quejas
-                                                        y Comentarios</a>
+                                                        role="tab" aria-controls="tab1" aria-selected="false">Quejas y Comentarios</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link active" id="tab--2" data-toggle="tab"

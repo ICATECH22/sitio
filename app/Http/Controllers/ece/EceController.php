@@ -6,6 +6,10 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Response;
+use App\Mail\NotifyMail;
+use App\Mail\responseReceived;
+use Illuminate\Support\Facades\Mail;
+use stdClass;
 
 class EceController extends Controller
 {
@@ -165,5 +169,20 @@ class EceController extends Controller
             $response->header("Content-Type", $type);
             return $response;
         }
+    }
+
+    public function sendEmail(Request $request)
+    {
+        $mailInfo = new stdClass();
+        $mailInfo->recieverName = trim($req->nombre);
+        $mailInfo->sender = "ICATECH área de transparencia";
+        $mailInfo->senderCompany = "Instituto de Capacitación y Vinculación Tecnolófica del Estado de Chiapas";
+        $mailInfo->to = trim($req->correo_electronico);
+        $mailInfo->subject = "Mensaje de Información acerca del buzón de transparencia";
+        $mailInfo->name = "ICATECH Buzón digital";
+        $mailInfo->cc = "utransparencia@icatech.chiapas.gob.mx";
+
+        // send email
+        Mail::to($req->correo_electronico)->send(new NotifyMail($mailInfo));
     }
 }
