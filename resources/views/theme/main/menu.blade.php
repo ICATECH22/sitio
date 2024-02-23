@@ -17,7 +17,7 @@
                             href="{{ route('buzon.ciudadano.index') }}">Buzón Ciudadano</a></li>
                     <li class="nav-item g-mx-5--lg"><a
                             class="nav-link g-color-white--hover g-bg-morado--hover g-rounded-3 g-color-black-opacity-0_9"
-                            href="{{ route('ece_icatech.index') }}">ece-icatech</a></li>
+                            href="{{ route('ece_icatech.index') }}">ECE-icatech</a></li>
                     <li class="nav-item g-mx-5--lg"><a
                             class="nav-link g-color-white--hover g-bg-morado--hover g-rounded-3 g-color-black-opacity-0_9"
                             href="{{ route('conocenos') }}">Conócenos</a></li>
