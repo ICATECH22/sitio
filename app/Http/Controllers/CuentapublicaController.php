@@ -287,10 +287,16 @@ class CuentapublicaController extends Controller
 
     public function licitaciones()
     {
-        $icatech_ictp_004_2023 = [
-            'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_4_2023.pdf',
-            'ACTA DE FALLO' => 'licitaciones_/adquisiciones/ADF_4_2023.pdf',
+        $icatech_ictp_001_2024 = [
+            'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_1_2024.pdf',
         ];
+        $icatech_ictp_002_2024 = [
+            'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_2_2024.pdf',
+        ];
+        $icatech_ictp_003_2024 = [
+            'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_3_2024.pdf',
+        ];
+
         $programa_anual_adquisiciones = [
             'PROGRAMA ANUAL DE ADQUISICIONES 2024' => 'licitaciones_/adquisiciones/PADA_2024.pdf'
         ];
@@ -303,7 +309,9 @@ class CuentapublicaController extends Controller
             [
                 'bprincipal' => $bprincipal,
                 'programa_anual_adquisiciones' => $programa_anual_adquisiciones,
-                'icatech_ictp_004_2023' => $icatech_ictp_004_2023,
+                'icatech_ictp_001_2024' => $icatech_ictp_001_2024,
+                'icatech_ictp_002_2024' => $icatech_ictp_002_2024,
+                'icatech_ictp_003_2024' => $icatech_ictp_003_2024,
             ]
         );
     }
