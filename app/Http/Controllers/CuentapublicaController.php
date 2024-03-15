@@ -289,12 +289,14 @@ class CuentapublicaController extends Controller
     {
         $icatech_ictp_001_2024 = [
             'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_1_2024.pdf',
+            'ACTA DE FALLO' => 'licitationes_/adquisiciones/ACTA_FALLO_1_2024.pdf',
         ];
         $icatech_ictp_002_2024 = [
             'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_2_2024.pdf',
         ];
         $icatech_ictp_003_2024 = [
             'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_3_2024.pdf',
+            'ACTA DE FALLO' => 'licitaciones_/adquisiciones/ACTA_FALLO_3_2024.pdf',
         ];
 
         $programa_anual_adquisiciones = [
