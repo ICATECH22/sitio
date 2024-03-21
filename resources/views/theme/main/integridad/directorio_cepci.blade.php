@@ -321,7 +321,7 @@
             Conmutador: (961) 618 7530 Ext. 22286
             <br>
             <i class="fas fa-envelope"></i>
-            cc.i.entidadesproductivas@gmail.com
+            c.i.entidadesproductivas@gamail.com
         </div>
     </div>
     <br>
