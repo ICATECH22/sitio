@@ -303,6 +303,10 @@ class CuentapublicaController extends Controller
             'PROGRAMA ANUAL DE ADQUISICIONES 2024' => 'licitaciones_/adquisiciones/PADA_2024.pdf'
         ];
 
+        $icatech_ictp_004_2024 = [
+            'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_4_2024.pdf',
+        ];
+
         $bprincipal = $this->getBanner('banner_principal');
 
 
@@ -314,6 +318,7 @@ class CuentapublicaController extends Controller
                 'icatech_ictp_001_2024' => $icatech_ictp_001_2024,
                 'icatech_ictp_002_2024' => $icatech_ictp_002_2024,
                 'icatech_ictp_003_2024' => $icatech_ictp_003_2024,
+                'icatech_ictp_004_2024' => $icatech_ictp_004_2024,
             ]
         );
     }
