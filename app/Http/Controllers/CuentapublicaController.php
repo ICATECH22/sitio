@@ -305,6 +305,7 @@ class CuentapublicaController extends Controller
 
         $icatech_ictp_004_2024 = [
             'ACTA DE APERTURA DE PROPUESTAS TÉCNICAS Y ECONÓMICAS' => 'licitaciones_/adquisiciones/AAPTE_4_2024.pdf',
+            'ACTA DE FALLO' => 'licitaciones_/adquisiciones/ACTA_FALLO_4_2024.pdf',
         ];
 
         $bprincipal = $this->getBanner('banner_principal');
