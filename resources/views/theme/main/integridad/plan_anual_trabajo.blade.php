@@ -5,7 +5,7 @@
         <div class="media">
             <div class="media-body">
                 <span class="d-block g-mb-3 g-font-size-22 g-color-gray-dark-v1 g-font-secondary">
-                    PLAN ANUAL DE TRABAJO 2023
+                    PLAN ANUAL DE TRABAJO
                 </span>
             </div>
         </div>
