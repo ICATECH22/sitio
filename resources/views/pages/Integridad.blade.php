@@ -134,7 +134,7 @@
                                        <a href="{{ route('integridad.informe.anual.actividades') }}"><i class="mr-2 fas fa-angle-right"></i>Informe Anual de Actividades</a>
                                    </li>
                                    <li>
-                                       <a href="{{ route('integridad.plan.anual.trabajo') }}"><i class="mr-2 fas fa-angle-right"></i>Prgrama Anual de Trabajo</a>
+                                       <a href="{{ route('integridad.plan.anual.trabajo') }}"><i class="mr-2 fas fa-angle-right"></i>Programa Anual de Trabajo</a>
                                    </li>
                                </ul>
                            </div>
