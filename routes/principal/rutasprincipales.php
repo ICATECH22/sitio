@@ -72,7 +72,7 @@ Route::get('/integridad/pronunciamiento', 'principal\IntegridadController@getpro
 Route::get('/integridad/directorio-consejeros', 'principal\IntegridadController@getdirectorioconsejeros')->name('integridad.directorio.consejeros');
 Route::get('/integridad/directorio-asesores', 'principal\IntegridadController@getdirectorioasesores')->name('integridad.directorio.asesores');
 Route::get('/integridad/informe-anual-actividades', 'principal\IntegridadController@getinformeanualactividades')->name('integridad.informe.anual.actividades');
-Route::get('/integridad/plan-anual-trabajo', 'principal\IntegridadController@getplananualtrabajo')->name('integridad.plan.anual.trabajo');
+Route::get('/integridad/programa-anual-trabajo', 'principal\IntegridadController@getplananualtrabajo')->name('integridad.plan.anual.trabajo');
 
 /**
  * catálogo factibilidad
