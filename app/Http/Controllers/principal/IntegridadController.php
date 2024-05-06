@@ -128,6 +128,7 @@ class IntegridadController extends Controller
     }
     protected function getpronunciamiento(){
         $array_cero_tolerancia = [
+            'Pronunciamiento Cero Tolerancia a las Conductas de Hostigamiento Sexual y Acoso Sexual 2024' => 'codigos_conducta/pronunciamiento_cero_tolerancia_a_las_conductas_de_has_2024.pdf',
             'Pronunciamiento Cero Tolerancia a las Conductas de Hostigamiento Sexual y Acoso Sexual 2023' => 'codigos_conducta/pronunciamiento_cero_tolerancia_a_las_conductas_de_has_2023.pdf',
             'Pronunciamiento Cero Tolerancia a las Conductas de Hostigamiento Sexual y Acoso Sexual 2022' => 'codigos_conducta/PRONUNCIAMIENTO_CERO_TOLERANCIA.pdf',
             'Pronunciamiento Cero Tolerancia a las Conductas de Hostigamiento Sexual y Acoso Sexual 2021' => 'codigos_conducta/pronunciamiento_cero_tolerancia_a_las_conductas_de_has_2021.pdf',
