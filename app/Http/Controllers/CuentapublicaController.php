@@ -839,18 +839,17 @@ class CuentapublicaController extends Controller
         ];
 
         $cuartrim2023 = [
-            'Estado Analítico de la Deuda y Otros Pasivos' => 'sevac_/2023/4t/Estado_Analitico_de_la_Deuda_y_Otros_Pasivos.pdf',
-            'Estado Analítico del Activo' => 'sevac_/2023/4t/Estado_Analiticio_del_Activo.pdf',
-            'Estado de Actividades' => 'sevac_/2023/4t/Estado_de_Actividades.pdf',
-            'Estado de Cambios en la Situación Financiera' => 'sevac_/2023/4t/Estado_de_Cambios_en_la_Situacion_Financiera.pdf',
-            'Estado de Flujos de Efectivo' => 'sevac_/2023/4t/Estado_de_Flujo_de_Efectivo.pdf',
-            'Estado de Situación Financiera' => 'sevac_/2023/4t/Estado_de_Situacion_Financiera.pdf',
-            'Estado de Variación en la Hacienda Pública' => 'sevac_/2023/4t/Estado_de_Variacion_en_la_Hacienda_Publica.pdf',
-            'Informe sobre Pasivos Contingentes' => 'sevac_/2023/4t/Informe_sobre_Pasivos_Contingentes.pdf',
-            'Inventario de Bienes Inmuebles' => 'sevac_/2023/4t/Inventario_de_Bienes_Inmuebles.pdf',
-            'Inventario de Bienes Muebles' => 'sevac_/2023/4t/Inventario_de_Bienes_Muebles.pdf',
-            'Montos Pagados por Ayudas y Subsidios' => 'sevac_/2023/4t/Montos_Pagados_por_Ayudas_Subsidios.pdf',
-            'Nota a los Estados Financieros' => 'sevac_/2023/4t/Notas_a_los_Estados_Financieros.pdf',
+            'Estado Analítico de la Deuda y Otros Pasivos' => 'sevac_/2023/4t/estado_analitico_deuda_otros_pasivos.pdf',
+            'Estado Analítico del Activo' => 'sevac_/2023/4t/estado_analitico_activo.pdf',
+            'Estado de Actividades' => 'sevac_/2023/4t/estado_actividades.pdf',
+            'Estado de Cambios en la Situación Financiera' => 'sevac_/2023/4t/estado_cambios_situacion_financiera.pdf',
+            'Estado de Flujos de Efectivo' => 'sevac_/2023/4t/estado_flujo_efectivo.pdf',
+            'Estado de Situación Financiera' => 'sevac_/2023/4t/estado_situacion_financiera.pdf',
+            'Estado de Variación en la Hacienda Pública' => 'sevac_/2023/4t/estado_variacion_hacienda_publica.pdf',
+            'Informe sobre Pasivos Contingentes' => 'sevac_/2023/4t/informe_sobre_pasivos_contingentes.pdf',
+            'Inventario de Bienes Inmuebles' => 'sevac_/2023/4t/inventario_bienes_inmuebles.pdf',
+            'Inventario de Bienes Muebles' => 'sevac_/2023/4t/inventario_bienes_muebles.pdf',
+            'Nota a los Estados Financieros' => 'sevac_/2023/4t/notas_estados_financieros.pdf',
          ];
 
         $bprincipal = $this->getBanner('banner_principal');
