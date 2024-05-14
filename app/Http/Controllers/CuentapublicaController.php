@@ -850,6 +850,7 @@ class CuentapublicaController extends Controller
             'Inventario de Bienes Inmuebles' => 'sevac_/2023/4t/inventario_bienes_inmuebles.pdf',
             'Inventario de Bienes Muebles' => 'sevac_/2023/4t/inventario_bienes_muebles.pdf',
             'Nota a los Estados Financieros' => 'sevac_/2023/4t/notas_estados_financieros.pdf',
+            'Montos Pagados por Ayudas y Subsidios' => 'sevac_/2023/4t/montos_pagados_ayudas_subsidios.pdf',
          ];
 
         $bprincipal = $this->getBanner('banner_principal');
