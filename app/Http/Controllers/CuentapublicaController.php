@@ -246,17 +246,7 @@ class CuentapublicaController extends Controller
         );
 
         $manu_procedimientos = array(
-            'Manual de Procedimientos' => 'normatividad_/manuales/procedimientos/procedimientos.pdf',
-            '-Comisaria' => 'normatividad_/manuales/procedimientos/1comisaria.pdf',
-            '-Unidad Jurídica' => 'normatividad_/manuales/procedimientos/2unidad_juridica.pdf',
-            '-Unidad Ejecutiva' => 'normatividad_/manuales/procedimientos/3Unidad_Ejecutiva.pdf',
-            '-Dirección Administrativa' => 'normatividad_/manuales/procedimientos/4direccion_administrativa.pdf',
-            '-Dirección de Planeación' => 'normatividad_/manuales/procedimientos/5direccion_de_planeacion.pdf',
-            '-Dirección Técnica Academica' => 'normatividad_/manuales/procedimientos/6direccion_tecnica_academica.pdf',
-            '-Dirección de Vinculación con el Sector Productivo' => 'normatividad_/manuales/procedimientos/7direccion_de_vinculacion.pdf',
-            '-Unidades de Capacitación' => 'normatividad_/manuales/procedimientos/8unidades_de_capacitacion.pdf',
-            '-Glosario de Terminos y Grupo de Trabajos' => 'normatividad_/manuales/procedimientos/9glosario_de_terminos_y_trabajo.pdf'
-
+            'Manual de Procedimientos' => 'normatividad_/manuales/procedimientos/manual_de_procedimientos_icatech.pdf',
         );
 
         $manu_organizacion = array(
