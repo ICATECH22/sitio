@@ -953,10 +953,13 @@ class CuentapublicaController extends Controller
             'Vinculación Social y Empresarial (firma de convenios)' => 'avisos_privacidad/simplificado/25_AVISO_SIMPLIFICADO_VINC_SOCIAL_Y_EMPRES_FIRMA_CONVENIOS.pdf',
             'Comisaria Pública' => 'avisos_privacidad/simplificado/26_AVISO_SIMPLIFICADO_COMISARIA.pdf',
         );
+        $seguridad = [
+            'Documento de Seguridad' => 'avisos_privacidad/seguridad/documento_de_seguridad.pdf',
+        ];
         $bprincipal = $this->getBanner('banner_principal');
 
 
-        return view('pages.avisosprivacidad', ['avisos_integrales' => $avisos_integrales2021, 'avisos_simplificados' => $avisos_simplificados2021, 'bprincipal' => $bprincipal]);
+        return view('pages.avisosprivacidad', ['avisos_integrales' => $avisos_integrales2021, 'avisos_simplificados' => $avisos_simplificados2021, 'bprincipal' => $bprincipal, 'seguridad' => $seguridad]);
     }
 
     public function Integridad()
