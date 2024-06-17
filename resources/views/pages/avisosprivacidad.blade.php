@@ -19,7 +19,7 @@
             @foreach ($seguridad as $k => $v)
                 <p>
                     <b>
-                        <h5><a class="" href="{{ $v }}" target="_blank">DOCUMENTO DE SEGURIDAD</a></h5>
+                        <h5><a class="g-font-weight-600 g-color-black" href="{{ $v }}" target="_blank">DOCUMENTO DE SEGURIDAD</a></h5>
                     </b>
                 </p>
             @endforeach
