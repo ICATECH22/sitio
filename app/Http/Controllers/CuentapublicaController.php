@@ -247,6 +247,7 @@ class CuentapublicaController extends Controller
 
         $manu_procedimientos = array(
             'Manual de Procedimientos' => 'normatividad_/manuales/procedimientos/manual_de_procedimientos_icatech.pdf',
+            'Fe de Erratas a la Publicación Número 5369-A-2024, del Manual de Procedimientos del ICATECH' => 'normatividad_/manuales/procedimientos/352_fe_de_erratas_mp_icatech2024.pdf',
         );
 
         $manu_organizacion = array(
