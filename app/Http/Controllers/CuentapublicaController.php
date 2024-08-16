@@ -859,6 +859,21 @@ class CuentapublicaController extends Controller
             'Nota a los Estados Financieros' => 'sevac_/2024/1t/Notas_a_los_Estados_Financieros.pdf',
          ];
 
+         $segtrim2024 = [
+            'Estado de Actividades' => 'sevac_/2024/2t/estado_actividades.pdf',
+            'Estado Analítico de la Deuda y Otros Pasivos' => 'sevac_/2024/2t/estado_analitico_de_deuda_otrospasivos.pdf',
+            'Nota a los Estados Financieros' => 'sevac_/2024/2t/notas_alos_estados_financieros.pdf',
+            'Montos Pagados por Ayudas y Subsidios' => 'sevac_/2024/2t/montos_pagados_ayudassubsidios.pdf',
+            'Inventario de Bienes Muebles' => 'sevac_/2024/2t/inventario_bienes_muebles.pdf',
+            'Inventario de Bienes Inmuebles' => 'sevac_/2024/2t/inventario_bienes_inmuebles.pdf',
+            'Informe sobre Pasivos Contingentes' => 'sevac_/2024/2t/informe_sobrepasivos_contingentes.pdf',
+            'Estado de Variación en la Hacienda Pública' => 'sevac_/2024/2t/estado_variacion_enhacienda_publica.pdf',
+            'Estado de Situación Financiera' => 'sevac_/2024/2t/estado_situacion_financiera.pdf',
+            'Estado de Flujos de Efectivo' => 'sevac_/2024/2t/estado_flujo_de_efectivo.pdf',
+            'Estado de Cambios en la Situación Financiera' => 'sevac_/2024/2t/estado_cambios_situacion_financiera.pdf',
+            'Estado Analítico del Activo' => 'sevac_/2024/2t/estado_analitico_del_activo.pdf',
+         ];
+
         $bprincipal = $this->getBanner('banner_principal');
         return view('pages.sevac', compact(
             'bprincipal',
@@ -886,6 +901,7 @@ class CuentapublicaController extends Controller
             'tertrim2023',
             'cuartrim2023',
             'primtrim2024',
+            'segtrim2024'
         ));
         //comentario
     }
