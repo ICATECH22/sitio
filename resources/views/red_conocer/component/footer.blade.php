@@ -77,7 +77,7 @@
                         </div>
                         <div class="single-contact d-flex mb-30">
                             <i class="icon-placeholder"></i>
-                            <p>14 Poniente Norte No. 239 Colonia Moctezuma</p>
+                            <p>Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059 Tuxtla Gutiérrez, Chiapas.</p>
                         </div>
                         <div class="single-contact d-flex mb-30">
                             <i class="icon-telephone-1"></i>
