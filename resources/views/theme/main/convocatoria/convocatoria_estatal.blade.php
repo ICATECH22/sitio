@@ -45,8 +45,8 @@
         }
 
         /*
-                        contenedor principal
-                    */
+                                            contenedor principal
+                                        */
         .contenedor_principal {
             width: 100%;
             background-color: #621132;
@@ -54,8 +54,8 @@
         }
 
         /*
-                        INICIO
-                    */
+                                            INICIO
+                                        */
         .inicio p {
             text-align: center;
             color: white;
@@ -131,6 +131,18 @@
             font-family: 'Times New Roman', Times, serif';
 
         }
+
+        div.block {
+            text-align: center;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        ul.list {
+            text-align: left;
+            display: inline-block;
+        }
     </style>
 @endsection
 {{-- cuerpo del documento --}}
@@ -193,20 +205,22 @@
 
                     <b>ENVIAR DOCUMENTACIÓN DIGITAL AL SIGUIENTE CORREO ELECTRÓNICO:</b>
                     <br>
-                <ul>
-                    <li type="disc"><b>Catazajá: academicocatazaja2023@gmail.com</b></li>
-                    <li type="disc"><b>Comitan: instructorescomitan2024@gmail.com</b></li>
-                    <li type="disc"><b>Jiquipilas: academico.jiquipilas@gmail.com</b></li>
-                    <li type="disc"><b>Ocosingo: academicocosingo99@gmail.com</b></li>
-                    <li type="disc"><b>Reforma: instructoresreforma@gmail.com</b></li>
-                    <li type="disc"><b>San Cristóbal: cursosicatech22sclc@gmail.com</b></li>
-                    <li type="disc"><b>Tapachula: recepcion.documentostap@gmail.com</b></li>
-                    <li type="disc"><b>Tonalá: instructores.tonala2023@gmail.com</b></li>
-                    <li type="disc"><b>Tuxtla: uctux.instructores@gmail.com</b></li>
-                    <li type="disc"><b>Villaflores: instructoresvillaflores@outlook.es</b></li>
-                    <li type="disc">Yajalón: depto.academico.yajalon@gmail.com<b></b></li>
-                </ul>
                 </p>
+                <div class="block">
+                    <ul class="list">
+                        <li type="disc"><b>Catazajá: academicocatazaja2023@gmail.com</b></li>
+                        <li type="disc"><b>Comitan: instructorescomitan2024@gmail.com</b></li>
+                        <li type="disc"><b>Jiquipilas: academico.jiquipilas@gmail.com</b></li>
+                        <li type="disc"><b>Ocosingo: academicocosingo99@gmail.com</b></li>
+                        <li type="disc"><b>Reforma: instructoresreforma@gmail.com</b></li>
+                        <li type="disc"><b>San Cristóbal: cursosicatech22sclc@gmail.com</b></li>
+                        <li type="disc"><b>Tapachula: recepcion.documentostap@gmail.com</b></li>
+                        <li type="disc"><b>Tonalá: instructores.tonala2023@gmail.com</b></li>
+                        <li type="disc"><b>Tuxtla: uctux.instructores@gmail.com</b></li>
+                        <li type="disc"><b>Villaflores: instructoresvillaflores@outlook.es</b></li>
+                        <li type="disc">Yajalón: depto.academico.yajalon@gmail.com<b></b></li>
+                    </ul>
+                </div>
                 <br>
             </div>
             <div class="col-lg-6">
@@ -214,20 +228,22 @@
 
                     <b>NÚMERO TELEFÓNICO: </b>
                     <br>
-                <ul>
-                    <li type="disc"><b>Catazajá: 9163660060</b></li>
-                    <li type="disc"><b>Comitan: 9636327699</b></li>
-                    <li type="disc"><b>Jiquipilas: 9686811029</b></li>
-                    <li type="disc"><b>Ocosingo: 9614242246</b></li>
-                    <li type="disc"><b>Reforma: 9171059454</b></li>
-                    <li type="disc"><b>San Cristóbal: 9671145232</b></li>
-                    <li type="disc"><b>Tapachula: 9626957353 ó 9622902278</b></li>
-                    <li type="disc"><b>Tonalá: 9661183081</b></li>
-                    <li type="disc"><b>Tuxtla: 9612640251</b></li>
-                    <li type="disc"><b>Villaflores: 9656599820</b></li>
-                    <li type="disc">Yajalón: 9196702393<b></b></li>
-                </ul>
                 </p>
+                <div class="block">
+                    <ul class="list">
+                        <li type="disc"><b>Catazajá: 9163660060</b></li>
+                        <li type="disc"><b>Comitan: 9636327699</b></li>
+                        <li type="disc"><b>Jiquipilas: 9686811029</b></li>
+                        <li type="disc"><b>Ocosingo: 9614242246</b></li>
+                        <li type="disc"><b>Reforma: 9171059454</b></li>
+                        <li type="disc"><b>San Cristóbal: 9671145232</b></li>
+                        <li type="disc"><b>Tapachula: 9626957353 ó 9622902278</b></li>
+                        <li type="disc"><b>Tonalá: 9661183081</b></li>
+                        <li type="disc"><b>Tuxtla: 9612640251</b></li>
+                        <li type="disc"><b>Villaflores: 9656599820</b></li>
+                        <li type="disc">Yajalón: 9196702393<b></b></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="row">
