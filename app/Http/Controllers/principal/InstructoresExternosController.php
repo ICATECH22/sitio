@@ -72,6 +72,10 @@ class InstructoresExternosController extends Controller
     public function edit($id)
     {
         //
+        $identificador = base64_decode($id);
+        $bprincipal = $this->getBanner('banner_principal');
+        $convocatoria = ConvocatoriasModel::where('id', $identificador)->first();
+        return view('theme.main.convocatoria.convocatoria_estatal', compact('bprincipal', 'convocatoria'))->render();
     }
 
     /**

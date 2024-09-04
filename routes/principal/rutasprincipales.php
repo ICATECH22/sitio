@@ -44,6 +44,8 @@ Route::get('/convocatorias/{imagen}', 'principal\ConvocatoriaController@getconvo
  */
 Route::get('/convocatoria/instructores', [InstructoresExternosController::class, 'index'])->name('convocatoria.instructores.externos');
 Route::get('/convocatorias/instructores/externos/detalle/{id}', [InstructoresExternosController::class, 'show'])->name('convocatoria.instructores_externos.detalle');
+Route::get('/convocatorias/instructores/externos/estatal/{id}', [InstructoresExternosController::class, 'edit'])->name('convocatoria.instructores_externos.estatal');
+
 
  /**
   * cursos por categorias
