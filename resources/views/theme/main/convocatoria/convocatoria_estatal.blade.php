@@ -185,6 +185,7 @@
                 </div>
             </div>
         </div>
+        <br>
         <div class="row">
             <div class="col-lg-12 col-xs-12">
                 <div class="requisitos">
@@ -195,10 +196,11 @@
                     </p>
                     {!! $convocatoria->requisitos !!}
                     <br><br>
-                    <b>Vigencia: Hasta cubirir el perfil requerido</b>
+                    <p class="requisitosx">Vigencia: Hasta cubirir el perfil requerido</p>
                 </div>
             </div>
         </div>
+        <br>
         <div class="row">
             <div class="col-lg-6">
                 <p class="textconvocatoria">
