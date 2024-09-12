@@ -121,7 +121,8 @@ class IntegridadController extends Controller
     protected function getquejasodenuncias()
     {
         $array_atencion_quejas_denuncias = array(
-            'Protocolo de Atención de Denuncias 2022' => 'codigos_conducta/PROTOCOLO_DE_ATENCION_DE_DENUNCIAS_2022.pdf'
+            'Protocolo de Atención de Denuncias 2022' => 'codigos_conducta/PROTOCOLO_DE_ATENCION_DE_DENUNCIAS_2022.pdf',
+            'Protocolo para la Prevención, Atención y Sanción del Hostigamiento Sexual y Acoso Sexual 2024' => 'codigos_conducta/protocolo_para_la_prevencion_atencion_y_sancion_del_hostigamiento_sexual_y_acoso_sexual_2024.pdf',
         );
         $bprincipal = $this->getBanner('banner_principal');
         return view('theme.main.integridad.protocolo_atencion_quejas_denuncias', compact('bprincipal', 'array_atencion_quejas_denuncias'));
