@@ -264,8 +264,10 @@ class CuentapublicaController extends Controller
 
         $acta_instalacion_comite_tecnoligia_informacion_comunicaciones = [
             'Acta de Instalación de Comité de Tecnologías de Información y Comunicaciones (CTIC)' => 'normatividad_/comite_tecnologias_informacion/acta_de_instalacion_de_comite_CTIC.pdf',
-            'Primera Sesión Ordinaria del Comité de Tecnologías de Información y Comunicaciones ICATECH CTIC' => 'normatividad_/comite_tecnologias_informacion/primera_sesion_comite_CTIC.pdf',
-            'Segunda Sesión Ordinaria del Comité de Tecnologías de Información y Comunicaciones ICATECH' => 'normatividad_/comite_tecnologias_informacion/segunda_sesion_comite_CTIC.pdf',
+            'Primera Sesión Ordinaria del Comité de Tecnologías de Información y Comunicaciones ICATECH CTIC 2024' => 'normatividad_/comite_tecnologias_informacion/primera_sesion_comite_CTIC_2024.pdf',
+            'Segunda Sesión Ordinaria del Comité de Tecnologías de Información y Comunicaciones ICATECH 2024' => 'normatividad_/comite_tecnologias_informacion/segunda_sesion_comite_CTIC_2024.pdf',
+            'Primera Sesión Ordinaria del Comité de Tecnologías de Información y Comunicaciones ICATECH CTIC 2023' => 'normatividad_/comite_tecnologias_informacion/primera_sesion_comite_CTIC_2023.pdf',
+            'Segunda Sesión Ordinaria del Comité de Tecnologías de Información y Comunicaciones ICATECH 2023' => 'normatividad_/comite_tecnologias_informacion/segunda_sesion_comite_CTIC_2023.pdf',
         ];
 
         $bprincipal = $this->getBanner('banner_principal');
