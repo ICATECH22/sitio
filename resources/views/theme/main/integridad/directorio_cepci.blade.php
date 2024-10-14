@@ -159,10 +159,10 @@
         </div>
        {{-- nuevo --}}
         <div class="w-100"></div>
-        <div class="col-sm-2" style="margin-top:25px; text-align:justify">
+        <div class="col-sm-3" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_SALVADOR_BETANZOS.png') }}" alt="Avatar" class="avatar">
         </div>
-        <div class="col-sm-4" style="margin-top:25px;">
+        <div class="col-sm-6" style="margin-top:25px;">
             <strong>
                 Miembro propietario temporal nivel Director
                 <br>
@@ -181,10 +181,10 @@
             <i class="fas fa-envelope"></i>
             dplaneacion@icatech.chiapas.gob.mx
         </div>
-        <div class="col-sm-2" style="margin-top:25px; text-align:justify">
+        {{-- <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/LIC_MARIA_DEL_PILAR_NIEVES_PEDRERO_ZARDAIN.png') }}" alt="Avatar" class="avatar">
-        </div>
-        <div class="col-sm-4" style="margin-top:25px;">
+        </div> --}}
+        {{-- <div class="col-sm-4" style="margin-top:25px;">
             <strong>
                 Suplente nivel Director
                 <br>
@@ -201,7 +201,7 @@
             <br>
             <i class="fas fa-envelope"></i>
             vinculacion@icatech.chiapas.gob.mx
-        </div>
+        </div> --}}
         <div class="w-100"></div>
         <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_LUIS_RODOLFO.png') }}" alt="Avatar" class="avatar">
@@ -246,10 +246,10 @@
             cepcisupledepto@icatech.chiapas.gob.mx
         </div>
         <div class="w-100"></div>
-        <div class="col-sm-2" style="margin-top:25px; text-align:justify">
+        <div class="col-sm-3" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/LIC_DORY_MACLARY.png') }}" alt="Avatar" class="avatar">
         </div>
-        <div class="col-sm-4" style="margin-top:25px;">
+        <div class="col-sm-6" style="margin-top:25px;">
             <strong>
                 Miembro propietario temporal nivel Operativo
                 <br>
@@ -267,7 +267,7 @@
             <i class="fas fa-envelope"></i>
             cepcioperativo@icatech.chiapas.gob.mx
         </div>
-        <div class="col-sm-2" style="margin-top:25px; text-align:justify">
+        {{-- <div class="col-sm-2" style="margin-top:25px; text-align:justify">
             <img src="{{ asset('assets/img/directorio_cepci/CP_DANIELA_MAZA.png') }}" alt="Avatar" class="avatar">
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
@@ -287,7 +287,7 @@
             <br>
             <i class="fas fa-envelope"></i>
             cepcisupleoperativo@icatech.chiapas.gob.mx
-        </div>
+        </div> --}}
         <div class="w-100"></div>
         <div class="col-sm-6" style="margin-top:25px;">
             <strong>
