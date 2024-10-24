@@ -258,6 +258,8 @@ class CuentapublicaController extends Controller
         );
 
         $mejora_regulatoria = [
+            'Solicitud de Actualización de Mejora Regulatoria 2024' => 'normatividad_/mejora_regulatoria/MEJORA_REGULATORIA_2024.pdf',
+            'Mejora Regulatoria 2023' => 'normatividad_/mejora_regulatoria/MEJORA_REGULATORIA_2023.pdf',
             'Acta de Instalación de la Unidad de Mejora Regulatoria' => 'normatividad_/mejora_regulatoria/UNIDAD_MEJORA_REGULATORIA_ICATECH_2022.pdf',
             'Programa Anual de Mejora Regulatoria 2021 - 2022' => 'normatividad_/mejora_regulatoria/Programa_Mejora_Regulatoria_ICATECH_2021.pdf'
         ];
