@@ -880,8 +880,8 @@ class CuentapublicaController extends Controller
 
          $tertrim2024 = [
             'Estado de Actividades' => 'sevac_/2024/3t/Estado_de_Actividades.pdf',
-            'Estado Analítico de la deuda y otros pasivos' => 'sevac_/2024/3t/Estado_Analitivo_de_la_Deuda_y_Otros_Pasivos.pdf',
-            'Nota a los Estados Financieros' => 'sevac_/2024/3t/Nota_a_los_Estados_Financieros.pdf',
+            'Estado Analítico de la deuda y otros pasivos' => 'sevac_/2024/3t/Estado_Analitico_de_la_Deuda_y_Otros_Pasivos.pdf',
+            'Nota a los Estados Financieros' => 'sevac_/2024/3t/Notas_a_los_Estados_Financieros.pdf',
             'Montos pagados por ayudas y subsidios' => 'sevac_/2024/3t/Montos_Pagados_por_Ayudas_y_Subsidios.pdf',
             'Inventario de Bienes Muebles' => 'sevac_/2024/3t/Relacion_De_Bienes_Inmuebles_que_Componen_Su_Patrimonio.pdf',
             'Informe sobre Pasivos Contingentes' => 'sevac_/2024/3t/Informe_Sobre_Pasivos_Contingentes.pdf',
