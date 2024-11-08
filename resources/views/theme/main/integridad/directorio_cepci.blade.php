@@ -21,7 +21,7 @@
             <strong>
                 Comité de Ética y de Prevención de Conflictos de Interés
                 <br>
-                14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
+                Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059
                 <br>
                 Tuxtla Gutiérrez, Chiapas.
             </strong>
