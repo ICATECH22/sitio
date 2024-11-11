@@ -60,9 +60,8 @@
             <br>
             Analista Técnico Especializado
             <br>
-            ICATECH 3° piso, 14 poniente norte No.239, Colonia Moctezuma
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059
             <br>
-            C.P. 29030
             Tuxtla Gutiérrez, Chiapas.
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
@@ -84,7 +83,7 @@
             <br>
             Jefe del Departamento de Vinculación Gubernamental
             <br>
-            Blvd. San Cristóbal Circunvalación Pichucalco, S/N, Colonia Moctezuma, C.P. 29030
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059
             Tuxtla Gutiérrez, Chiapas.
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
@@ -105,7 +104,7 @@
             <br>
             Jefe del Departamento de Vinculación Social y Empresarial
             <br>
-            Blvd. San Cristóbal Circunvalación Pichucalco, S/N, Colonia Moctezuma, C.P. 29030
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059
             Tuxtla Gutiérrez, Chiapas.
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
@@ -127,7 +126,7 @@
             <br>
             Analista Técnico
             <br>
-            ICATECH 3° piso, 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059
             Tuxtla Gutiérrez, Chiapas.
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
@@ -148,7 +147,7 @@
             <br>
             Analista Técnico
             <br>
-            ICATECH 3° piso, 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059
             Tuxtla Gutiérrez, Chiapas.
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
@@ -171,8 +170,7 @@
             <br>
             Director de Planeación
             <br>
-            ICATECH 2º piso, 14 poniente norte No.239B,
-            Colonia Moctezuma, C.P. 29030
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059
             Tuxtla Gutiérrez, Chiapas
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
@@ -215,7 +213,7 @@
             <br>
             Jefe del Departamento de Proyectos y Análisis
             <br>
-            ICATECH 1° piso, 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059
             Tuxtla Gutiérrez, Chiapas
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
@@ -236,7 +234,7 @@
             <br>
             Jefa del Departamento de Recursos Humanos
             <br>
-            ICATECH 3° piso, 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059
             Tuxtla Gutiérrez, Chiapas.
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
@@ -258,7 +256,7 @@
             <br>
                 Analista Técnico Especializado
             <br>
-            ICATECH planta baja, 14 poniente norte No.239, Colonia Moctezuma, C.P. 29030
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059
             Tuxtla Gutiérrez, Chiapas.
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
@@ -298,7 +296,7 @@
             <br>
             Contralora de Auditoría Pública a Entidades Productivas de la Secretarpia de Honestidad y Función Públlica.
             <br>
-            Avenida barrio San Jacinto, Número 154, entre calle pájaros y calle conejos, Fraccionamiento el Diamante, Tuxtla Gutiérrez, Chiapas
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059 Tuxtla Gutiérrez, Chiapas
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
             Conmutador: (961) 618 7530 Ext. 22286
@@ -315,7 +313,7 @@
             <br>
             Auditora de la Contraloría de Auditoría Pública a Entidades Productivas
             <br>
-            Avenida barrio San Jacinto, Número 154, entre calle pájaros y calle conejos, Fraccionamiento el Diamante, Tuxtla Gutiérrez, Chiapas.
+            Av. Barrio San Jacinto N° 154, entre calle Pájaros y calle Conejos, Fracc. El Diamante C.P. 29059, Tuxtla Gutiérrez, Chiapas.
             <br>
             <i class="fas fa-phone" aria-hidden="true"></i>
             Conmutador: (961) 618 7530 Ext. 22286
